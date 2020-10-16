@@ -1,0 +1,144 @@
+/* === Allgemein ===*/
+
+
+/* Schriften */
+
+#header {
+	height: 100px;
+	width: 100%;
+	margin-left: 20px;
+	border-bottom: grey;
+	border-bottom-style: solid;
+}
+
+#name {
+	color: black;
+	text-decoration: none;
+}
+
+#terms-and-conditions {
+	padding: 0;
+	margin-left: 20px;
+}
+
+#privacy-statement {
+	padding: 0;
+	margin-left: 20px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+a .text-white:hover,
+a.text-white:hover{
+	color: white !important;
+	text-decoration: none;
+}
+/* Button */
+.btn-round {
+	border-radius: 30px;
+}
+
+/* Farben */
+.bg-overlay {
+	height:100%;
+	width:100%;
+	background-color: rgba(51, 51, 51, 0.7);
+	position: absolute;
+	top:0;
+}
+
+/* Sektion */
+section {
+	padding: 140px 0;
+}
+
+#modalContent {
+	background-color: grey;
+}
+
+/* Hilfsklassen */
+.d-relative {
+	position: relative;
+}
+
+/* Hero */
+
+
+#home .container {
+	height: 100%;
+}
+
+#home .row {
+	height: 90%
+}
+
+/* Über uns */
+.img-bg{
+	position: absolute;
+	overflow: hidden;
+	right:10px;
+	top:150px;
+	bottom:100px;
+	width: 44vw;
+}
+/* classic-selection */
+.classic-selection-bg {
+	background: url(./img/DirtyHands.jpg) 50% 0 fixed no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+
+#classic-selection .border {
+	border: 6px solid #FFF !important;
+}
+
+/* Dein Turnier */
+.img-inline{
+	margin-top:20px;
+}
+
+/* Testimonials */
+.testimonials-bg{
+	background: url(./img/DirtyHands.jpg) 40% 0 fixed no-repeat;
+	height:100%;
+	background-size:cover;
+}
+.carousel-indicators{
+	bottom:-20px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+	margin-top: 50px;
+}
+
+/* Footer */
+footer{
+	background-color: #333;
+}
+
+/* Style für cookie*/
+.cookieDiv {
+	z-index: 999 !important;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	color: white;
+	text-align: center;
+
+	/*border-style: solid;
+	border-color: yellow;*/
+}
+
+.cookieMsg {
+	text-align: center;
+}
+#cookie_accept {
+	 text-align: center;
+ }
+
+
