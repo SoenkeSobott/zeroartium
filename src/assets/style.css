@@ -40,19 +40,7 @@ a.text-white:hover{
 	border-radius: 30px;
 }
 
-/* Farben */
-.bg-overlay {
-	height:100%;
-	width:100%;
-	background-color: rgba(51, 51, 51, 0.7);
-	position: absolute;
-	top:0;
-}
 
-/* Sektion */
-section {
-	padding: 140px 0;
-}
 
 #modalContent {
 	background-color: grey;
@@ -83,12 +71,7 @@ section {
 	bottom:100px;
 	width: 44vw;
 }
-/* classic-selection */
-.classic-selection-bg {
-	background: url(./img/DirtyHands.jpg) 50% 0 fixed no-repeat;
-	height: 100%;
-	background-size: cover;
-}
+
 
 #classic-selection .border {
 	border: 6px solid #FFF !important;
