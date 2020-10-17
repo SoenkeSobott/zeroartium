@@ -118,7 +118,7 @@ export default {
     }
 
     .main-bg {
-        background: url('../assets/img/OldRomanianTemple.jpg') 50% 0 fixed no-repeat;
+        background: url('../assets/img/OldRomanianTemple.jpg')  no-repeat;
         background-size: cover;
         height: 100vh;
     }
