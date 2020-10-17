@@ -11,7 +11,7 @@
             </div>
             <div class="col-12 text-center mt-3 text-white">
                 <p>created by
-                    <a class="text-white" href="/">ZeroArt &copy;</a>
+                    <a class="text-white" href="/">ZeroArtium &copy;</a>
                     &minus; A
                     <a class="text-white" href="#" target="_blank">Redwood Company &copy;</a>
                     -
