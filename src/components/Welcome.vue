@@ -29,7 +29,7 @@
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 text-center">
                     <h2 class="mb-4">Classic Selection</h2>
-                    <p class="text-white">0920</p>
+                    <p class="text-white">1020</p>
                 </div>
             </div>
             <div class="row justify-content-between">
@@ -73,18 +73,18 @@
                 <div class="col">
                     <h3 class="">Vision</h3>
                     <p>
-                        We present new Artists like Dani D that generate Art beyond the standards.
-                        Shaped by their individual character and extravagant nature. Our Artists are free from any boundaries
+                        We present new Artists like Dani D that generate Art beyond the standards,
+                        shaped by their individual character and extravagant nature. Our Artists are free from any boundaries
                         and push them to new horizons. Therefore their work is highly unpredictive, uncontrolled and
                         reaches places far beyond the norm.<br>
-                        <br>More than Art.
+                        <br>More than Art. Zero Art.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="testimonials" class="testimonials-bg d-relative">
+    <section id="artists" class="artists-bg d-relative">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="row justify-content-center">
@@ -121,6 +121,12 @@ export default {
         background: url('../assets/img/OldRomanianTemple.jpg') 50% 0 fixed no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+
+    .artists-bg{
+        background: url(../assets/img/artists.jpg) 40% 0 fixed no-repeat;
+        height:100%;
+        background-size:cover;
     }
 
     h1 {

@@ -99,12 +99,7 @@ section {
 	margin-top:20px;
 }
 
-/* Testimonials */
-.testimonials-bg{
-	background: url(./img/DirtyHands.jpg) 40% 0 fixed no-repeat;
-	height:100%;
-	background-size:cover;
-}
+
 .carousel-indicators{
 	bottom:-20px;
 }
