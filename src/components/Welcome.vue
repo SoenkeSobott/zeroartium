@@ -73,11 +73,11 @@
                 <div class="col">
                     <h3 class="">Vision</h3>
                     <p>
-                        We present new Artists like Dani D that generate Art beyond the standards,
+                        At ZeroArtium we present new Artists like Dani D that generate Art beyond the standards,
                         shaped by their individual character and extravagant nature. Our Artists are free from any boundaries
                         and push them to new horizons. Therefore their work is highly unpredictive, uncontrolled and
                         reaches places far beyond the norm.<br>
-                        <br>More than Art. Zero Art.
+                        <br>More than Art. - ZeroArtium
                     </p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <h3 class="text-center mb-5">Our Artists</h3>
-                    <h3 class="text-center mb-5">Text/Caroussel of all artists from zeroArtium</h3>
+                    <h3 class="text-center mb-5">Text/Caroussel of all artists from ZeroArtium</h3>
                 </div>
             </div>
         </div>
@@ -166,11 +166,11 @@
                     <div class="col">
                         <h3 class="">Vision</h3>
                         <p>
-                            We present new Artists like Dani D that generate Art beyond the standards,
+                            At ZeroArtium we present new Artists like Dani D that generate Art beyond the standards,
                             shaped by their individual character and extravagant nature. Our Artists are free from any boundaries
                             and push them to new horizons. Therefore their work is highly unpredictive, uncontrolled and
                             reaches places far beyond the norm.<br>
-                            <br>More than Art. Zero Art.
+                            <br>More than Art. - ZeroArtium
                         </p>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-10">
                         <h3 class="text-center mb-5">Our Artists</h3>
-                        <h3 class="text-center mb-5">Text/Caroussel of all artists from zeroArtium</h3>
+                        <h3 class="text-center mb-5">Text/Caroussel of all artists from ZeroArtium</h3>
                     </div>
                 </div>
             </div>
