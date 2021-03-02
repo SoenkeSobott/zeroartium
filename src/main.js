@@ -7,6 +7,10 @@ import NotFound from '../src/components/NotFound.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import device from "vue-device-detector"
 
+import VueCarousel from 'vue-carousel';
+
+Vue.use(VueCarousel);
+
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
@@ -31,10 +35,10 @@ new Vue({
     currentRoute: window.location.pathname
   },
   computed: {
-    ViewComponent () {
+    ViewComponent() {
       return routes[this.currentRoute] || NotFound
     }
   },
-  render (h) { return h(this.ViewComponent) }
+  render(h) { return h(this.ViewComponent) }
 })
 

@@ -12,7 +12,9 @@
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
-    "vue-device-detector": "^1.1.6"
+    "vue-carousel": "^0.18.0",
+    "vue-device-detector": "^1.1.6",
+    "vueperslides": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <Welcome/>
-    <Footer/>
+    <Welcome />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Welcome from './components/Welcome.vue'
-import Footer from './components/Footer.vue'
+import Welcome from "./components/Welcome.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Welcome,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
-  @import './assets/style.css';
+@import "./assets/style.css";
 </style>
