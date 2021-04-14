@@ -3,10 +3,9 @@
     <div class="container-fluid b-black py-3">
       <div class="row">
         <p>Not Found</p>
-      </div>  
+      </div>
     </div>
   </div>
-  
 </template>
 
 <script>
@@ -27,8 +26,5 @@ export default {
   margin-left: 5px;
   margin-right: 5px;
   width: 10%;
-}
-.footer {
-  background-color: gray;
 }
 </style>

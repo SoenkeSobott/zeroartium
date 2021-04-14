@@ -1,0 +1,305 @@
+/*----------------------*/
+/* Special Mobile Styles*/
+/*----------------------*/
+
+/* General Styles*/
+
+.application-mobile h1 {
+	font-size: 10vw;
+    font-weight: normal;
+}
+
+.application {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-indicator {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 5vw;
+    transition: ease-out 0.5s;
+    z-index: 100;
+}
+
+/* Hooper*/
+
+.hooper {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+/* Background styling */
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.shadow-box {
+    height: 90vh;
+    width: 90vw;
+    box-shadow: 0px 10px 12px 2px rgba(0,0,0,0.2);
+}
+
+/*----------------------------------------*/
+/*          Start Specific styles         */
+/*----------------------------------------*/
+
+
+/*---- General Elements ----*/
+
+/*Container box*/
+.container  {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.application-mobile .box-mobile {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    height: 90vh;
+}
+
+.header-box {
+    margin: 10%;
+}
+
+.content {
+    margin: 15%;
+    flex: 1 1 auto;
+}
+
+.footer {
+    height: 10vh;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application-mobile .legal a {
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+
+/*---- Welcome Elements ----*/
+
+.application-mobile #navigation-button:hover {
+    transform: none;
+}
+
+#title {
+    margin: 0;
+}
+
+.application-mobile #subtitle {
+    margin: 0;
+    font-size: 4vw;
+    font-weight: lighter;
+}
+
+
+
+/*---- Art Collection Elements ----*/
+
+.art-collection {
+    display: flex;
+    flex-flow: column;
+    flex: 0.7;
+    height: 90vh;
+}
+
+#sales-button {
+    margin-top: 10vh;
+    transition: all .2s ease-in-out;
+}
+
+#sales-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.art-collection-image {
+    background-image: url("./assets/img/DirtyHands.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-flow: column;
+    flex: 1.3;
+    height: 90vh;
+}
+
+.art-box {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.art-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.art-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.art-image {
+    width: 100%;
+    height: 80%;
+    margin: 6%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-description {
+    width: 70%;
+    height: 20%;
+    border-top: solid;
+    border-color: rgb(1, 31, 51);
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(245, 239, 239, 0.3);
+}
+
+/* Art One */
+.art-image-one {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/img/ArtOne.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Two */
+.art-image-two {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/img/ArtTwo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Three */
+.art-image-three {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/img/ArtThree.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Four */
+.art-image-four {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/img/ArtFour.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+
+/*---- Vision Elements ----*/
+.left-box-vision {
+    display: flex;
+    flex-flow: column;
+    flex: 1.3;
+    height: 90vh;
+}
+
+.vision-image {
+    background-image: url("./assets/img/EpicFigureWoman.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: inline-block;
+    flex: 0.7;
+    height: 90vh;
+}
+
+.content-vision {
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1 1 auto;
+}
+
+
+/*---- Artists Elements ----*/
+
+.artists-image {
+    background-image: url("./assets/img/ArtistsBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-flow: column;
+    flex: 1.3;
+    height: 90vh;
+}
+
+.social-desktop {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 1vh;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-link:hover {
+    cursor: pointer;
+}
+
+/* Contact Elements */
+
+.contacts-image {
+    background-image: url("./assets/img/ArtGallery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-flow: column;
+    flex: 1.3;
+    height: 90vh;
+}
+
