@@ -1,8 +1,13 @@
-/*-----------------------*/
-/* Special Mobile Styles */
-/*-----------------------*/
+/*---------------------------*/
+/* Special Collection Styles */
+/*---------------------------*/
 
-/* General Styles*/
+.collection-mobile {
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
 
 .collection-mobile h1 {
 	font-size: 12vw;
@@ -64,18 +69,17 @@
     text-decoration: none;
 }
 
+.collection-mobile p {
+    font-size: 4.5vw;
+}
+
 /*---- Welcome Elements ----*/
 
 .collection-mobile #navigation-button:hover {
     transform: none;
 }
 
-.collection-mobile #subtitle {
-    margin: 0;
-    font-weight: lighter;
-}
-
-.collection-mobile .content {
+.collection-mobile .content-mobile {
     margin: 0;
 }
 
