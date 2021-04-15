@@ -20,9 +20,22 @@ h1 {
     font-weight: normal;
 }
 
-h4 {
+h2 {
     font-size: 4vw;
     font-weight: normal;
+}
+
+h3 {
+    font-size: 3vw;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1.7vw;
+}
+
+h5 {
+    font-size: 1.3vw;
 }
 
 .application {
@@ -149,7 +162,6 @@ h4 {
 
 #subtitle {
     margin: 0;
-    font-size: 1.7vw;
     font-weight: lighter;
 }
 

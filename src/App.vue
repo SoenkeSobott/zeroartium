@@ -7,19 +7,19 @@
         v-bind:style="{ transform: computedVisibility }"
       >
         <div id="navigation-pointer" @click="goToPage(0)">
-          <h3 v-html="navPointOne"></h3>
+          <h5 v-html="navPointOne"></h5>
         </div>
         <div id="navigation-pointer" @click="goToPage(1)">
-          <h3 v-html="navPointTwo"></h3>
+          <h5 v-html="navPointTwo"></h5>
         </div>
         <div id="navigation-pointer" @click="goToPage(2)">
-          <h3 v-html="navPointThree"></h3>
+          <h5 v-html="navPointThree"></h5>
         </div>
         <div id="navigation-pointer" @click="goToPage(3)">
-          <h3 v-html="navPointFour"></h3>
+          <h5 v-html="navPointFour"></h5>
         </div>
         <div id="navigation-pointer" @click="goToPage(4)">
-          <h3 v-html="navPointFive"></h3>
+          <h5 v-html="navPointFive"></h5>
         </div>
       </div>
       <hooper
@@ -35,20 +35,20 @@
                 <div class="left-box">
                   <div class="header-box">
                     <h1 id="title">ZeroArtium</h1>
-                    <h2 id="subtitle">Where art transcends.</h2>
+                    <h4 id="subtitle">Where art transcends.</h4>
                   </div>
                   <div class="content">
                     <div id="navigation-button" @click="goToPage(1)">
-                      <h3>&#x25E6; Art Collection</h3>
+                      <h5>&#x25E6; Art Collection</h5>
                     </div>
                     <div id="navigation-button" @click="goToPage(2)">
-                      <h3>&#x25E6; Vision</h3>
+                      <h5>&#x25E6; Vision</h5>
                     </div>
                     <div id="navigation-button" @click="goToPage(3)">
-                      <h3>&#x25E6; Artists</h3>
+                      <h5>&#x25E6; Artists</h5>
                     </div>
                     <div id="navigation-button" @click="goToPage(4)">
-                      <h3>&#x25E6; Contact</h3>
+                      <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -70,8 +70,8 @@
               <div class="container">
                 <div class="left-box">
                   <div class="header-box">
-                    <h4 id="title">Art Collection</h4>
-                    <h2 id="subtitle">ZeroArtium&#174; Spring Collection.</h2>
+                    <h2 id="title">Art Collection</h2>
+                    <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
                   </div>
                   <div class="content">
                     <p>
@@ -80,7 +80,7 @@
                       Collection at the end of June.
                     </p>
                     <div id="sales-button" @click="goToPage(4)">
-                      <h3>&#x25E6; Contact Sales</h3>
+                      <h5>&#x25E6; Contact Sales</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -131,8 +131,8 @@
               <div class="container">
                 <div class="left-box-vision">
                   <div class="header-box">
-                    <h4 id="title">Vision</h4>
-                    <h2 id="subtitle">What drives us.</h2>
+                    <h2 id="title">Vision</h2>
+                    <h4 id="subtitle">What drives us.</h4>
                   </div>
                   <div class="content-vision">
                     <p>
@@ -164,18 +164,18 @@
               <div class="container">
                 <div class="left-box">
                   <div class="header-box">
-                    <h4 id="title">Artists</h4>
-                    <h2 id="subtitle">The Masterminds behind the Creations.</h2>
+                    <h2 id="title">Artists</h2>
+                    <h4 id="subtitle">The Masterminds behind the Creations.</h4>
                   </div>
                   <div class="content">
                     <p>
-                      To the right, our artists introduce themselves and briefly
-                      describe their work. Please be aware that not all of our
-                      artists perform in public, but we are happy to organise
-                      appointments on request.
+                      Click below to view our artists and learn more about their
+                      personalities and work. Please be aware that not all of
+                      our artists perform in public, but we are happy to
+                      organise appointments on request.
                     </p>
                     <div id="sales-button" @click="goToPage(4)">
-                      <h3>&#x25E6; Contact</h3>
+                      <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -197,8 +197,8 @@
               <div class="container">
                 <div class="left-box">
                   <div class="header-box">
-                    <h4 id="title">Contact</h4>
-                    <h2 id="subtitle">Keep in touch.</h2>
+                    <h2 id="title">Contact</h2>
+                    <h4 id="subtitle">Keep in touch.</h4>
                   </div>
                   <div class="content">
                     <p>
@@ -207,14 +207,14 @@
                     </p>
                     <div class="contact-email">
                       <img class="social-desktop" src="./assets/img/mail.png" />
-                      <h3>info@zeroArtium.com</h3>
+                      <h5>info@zeroArtium.com</h5>
                     </div>
                     <div class="contact-link" @click="openInstagram()">
                       <img
                         class="social-desktop"
                         src="./assets/img/instagram-logo.png"
                       />
-                      <h3>zeroArtium</h3>
+                      <h5>zeroArtium</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -234,7 +234,7 @@
     </div>
     <div v-else class="application-mobile">
       <!--<div id="navigation-indicator-mobile" @click="goToPage(0)">
-        <h3 v-html="navPointOne"></h3>
+        <h5 v-html="navPointOne"></h5>
       </div>-->
       <hooper
         class="hooper"
@@ -249,20 +249,20 @@
                 <div class="box-mobile">
                   <div class="header-box">
                     <h1 id="title">ZeroArtium</h1>
-                    <h2 id="subtitle">Where art transcends.</h2>
+                    <h4 id="subtitle">Where art transcends.</h4>
                   </div>
                   <div class="content">
                     <div id="navigation-button" @click="goToPage(1)">
-                      <h3>&#x25E6; Art Collection</h3>
+                      <h5>&#x25E6; Art Collection</h5>
                     </div>
                     <div id="navigation-button" @click="goToPage(2)">
-                      <h3>&#x25E6; Vision</h3>
+                      <h5>&#x25E6; Vision</h5>
                     </div>
                     <div id="navigation-button" @click="goToPage(3)">
-                      <h3>&#x25E6; Artists</h3>
+                      <h5>&#x25E6; Artists</h5>
                     </div>
                     <div id="navigation-button" @click="goToPage(4)">
-                      <h3>&#x25E6; Contact</h3>
+                      <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -281,19 +281,24 @@
           <div class="background">
             <div class="shadow-box">
               <div class="container">
-                <div class="left-box">
+                <div class="box-mobile">
                   <div class="header-box">
-                    <h4 id="title">Art Collection</h4>
-                    <h2 id="subtitle">ZeroArtium&#174; Spring Collection.</h2>
+                    <h2 id="title">Art Collection</h2>
+                    <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
                   </div>
-                  <div class="content">
+                  <div class="content-vision">
                     <p>
                       All pieces are handpicked from our in-house collection and
                       will be available until the presentation of the Summer
                       Collection at the end of June.
                     </p>
-                    <div id="sales-button" @click="goToPage(4)">
-                      <h3>&#x25E6; Contact Sales</h3>
+                    <div id="navigation-button">
+                      <a href="/collection-mobile">
+                        <h5>&#x25E6; View Collection</h5>
+                      </a>
+                    </div>
+                    <div id="navigation-button" @click="goToPage(4)">
+                      <h5>&#x25E6; Contact Sales</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -301,36 +306,6 @@
                       <a href="privacy">Privacy statement</a>
                       &vert;
                       <a href="terms">Terms and conditions</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="art-collection-image">
-                  <div class="art-box">
-                    <div class="art-one">
-                      <div class="art-image">
-                        <div class="art-image-one"></div>
-                      </div>
-                      <div class="art-description">Art One</div>
-                    </div>
-                    <div class="art-two">
-                      <div class="art-image">
-                        <div class="art-image-two"></div>
-                      </div>
-                      <div class="art-description">Art Two (Sold)</div>
-                    </div>
-                  </div>
-                  <div class="art-box">
-                    <div class="art-one">
-                      <div class="art-image">
-                        <div class="art-image-three"></div>
-                      </div>
-                      <div class="art-description">Art three</div>
-                    </div>
-                    <div class="art-two">
-                      <div class="art-image">
-                        <div class="art-image-four"></div>
-                      </div>
-                      <div class="art-description">Art Four</div>
                     </div>
                   </div>
                 </div>
@@ -342,10 +317,10 @@
           <div class="background">
             <div class="shadow-box">
               <div class="container">
-                <div class="left-box-vision">
+                <div class="box-mobile">
                   <div class="header-box">
-                    <h4 id="title">Vision</h4>
-                    <h2 id="subtitle">What drives us.</h2>
+                    <h2 id="title">Vision</h2>
+                    <h4 id="subtitle">What drives us.</h4>
                   </div>
                   <div class="content-vision">
                     <p>
@@ -366,7 +341,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="vision-image"></div>
               </div>
             </div>
           </div>
@@ -375,20 +349,25 @@
           <div class="background">
             <div class="shadow-box">
               <div class="container">
-                <div class="left-box">
+                <div class="box-mobile">
                   <div class="header-box">
-                    <h4 id="title">Artists</h4>
-                    <h2 id="subtitle">The Masterminds behind the Creations.</h2>
+                    <h2 id="title">Artists</h2>
+                    <h4 id="subtitle">The Masterminds behind the Creations.</h4>
                   </div>
-                  <div class="content">
+                  <div class="content-vision">
                     <p>
                       To the right, our artists introduce themselves and briefly
                       describe their work. Please be aware that not all of our
                       artists perform in public, but we are happy to organise
                       appointments on request.
                     </p>
-                    <div id="sales-button" @click="goToPage(4)">
-                      <h3>&#x25E6; Contact</h3>
+                    <div id="navigation-button">
+                      <a href="/artists-mobile">
+                        <h5>&#x25E6; View Artists</h5>
+                      </a>
+                    </div>
+                    <div id="navigation-button" @click="goToPage(4)">
+                      <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -399,7 +378,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="artists-image"></div>
               </div>
             </div>
           </div>
@@ -408,26 +386,26 @@
           <div class="background">
             <div class="shadow-box">
               <div class="container">
-                <div class="left-box">
+                <div class="box-mobile">
                   <div class="header-box">
-                    <h4 id="title">Contact</h4>
-                    <h2 id="subtitle">Keep in touch.</h2>
+                    <h2 id="title">Contact</h2>
+                    <h4 id="subtitle">Keep in touch.</h4>
                   </div>
-                  <div class="content">
+                  <div class="content-vision">
                     <p>
                       Feel free to contact us via the channels below and our
                       team will take care of your request in no time.
                     </p>
                     <div class="contact-email">
                       <img class="social-desktop" src="./assets/img/mail.png" />
-                      <h3>info@zeroArtium.com</h3>
+                      <h5>info@zeroArtium.com</h5>
                     </div>
                     <div class="contact-link" @click="openInstagram()">
                       <img
                         class="social-desktop"
                         src="./assets/img/instagram-logo.png"
                       />
-                      <h3>zeroArtium</h3>
+                      <h5>zeroArtium</h5>
                     </div>
                   </div>
                   <div class="footer">
@@ -438,7 +416,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="contacts-image"></div>
               </div>
             </div>
           </div>
