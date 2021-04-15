@@ -4,6 +4,17 @@
 
 /* General Styles*/
 
+.application-mobile {
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.application-mobile .background {
+    height: 100%;
+}
+
 .application-mobile h1 {
 	font-size: 12vw;
     font-weight: normal;
