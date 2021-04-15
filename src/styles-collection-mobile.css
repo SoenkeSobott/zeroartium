@@ -109,9 +109,9 @@
 
 /* Art One */
 .collection-mobile .art-image-one {
-    margin: 0;
+    height: 200px;
     width: 90%;
-    height: 100%;
+    margin: 0;
     background-image: url("./assets/img/ArtOne.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -120,9 +120,9 @@
 
 /* Art Two */
 .collection-mobile .art-image-two {
-    margin: 0;
+    height: 200px;
     width: 90%;
-    height: 100%;
+    margin: 0;
     background-image: url("./assets/img/ArtTwo.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -131,9 +131,9 @@
 
 /* Art Three */
 .collection-mobile .art-image-three {
-    margin: 0;
+    height: 200px;
     width: 90%;
-    height: 100%;
+    margin: 0;
     background-image: url("./assets/img/ArtThree.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -142,9 +142,9 @@
 
 /* Art Four */
 .collection-mobile .art-image-four {
-    margin: 0;
+    height: 200px;
     width: 90%;
-    height: 100%;
+    margin: 0;
     background-image: url("./assets/img/ArtFour.jpeg");
     background-position: center;
     background-repeat: no-repeat;
