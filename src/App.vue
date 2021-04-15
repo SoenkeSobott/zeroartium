@@ -241,7 +241,7 @@
                 <h1 id="title">ZeroArtium</h1>
                 <h4 id="subtitle">Where art transcends.</h4>
               </div>
-              <div class="content">
+              <div class="content-mobile">
                 <a href="#collection">
                   <h5>&#x25E6; Art Collection</h5>
                 </a>
@@ -274,7 +274,7 @@
                 <h2 id="title">Art Collection</h2>
                 <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
               </div>
-              <div class="content-vision">
+              <div class="content-mobile">
                 <p>
                   All pieces are handpicked from our in-house collection and
                   will be available until the presentation of the Summer
@@ -308,7 +308,7 @@
                 <h2 id="title">Vision</h2>
                 <h4 id="subtitle">What drives us.</h4>
               </div>
-              <div class="content-vision">
+              <div class="content-mobile">
                 <p>
                   At ZeroArtium® we bring together a wide range of artists who
                   create extravagant and unpredictable art. Each of our artists
@@ -338,7 +338,7 @@
                 <h2 id="title">Artists</h2>
                 <h4 id="subtitle">The Masterminds behind the Creations.</h4>
               </div>
-              <div class="content-vision">
+              <div class="content-mobile">
                 <p>
                   To the right, our artists introduce themselves and briefly
                   describe their work. Please be aware that not all of our
@@ -373,7 +373,7 @@
                 <h2 id="title">Contact</h2>
                 <h4 id="subtitle">Keep in touch.</h4>
               </div>
-              <div class="content-vision">
+              <div class="content-mobile">
                 <p>
                   Feel free to contact us via the channels below and our team
                   will take care of your request in no time.

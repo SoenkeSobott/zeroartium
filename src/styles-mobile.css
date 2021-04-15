@@ -38,6 +38,10 @@
     font-size: 5vw;
 }
 
+.application-mobile p {
+    font-size: 4.5vw;
+}
+
 /*----------------------------------------*/
 /*          Start Specific styles         */
 /*----------------------------------------*/
@@ -71,15 +75,15 @@
     font-weight: lighter;
 }
 
+.content-mobile {
+    margin: 0 10vw 0 10vw;
+    flex: 1 1 auto;
+}
+
 /*---- Art Collection Elements ----*/
 
 /*---- Vision Elements ----*/
 
-.application-mobile .content-vision {
-    margin-top: 0;
-    margin-bottom: 0;
-    flex: 1 1 auto;
-}
 
 
 /*---- Artists Elements ----*/
