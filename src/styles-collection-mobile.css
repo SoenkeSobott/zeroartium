@@ -90,14 +90,14 @@
 /*---- Art Collection Elements ----*/
 
 .collection-mobile .art-description {
-    height: 20%;
+    flex: 0 1 auto;
     width: 90%;
     background-color:rgba(245, 239, 239, 0.3);
 }
 
 /* Art One */
 .collection-mobile .art-image-one {
-    height: 80%;
+    flex: 1 1 auto;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtOne.jpeg");
@@ -108,7 +108,7 @@
 
 /* Art Two */
 .collection-mobile .art-image-two {
-    height: 80%;
+    flex: 1 1 auto;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtTwo.jpeg");
@@ -119,7 +119,7 @@
 
 /* Art Three */
 .collection-mobile .art-image-three {
-    height: 80%;
+    flex: 1 1 auto;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtThree.jpeg");
@@ -130,7 +130,7 @@
 
 /* Art Four */
 .collection-mobile .art-image-four {
-    height: 80%;
+    flex: 1 1 auto;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtFour.jpeg");
