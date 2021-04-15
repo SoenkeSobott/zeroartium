@@ -1,0 +1,152 @@
+/*-----------------------*/
+/* Special Mobile Styles */
+/*-----------------------*/
+
+/* General Styles*/
+
+.collection-mobile h1 {
+	font-size: 12vw;
+    font-weight: normal;
+}
+
+.collection-mobile h2 {
+	font-size: 10vw;
+    font-weight: normal;
+}
+
+.collection-mobile h3 {
+    font-size: 6vw;
+    font-weight: normal;
+}
+
+.collection-mobile h4 {
+    font-size: 6vw;
+}
+
+.collection-mobile h5 {
+    font-size: 5vw;
+}
+
+.back-button {
+    position: absolute;
+    margin: 0 0 0 1vw;
+    height: 5vh;
+    width: 100vw;
+    z-index: 100;
+}
+
+.back-button-title {
+    margin: 1vh;
+    height: 5vh;
+    width: 100vw;
+    z-index: -10;
+}
+
+/*----------------------------------------*/
+/*          Start Specific styles         */
+/*----------------------------------------*/
+
+
+/*---- General Elements ----*/
+
+.collection-mobile .box-mobile {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    height: 90vh;
+}
+
+.collection-mobile .legal a {
+    font-size: 2vh;
+}
+
+.collection-mobile a {
+    text-decoration: none;
+}
+
+/*---- Welcome Elements ----*/
+
+.collection-mobile #navigation-button:hover {
+    transform: none;
+}
+
+.collection-mobile #subtitle {
+    margin: 0;
+    font-weight: lighter;
+}
+
+.collection-mobile .content {
+    margin: 0;
+}
+
+/*---- Art Collection Elements ----*/
+
+.collection-mobile .art-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection-mobile .art-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.collection-mobile .art-description {
+    width: 90%;
+    background-color:rgba(245, 239, 239, 0.3);
+}
+
+/* Art One */
+.collection-mobile .art-image-one {
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    background-image: url("./assets/img/ArtOne.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Two */
+.collection-mobile .art-image-two {
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    background-image: url("./assets/img/ArtTwo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Three */
+.collection-mobile .art-image-three {
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    background-image: url("./assets/img/ArtThree.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Four */
+.collection-mobile .art-image-four {
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    background-image: url("./assets/img/ArtFour.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+
+
+

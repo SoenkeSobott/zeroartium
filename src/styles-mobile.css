@@ -1,0 +1,80 @@
+/*-----------------------*/
+/* Special Mobile Styles */
+/*-----------------------*/
+
+/* General Styles*/
+
+.application-mobile h1 {
+	font-size: 12vw;
+    font-weight: normal;
+}
+
+.application-mobile h2 {
+	font-size: 10vw;
+    font-weight: normal;
+}
+
+.application-mobile h3 {
+    font-size: 6vw;
+    font-weight: normal;
+}
+
+.application-mobile h4 {
+    font-size: 6vw;
+}
+
+.application-mobile h5 {
+    font-size: 5vw;
+}
+
+/*----------------------------------------*/
+/*          Start Specific styles         */
+/*----------------------------------------*/
+
+
+/*---- General Elements ----*/
+
+.application-mobile .box-mobile {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    height: 90vh;
+}
+
+.application-mobile .legal a {
+    font-size: 2vh;
+}
+
+.application-mobile a {
+    text-decoration: none;
+}
+
+/*---- Welcome Elements ----*/
+
+.application-mobile #navigation-button:hover {
+    transform: none;
+}
+
+.application-mobile #subtitle {
+    margin: 0;
+    font-weight: lighter;
+}
+
+/*---- Art Collection Elements ----*/
+
+/*---- Vision Elements ----*/
+
+.application-mobile .content-vision {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex: 1 1 auto;
+}
+
+
+/*---- Artists Elements ----*/
+
+
+/*---- Contact Elements ----*/
+
+
+

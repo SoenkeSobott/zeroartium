@@ -11,9 +11,12 @@
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "hooper": "^0.3.4",
+    "swiper": "^6.5.6",
     "vue": "^2.6.12",
     "vue-carousel": "^0.18.0",
     "vue-device-detector": "^1.1.6",
+    "vue-slick-carousel": "^1.0.6",
     "vueperslides": "^3.2.0"
   },
   "devDependencies": {
@@ -23,7 +26,10 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.46.0"
   },
   "eslintConfig": {
     "root": true,
