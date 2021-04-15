@@ -99,12 +99,13 @@
 }
 
 .artists-mobile .art-description {
+    text-align: center;
     width: 90%;
     background-color:rgba(245, 239, 239, 0.3);
 }
 
 /* Art One */
-.artists-mobile .art-image-one {
+.artists-mobile .artist-image-one {
     margin: 0;
     width: 90%;
     height: 100%;
@@ -115,33 +116,33 @@
 }
 
 /* Art Two */
-.artists-mobile .art-image-two {
+.artists-mobile .artist-image-two {
     margin: 0;
     width: 90%;
     height: 100%;
-    background-image: url("./assets/img/ArtTwo.jpeg");
+    /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
 }
 
 /* Art Three */
-.artists-mobile .art-image-three {
+.artists-mobile .artist-image-three {
     margin: 0;
     width: 90%;
     height: 100%;
-    background-image: url("./assets/img/ArtThree.jpeg");
+    /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
 }
 
 /* Art Four */
-.artists-mobile .art-image-four {
+.artists-mobile .artist-image-four {
     margin: 0;
     width: 90%;
     height: 100%;
-    background-image: url("./assets/img/ArtFour.jpeg");
+    /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 

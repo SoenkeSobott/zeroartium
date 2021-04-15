@@ -18,8 +18,11 @@
                 <div class="content">
                   <div class="art-box">
                     <div class="art-row">
-                      <div class="art-image-one"></div>
-                      <div class="art-description">D. L. Béni</div>
+                      <div class="artist-image-one"></div>
+                      <div class="art-description">
+                        D. L. Béni &vert; Basel <br />
+                        Oil &vert; Wine
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -47,8 +50,8 @@
                 <div class="content">
                   <div class="art-box">
                     <div class="art-row">
-                      <div class="art-image-two"></div>
-                      <div class="art-description">M. B.</div>
+                      <div class="artist-image-two"></div>
+                      <div class="art-description">M. B. &vert; Frankfurt</div>
                     </div>
                   </div>
                 </div>
@@ -76,8 +79,10 @@
                 <div class="content">
                   <div class="art-box">
                     <div class="art-row">
-                      <div class="art-image-three"></div>
-                      <div class="art-description">M. Jacques</div>
+                      <div class="artist-image-three"></div>
+                      <div class="art-description">
+                        M. Jacques &vert; Zürich
+                      </div>
                     </div>
                   </div>
                 </div>
