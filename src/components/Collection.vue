@@ -14,12 +14,8 @@
               <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
             </div>
             <div class="content-mobile">
-              <div class="art-box">
-                <div class="art-row">
-                  <div class="art-image-one"></div>
-                  <div class="art-description">Art One</div>
-                </div>
-              </div>
+              <div class="art-image-one"></div>
+              <div class="art-description">Art One</div>
             </div>
             <div class="footer">
               <div class="legal">
@@ -41,12 +37,8 @@
               <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
             </div>
             <div class="content-mobile">
-              <div class="art-box">
-                <div class="art-row">
-                  <div class="art-image-two"></div>
-                  <div class="art-description">Art Two</div>
-                </div>
-              </div>
+              <div class="art-image-two"></div>
+              <div class="art-description">Art Two</div>
             </div>
             <div class="footer">
               <div class="legal">
@@ -68,12 +60,8 @@
               <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
             </div>
             <div class="content-mobile">
-              <div class="art-box">
-                <div class="art-row">
-                  <div class="art-image-three"></div>
-                  <div class="art-description">Art Three</div>
-                </div>
-              </div>
+              <div class="art-image-three"></div>
+              <div class="art-description">Art Three</div>
             </div>
             <div class="footer">
               <div class="legal">
@@ -95,12 +83,8 @@
               <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
             </div>
             <div class="content-mobile">
-              <div class="art-box">
-                <div class="art-row">
-                  <div class="art-image-four"></div>
-                  <div class="art-description">Art Four</div>
-                </div>
-              </div>
+              <div class="art-image-four"></div>
+              <div class="art-description">Art Four</div>
             </div>
             <div class="footer">
               <div class="legal">

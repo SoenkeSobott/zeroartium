@@ -81,35 +81,23 @@
 
 .collection-mobile .content-mobile {
     margin: 0;
-}
-
-/*---- Art Collection Elements ----*/
-
-.collection-mobile .art-box {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.collection-mobile .art-row {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
 }
 
+/*---- Art Collection Elements ----*/
+
 .collection-mobile .art-description {
+    height: 20%;
     width: 90%;
     background-color:rgba(245, 239, 239, 0.3);
 }
 
 /* Art One */
 .collection-mobile .art-image-one {
-    height: 200px;
+    height: 80%;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtOne.jpeg");
@@ -120,7 +108,7 @@
 
 /* Art Two */
 .collection-mobile .art-image-two {
-    height: 200px;
+    height: 80%;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtTwo.jpeg");
@@ -131,7 +119,7 @@
 
 /* Art Three */
 .collection-mobile .art-image-three {
-    height: 200px;
+    height: 80%;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtThree.jpeg");
@@ -142,7 +130,7 @@
 
 /* Art Four */
 .collection-mobile .art-image-four {
-    height: 200px;
+    height: 80%;
     width: 90%;
     margin: 0;
     background-image: url("./assets/img/ArtFour.jpeg");
