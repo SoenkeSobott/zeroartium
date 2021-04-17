@@ -187,7 +187,7 @@ h5 {
 }
 
 .art-collection-image {
-    background-image: url("./assets/img/DirtyHands.jpeg");
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.5)), url("./assets/img/DirtyHands.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -319,16 +319,51 @@ h5 {
     height: 90vh;
 }
 
-.social-desktop {
-    height: 3vh;
-    width: 3vh;
-    margin-right: 1vh;
+.artists-box {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-email {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+/* Artists One */
+.artist-image-one {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/img/DL_Beni.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Artist Two */
+.artist-image-two {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("./assets/img/ArtTwo.jpeg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Three */
+.artist-image-three {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/img/ArtThree.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/* Art Four */
+.artist-image-four {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("./assets/img/ArtTwo.jpeg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
 
 .contact-link {
@@ -341,6 +376,7 @@ h5 {
     cursor: pointer;
 }
 
+
 /* Contact Elements */
 
 .contacts-image {
@@ -352,5 +388,17 @@ h5 {
     flex-flow: column;
     flex: 1.3;
     height: 90vh;
+}
+
+.social-desktop {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 1vh;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 

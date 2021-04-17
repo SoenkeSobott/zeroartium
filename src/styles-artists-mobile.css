@@ -4,6 +4,12 @@
 
 /* General Styles*/
 
+.artists-mobile {
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
 .artists-mobile h1 {
 	font-size: 12vw;
     font-weight: normal;
@@ -104,18 +110,18 @@
     background-color:rgba(245, 239, 239, 0.3);
 }
 
-/* Art One */
+/* Artist One */
 .artists-mobile .artist-image-one {
     margin: 0;
     width: 90%;
     height: 100%;
-    background-image: url("./assets/img/ArtOne.jpeg");
+    background-image: url("./assets/img/DL_Beni.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
 }
 
-/* Art Two */
+/* Artist Two */
 .artists-mobile .artist-image-two {
     margin: 0;
     width: 90%;
@@ -126,19 +132,8 @@
     background-size: contain; 
 }
 
-/* Art Three */
+/* Artist Three */
 .artists-mobile .artist-image-three {
-    margin: 0;
-    width: 90%;
-    height: 100%;
-    /*background-image: url("./assets/img/ArtOne.jpeg");*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-}
-
-/* Art Four */
-.artists-mobile .artist-image-four {
     margin: 0;
     width: 90%;
     height: 100%;

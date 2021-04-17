@@ -169,10 +169,10 @@
                   </div>
                   <div class="content">
                     <p>
-                      Click below to view our artists and learn more about their
-                      personalities and work. Please be aware that not all of
-                      our artists perform in public, but we are happy to
-                      organise appointments on request.
+                      View our artists and learn more about their personalities
+                      and work. Please be aware that not all of our artists
+                      perform in public, but we are happy to organise
+                      appointments on request.
                     </p>
                     <div id="sales-button" @click="goToPage(4)">
                       <h5>&#x25E6; Contact</h5>
@@ -186,7 +186,38 @@
                     </div>
                   </div>
                 </div>
-                <div class="artists-image"></div>
+                <div class="artists-image">
+                  <div class="art-box">
+                    <div class="art-one">
+                      <div class="art-image">
+                        <div class="artist-image-one"></div>
+                      </div>
+                      <div class="art-description">D. L. Béni &vert; Basel</div>
+                    </div>
+                    <div class="art-two">
+                      <div class="art-image">
+                        <div class="artist-image-two"></div>
+                      </div>
+                      <div class="art-description">M. B. &vert; Frankfurt</div>
+                    </div>
+                  </div>
+                  <div class="art-box">
+                    <div class="art-one">
+                      <div class="art-image">
+                        <div class="artist-image-three"></div>
+                      </div>
+                      <div class="art-description">
+                        M. Jacques &vert; Zürich
+                      </div>
+                    </div>
+                    <div class="art-two">
+                      <div class="art-image">
+                        <div class="artist-image-four"></div>
+                      </div>
+                      <div class="art-description"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -103,7 +103,7 @@
           <div class="box-mobile">
             <div class="header-box">
               <h2 id="title">End</h2>
-              <h4 id="subtitle">Need more?</h4>
+              <h4 id="subtitle">Want more?</h4>
             </div>
             <div class="content-vision">
               <p>
