@@ -5,7 +5,6 @@
 .collection-mobile {
     height: 100vh;
     width: 100vw;
-    overflow: scroll;
     scroll-behavior: smooth;
 }
 
