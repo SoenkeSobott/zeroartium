@@ -7,7 +7,7 @@
 .artists-mobile {
     height: 100vh;
     width: 100vw;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 .artists-mobile h1 {
@@ -70,52 +70,31 @@
     text-decoration: none;
 }
 
-/*---- Welcome Elements ----*/
-
 .artists-mobile #navigation-button:hover {
     transform: none;
 }
 
-.artists-mobile #subtitle {
+.artists-mobile .content-mobile {
     margin: 0;
-    font-weight: lighter;
-}
-
-.artists-mobile .content {
-    margin: 0;
-}
-
-/*---- Art Collection Elements ----*/
-
-.artists-mobile .art-box {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.artists-mobile .art-row {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
 }
+
+/*---- Artists Elements ----*/
 
 .artists-mobile .art-description {
     flex: 0 1 auto;
-    text-align: center;
     width: 90%;
     background-color:rgba(245, 239, 239, 0.3);
 }
 
 /* Artist One */
 .artists-mobile .artist-image-one {
-    margin: 0;
-    width: 90%;
     flex: 1 1 auto;
+    width: 90%;
+    margin: 0;
     background-image: url("./assets/img/DL_Beni.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -124,9 +103,9 @@
 
 /* Artist Two */
 .artists-mobile .artist-image-two {
-    margin: 0;
-    width: 90%;
     flex: 1 1 auto;
+    width: 90%;
+    margin: 0;
     /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
@@ -135,9 +114,9 @@
 
 /* Artist Three */
 .artists-mobile .artist-image-three {
-    margin: 0;
-    width: 90%;
     flex: 1 1 auto;
+    width: 90%;
+    margin: 0;
     /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
