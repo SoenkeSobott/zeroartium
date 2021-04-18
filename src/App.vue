@@ -74,11 +74,7 @@
                     <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
                   </div>
                   <div class="content">
-                    <p>
-                      All pieces are handpicked from our in-house collection and
-                      will be available until the presentation of the Summer
-                      Collection at the end of June.
-                    </p>
+                    <art-collection-description></art-collection-description>
                     <div id="sales-button" @click="goToPage(4)">
                       <h5>&#x25E6; Contact Sales</h5>
                     </div>
@@ -97,13 +93,15 @@
                       <div class="art-image">
                         <div class="art-image-one"></div>
                       </div>
-                      <div class="art-description">Art One</div>
+                      <div class="art-description">
+                        The Taverns Mirror • D.L. Béni
+                      </div>
                     </div>
                     <div class="art-two">
                       <div class="art-image">
                         <div class="art-image-two"></div>
                       </div>
-                      <div class="art-description">Art Two (Sold)</div>
+                      <div class="art-description">Raven • D.L. Béni</div>
                     </div>
                   </div>
                   <div class="art-box">
@@ -111,13 +109,15 @@
                       <div class="art-image">
                         <div class="art-image-three"></div>
                       </div>
-                      <div class="art-description">Art three</div>
+                      <div class="art-description">Untitled • M.B. (Sold)</div>
                     </div>
                     <div class="art-two">
                       <div class="art-image">
                         <div class="art-image-four"></div>
                       </div>
-                      <div class="art-description">Art Four</div>
+                      <div class="art-description">
+                        French Wall • M.B. (Sold)
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -316,9 +316,9 @@
                     <h5>&#x25E6; View Collection</h5>
                   </a>
                 </div>
-                <div id="navigation-button" @click="goToPage(4)">
+                <a href="#contact">
                   <h5>&#x25E6; Contact Sales</h5>
-                </div>
+                </a>
               </div>
               <div class="footer">
                 <div class="legal">
@@ -381,9 +381,9 @@
                     <h5>&#x25E6; View Artists</h5>
                   </a>
                 </div>
-                <div id="navigation-button" @click="goToPage(4)">
+                <a href="#contact">
                   <h5>&#x25E6; Contact</h5>
-                </div>
+                </a>
               </div>
               <div class="footer">
                 <div class="legal">
@@ -538,3 +538,4 @@ export default {
 @import url("./styles.css");
 @import url("./styles-mobile.css");
 </style>
+
