@@ -115,13 +115,16 @@
                 our team directly via the given email address.
               </p>
               <div class="contact-email">
-                <img class="social-desktop" src="../assets/img/mail.png" />
+                <img
+                  class="social-desktop"
+                  src="../assets/img/SocialIcons/mail.png"
+                />
                 <h5>info@zeroArtium.com</h5>
               </div>
               <div class="contact-link" @click="openInstagram()">
                 <img
                   class="social-desktop"
-                  src="../assets/img/instagram-logo.png"
+                  src="../assets/img/SocialIcons/instagram-logo.png"
                 />
                 <h5>zeroArtium</h5>
               </div>

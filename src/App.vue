@@ -51,13 +51,7 @@
                       <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
-                  <div class="footer">
-                    <div class="legal">
-                      <a href="privacy">Privacy statement</a>
-                      &vert;
-                      <a href="terms">Terms and conditions</a>
-                    </div>
-                  </div>
+                  <app-footer></app-footer>
                 </div>
                 <div class="start-image"></div>
               </div>
@@ -74,18 +68,12 @@
                     <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
                   </div>
                   <div class="content">
-                    <art-collection-description></art-collection-description>
+                    <art-collection-text></art-collection-text>
                     <div id="sales-button" @click="goToPage(4)">
                       <h5>&#x25E6; Contact Sales</h5>
                     </div>
                   </div>
-                  <div class="footer">
-                    <div class="legal">
-                      <a href="privacy">Privacy statement</a>
-                      &vert;
-                      <a href="terms">Terms and conditions</a>
-                    </div>
-                  </div>
+                  <app-footer></app-footer>
                 </div>
                 <div class="art-collection-image">
                   <div class="art-box">
@@ -145,13 +133,7 @@
                       <br />Where art transcends. - ZeroArtium®
                     </p>
                   </div>
-                  <div class="footer">
-                    <div class="legal">
-                      <a href="privacy">Privacy statement</a>
-                      &vert;
-                      <a href="terms">Terms and conditions</a>
-                    </div>
-                  </div>
+                  <app-footer></app-footer>
                 </div>
                 <div class="vision-image"></div>
               </div>
@@ -178,13 +160,7 @@
                       <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
-                  <div class="footer">
-                    <div class="legal">
-                      <a href="privacy">Privacy statement</a>
-                      &vert;
-                      <a href="terms">Terms and conditions</a>
-                    </div>
-                  </div>
+                  <app-footer></app-footer>
                 </div>
                 <div class="artists-image">
                   <div class="art-box">
@@ -237,24 +213,21 @@
                       team will take care of your request in no time.
                     </p>
                     <div class="contact-email">
-                      <img class="social-desktop" src="./assets/img/mail.png" />
+                      <img
+                        class="social-desktop"
+                        src="./assets/img/SocialIcons/mail.png"
+                      />
                       <h5>info@zeroArtium.com</h5>
                     </div>
                     <div class="contact-link" @click="openInstagram()">
                       <img
                         class="social-desktop"
-                        src="./assets/img/instagram-logo.png"
+                        src="./assets/img/SocialIcons/instagram-logo.png"
                       />
                       <h5>zeroArtium</h5>
                     </div>
                   </div>
-                  <div class="footer">
-                    <div class="legal">
-                      <a href="privacy">Privacy statement</a>
-                      &vert;
-                      <a href="terms">Terms and conditions</a>
-                    </div>
-                  </div>
+                  <app-footer></app-footer>
                 </div>
                 <div class="contacts-image"></div>
               </div>
@@ -286,13 +259,7 @@
                   <h5>&#x25E6; Contact</h5>
                 </a>
               </div>
-              <div class="footer">
-                <div class="legal">
-                  <a href="privacy">Privacy statement</a>
-                  &vert;
-                  <a href="terms">Terms and conditions</a>
-                </div>
-              </div>
+              <app-footer></app-footer>
             </div>
           </div>
         </div>
@@ -306,11 +273,7 @@
                 <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
               </div>
               <div class="content-mobile">
-                <p>
-                  All pieces are handpicked from our in-house collection and
-                  will be available until the presentation of the Summer
-                  Collection at the end of June.
-                </p>
+                <art-collection-text></art-collection-text>
                 <div id="navigation-button">
                   <a href="/collection-mobile">
                     <h5>&#x25E6; View Collection</h5>
@@ -320,13 +283,7 @@
                   <h5>&#x25E6; Contact Sales</h5>
                 </a>
               </div>
-              <div class="footer">
-                <div class="legal">
-                  <a href="privacy">Privacy statement</a>
-                  &vert;
-                  <a href="terms">Terms and conditions</a>
-                </div>
-              </div>
+              <app-footer></app-footer>
             </div>
           </div>
         </div>
@@ -350,13 +307,7 @@
                   <br />Where art transcends. - ZeroArtium®
                 </p>
               </div>
-              <div class="footer">
-                <div class="legal">
-                  <a href="privacy">Privacy statement</a>
-                  &vert;
-                  <a href="terms">Terms and conditions</a>
-                </div>
-              </div>
+              <app-footer></app-footer>
             </div>
           </div>
         </div>
@@ -385,13 +336,7 @@
                   <h5>&#x25E6; Contact</h5>
                 </a>
               </div>
-              <div class="footer">
-                <div class="legal">
-                  <a href="privacy">Privacy statement</a>
-                  &vert;
-                  <a href="terms">Terms and conditions</a>
-                </div>
-              </div>
+              <app-footer></app-footer>
             </div>
           </div>
         </div>
@@ -410,24 +355,21 @@
                   will take care of your request in no time.
                 </p>
                 <div class="contact-email">
-                  <img class="social-desktop" src="./assets/img/mail.png" />
+                  <img
+                    class="social-desktop"
+                    src="./assets/img/SocialIcons/mail.png"
+                  />
                   <h5>info@zeroArtium.com</h5>
                 </div>
                 <div class="contact-link" @click="openInstagram()">
                   <img
                     class="social-desktop"
-                    src="./assets/img/instagram-logo.png"
+                    src="./assets/img/SocialIcons/instagram-logo.png"
                   />
                   <h5>zeroArtium</h5>
                 </div>
               </div>
-              <div class="footer">
-                <div class="legal">
-                  <a href="privacy">Privacy statement</a>
-                  &vert;
-                  <a href="terms">Terms and conditions</a>
-                </div>
-              </div>
+              <app-footer></app-footer>
             </div>
           </div>
         </div>

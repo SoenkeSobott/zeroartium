@@ -6,9 +6,17 @@ import NotFound from '../src/components/NotFound.vue'
 import Collection from '../src/components/Collection.vue'
 import Artists from '../src/components/Artists.vue'
 
+// Reusbale Components
+import Footer from '../src/components/Footer.vue'
+import ArtCollectionText from '../src/components/ArtCollectionText.vue'
+Vue.component('app-footer', Footer)
+Vue.component('art-collection-text', ArtCollectionText)
+
+// Device detector
 import device from "vue-device-detector"
 Vue.use(device)
 
+// Defining routes
 const routes = {
   '/': App,
   '/privacy': Privacy,
