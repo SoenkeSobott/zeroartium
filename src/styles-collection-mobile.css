@@ -5,7 +5,7 @@
 .collection-mobile {
     height: 100vh;
     width: 100vw;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 .collection-mobile h1 {

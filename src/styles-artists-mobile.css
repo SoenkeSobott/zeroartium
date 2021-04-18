@@ -105,6 +105,7 @@
 }
 
 .artists-mobile .art-description {
+    flex: 0 1 auto;
     text-align: center;
     width: 90%;
     background-color:rgba(245, 239, 239, 0.3);
@@ -114,7 +115,7 @@
 .artists-mobile .artist-image-one {
     margin: 0;
     width: 90%;
-    height: 100%;
+    flex: 1 1 auto;
     background-image: url("./assets/img/DL_Beni.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +126,7 @@
 .artists-mobile .artist-image-two {
     margin: 0;
     width: 90%;
-    height: 100%;
+    flex: 1 1 auto;
     /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +137,7 @@
 .artists-mobile .artist-image-three {
     margin: 0;
     width: 90%;
-    height: 100%;
+    flex: 1 1 auto;
     /*background-image: url("./assets/img/ArtOne.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
