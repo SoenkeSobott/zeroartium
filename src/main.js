@@ -1,14 +1,14 @@
 import Vue from 'vue/dist/vue.js';
 import App from './App.vue'
-import Privacy from '../src/components/Privacy.vue'
-import Terms from '../src/components/Terms.vue'
-import NotFound from '../src/components/NotFound.vue'
-import Collection from '../src/components/Collection.vue'
-import Artists from '../src/components/Artists.vue'
+import Privacy from '../src/pages/Privacy.vue'
+import Terms from '../src/pages/Terms.vue'
+import NotFound from '../src/pages/NotFound.vue'
+import Collection from '../src/pages/Collection.vue'
+import Artists from '../src/pages/Artists.vue'
 
 // Reusbale Components
-import Footer from '../src/components/Footer.vue'
-import ArtCollectionText from '../src/components/ArtCollectionText.vue'
+import Footer from '../src/components/layout/Footer.vue'
+import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
 Vue.component('app-footer', Footer)
 Vue.component('art-collection-text', ArtCollectionText)
 
