@@ -84,6 +84,11 @@
     justify-content: center;
 }
 
+.collection-mobile .content-mobile-text {
+    margin: 0 10vw 0 10vw;
+    flex: 1 1 auto;
+}
+
 /*---- Art Collection Elements ----*/
 
 .collection-mobile .art-description {
