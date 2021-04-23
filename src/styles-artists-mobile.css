@@ -66,8 +66,12 @@
     font-size: 2vh;
 }
 
-.artists-mobile a {
+.c a {
     text-decoration: none;
+}
+
+.artists-mobile p {
+    font-size: 4.5vw;
 }
 
 .artists-mobile #navigation-button:hover {
