@@ -105,7 +105,7 @@
               <h2 id="title">End</h2>
               <h4 id="subtitle">Want more?</h4>
             </div>
-            <div class="content-vision">
+            <div class="content-mobile">
               <p>
                 Stay tuned for the ZeroArtium&#174; Summer Collection, which
                 will be released to the public in early June.
