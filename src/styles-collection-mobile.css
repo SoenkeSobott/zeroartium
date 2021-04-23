@@ -86,7 +86,14 @@
 
 .collection-mobile .content-mobile-text {
     margin: 0 10vw 0 10vw;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
+}
+
+.collection-mobile .contact-link {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /*---- Art Collection Elements ----*/
