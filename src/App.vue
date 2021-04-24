@@ -70,7 +70,7 @@
                   <div class="content">
                     <art-collection-text></art-collection-text>
                     <div id="sales-button" @click="goToPage(4)">
-                      <h5>&#x25E6; Contact Sales</h5>
+                      <h5>&#x25E6; Contact</h5>
                     </div>
                   </div>
                   <app-footer></app-footer>
@@ -280,7 +280,7 @@
                   </a>
                 </div>
                 <a href="#contact">
-                  <h5>&#x25E6; Contact Sales</h5>
+                  <h5>&#x25E6; Contact</h5>
                 </a>
               </div>
               <app-footer></app-footer>
@@ -391,7 +391,7 @@ export default {
         dots: true,
       },
       currentPage: 0,
-      visibility: "translate(-3em,0)",
+      visibility: "translate(-5em,0)",
       navPointOne: "&#x25EF;",
       navPointTwo: "&#x25EF;",
       navPointThree: "&#x25EF;",
@@ -404,7 +404,7 @@ export default {
       if (this.currentPage > 0) {
         this.changeVisibility("translate(0em,0)");
       } else {
-        this.changeVisibility("translate(-3em,0)");
+        this.changeVisibility("translate(-5em,0)");
       }
 
       if (this.currentPage === 0) {
