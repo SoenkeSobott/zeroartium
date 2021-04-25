@@ -48,16 +48,15 @@
       </p>
       <p>
         <span>
-          ZeroArtium<br />
+          Soenke Sobott<br />
           Fürstenbergstraße 82<br />
-          78467 Konstanz<br />
-          Deutschland
+          78467 Konstanz, Germany<br />
         </span>
       </p>
       <p>
         <span>
-          Telefon: 0172747778<br />
-          E-Mail: contact@zeroartium.com
+          Telefon: 01727456094<br />
+          E-Mail: info@zeroartium.com
         </span>
       </p>
       <p>Datenschutzbeauftragte/r beim Anbieter ist:</p>
@@ -478,16 +477,15 @@
       </p>
       <p>
         <span>
-          ZeroArtium<br />
+          Soenke Sobott<br />
           Fürstenbergstraße 82<br />
-          78467 Konstanz<br />
-          Deutschland
+          78467 Konstanz, Germany<br />
         </span>
       </p>
       <p>
         <span>
-          Telefon: 0172747778<br />
-          E-Mail: contact@zeroartium.com
+          Telefon: 01727456094<br />
+          E-Mail: info@zeroartium.com
         </span>
       </p>
       <p>Datenschutzbeauftragte/r beim Anbieter ist:</p>

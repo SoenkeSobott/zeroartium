@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "hooper": "^0.3.4",
     "vue": "^2.6.12",
+    "vue-cookie-accept-decline": "^5.4.0",
     "vue-device-detector": "^1.1.6"
   },
   "devDependencies": {

@@ -5,12 +5,15 @@ import Terms from '../src/pages/Terms.vue'
 import NotFound from '../src/pages/NotFound.vue'
 import Collection from '../src/pages/Collection.vue'
 import Artists from '../src/pages/Artists.vue'
+import VueCookieAcceptDecline from "vue-cookie-accept-decline";
+import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css' // Cookie banner css
 
 // Reusbale Components
 import Footer from '../src/components/layout/Footer.vue'
 import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
 Vue.component('app-footer', Footer)
 Vue.component('art-collection-text', ArtCollectionText)
+Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
 // Device detector
 import device from "vue-device-detector"

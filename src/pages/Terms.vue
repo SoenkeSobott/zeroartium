@@ -9,15 +9,14 @@
       <h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
       <p>
         Soenke Sobott<br />
-        Art Agency<br />
         Fuerstenbergstrasse 82<br />
         78467 Konstanz
       </p>
 
       <h3>Kontakt</h3>
       <p>
-        Telefon: 0172757474<br />
-        E-Mail: contact@zeroartium.com
+        Telefon: 01727456094<br />
+        E-Mail: info@zeroartium.com
       </p>
 
       <h3>
@@ -60,11 +59,15 @@
           href="https://unsplash.com/@martinsanchez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
           >Unsplash</a
         >
-      </div>
+        <br />
 
-      <p>
-        Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
-      </p>
+        Cookie Banner by:
+        <br />
+        <a href="https://www.npmjs.com/package/vue-cookie-accept-decline">
+          vue-cookie-accept-decline
+        </a>
+        <br />
+      </div>
     </div>
     <div v-else class="terms-mobile">
       <a href="/">
@@ -75,17 +78,15 @@
       <h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
       <p>
         Soenke Sobott<br />
-        Art Agency<br />
         Fuerstenbergstrasse 82<br />
         78467 Konstanz
       </p>
 
       <h3>Kontakt</h3>
       <p>
-        Telefon: 0172757474<br />
-        E-Mail: contact@zeroartium.com
+        Telefon: 01727456094<br />
+        E-Mail: info@zeroartium.com
       </p>
-
       <h3>
         Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle
       </h3>
@@ -126,11 +127,14 @@
           href="https://unsplash.com/@martinsanchez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
           >Unsplash</a
         >
+        <br />
+        Cookie Banner by:
+        <br />
+        <a href="https://www.npmjs.com/package/vue-cookie-accept-decline">
+          vue-cookie-accept-decline
+        </a>
       </div>
-
-      <p>
-        Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
-      </p>
+      <br />
     </div>
   </div>
 </template>

@@ -1,5 +1,33 @@
 <template>
   <div>
+    <vue-cookie-accept-decline
+      :ref="'myPanel1'"
+      :elementId="'myPanel1'"
+      :debug="false"
+      :position="'bottom-right'"
+      :type="'floating'"
+      :disableDecline="false"
+      :transitionName="'slideFromBottom'"
+      :showPostponeButton="false"
+      @status="cookieStatus"
+      @clicked-accept="cookieClickedAccept"
+      @clicked-decline="cookieClickedDecline"
+    >
+      <!-- Optional -->
+      <div slot="postponeContent">&times;</div>
+
+      <!-- Optional -->
+      <div slot="message">
+        We use cookies to ensure you get the best experience on our website.
+        <a href="https://cookiesandyou.com/" target="_blank">Learn More...</a>
+      </div>
+
+      <!-- Optional -->
+      <div slot="declineContent">OPT OUT</div>
+
+      <!-- Optional -->
+      <div slot="acceptContent">GOT IT!</div>
+    </vue-cookie-accept-decline>
     <div v-if="!this.$device.mobile" class="application-desktop">
       <div
         v-if="!this.$device.mobile"
