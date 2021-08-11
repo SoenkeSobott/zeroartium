@@ -16,7 +16,7 @@
       <h3>Kontakt</h3>
       <p>
         Telefon: 01727456094<br />
-        E-Mail: info@zeroartium.com
+        E-Mail: contact@zeroartium.com
       </p>
 
       <h3>
@@ -85,7 +85,7 @@
       <h3>Kontakt</h3>
       <p>
         Telefon: 01727456094<br />
-        E-Mail: info@zeroartium.com
+        E-Mail: contact@zeroartium.com
       </p>
       <h3>
         Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle

@@ -56,7 +56,7 @@
       <p>
         <span>
           Telefon: 01727456094<br />
-          E-Mail: info@zeroartium.com
+          E-Mail: contact@zeroartium.com
         </span>
       </p>
       <p>Datenschutzbeauftragte/r beim Anbieter ist:</p>
@@ -485,7 +485,7 @@
       <p>
         <span>
           Telefon: 01727456094<br />
-          E-Mail: info@zeroartium.com
+          E-Mail: contact@zeroartium.com
         </span>
       </p>
       <p>Datenschutzbeauftragte/r beim Anbieter ist:</p>
