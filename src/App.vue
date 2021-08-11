@@ -211,14 +211,14 @@
                         <div class="artist-image-three"></div>
                       </div>
                       <div class="art-description">
-                        M. Jacques &vert; Zürich
+                        G. V. &vert; Loerrach
                       </div>
                     </div>
                     <div class="art-two">
-                      <div class="art-image">
+                      <!--<div class="art-image">
                         <div class="artist-image-four"></div>
                       </div>
-                      <div class="art-description"></div>
+                      <div class="art-description"></div>-->
                     </div>
                   </div>
                 </div>

@@ -61,7 +61,7 @@
             </div>
             <div class="content-mobile">
               <div class="artist-image-three"></div>
-              <div class="art-description">M. Jacques &vert; Zürich</div>
+              <div class="art-description">G. V. &vert; Loerrach</div>
             </div>
             <div class="footer">
               <div class="legal">
