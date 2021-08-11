@@ -245,7 +245,7 @@
                         class="social-desktop"
                         src="./assets/img/SocialIcons/mail.png"
                       />
-                      <h5>info@zeroArtium.com</h5>
+                      <h5>contact@zeroArtium.com</h5>
                     </div>
                     <div class="contact-link" @click="openInstagram()">
                       <img
@@ -387,7 +387,7 @@
                     class="social-desktop"
                     src="./assets/img/SocialIcons/mail.png"
                   />
-                  <h5>info@zeroArtium.com</h5>
+                  <h5>contact@zeroArtium.com</h5>
                 </div>
                 <div class="contact-link" @click="openInstagram()">
                   <img
