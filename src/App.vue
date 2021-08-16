@@ -211,7 +211,7 @@
                         <div class="artist-image-three"></div>
                       </div>
                       <div class="art-description">
-                        G. V. &vert; Loerrach
+                        Gianni Vasi &vert; Loerrach
                       </div>
                     </div>
                     <div class="art-two">
