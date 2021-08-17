@@ -151,15 +151,7 @@
                     <h4 id="subtitle">What drives us.</h4>
                   </div>
                   <div class="content-vision">
-                    <p>
-                      At ZeroArtium® we bring together a wide range of artists
-                      who create extravagant and unpredictable art. Each of our
-                      artists is a mastermind in his own right, who convinces
-                      through his individual character and extravagant style. By
-                      combining these diverse art forms and styles, we are able
-                      to deliver such a unique experience to our clients.<br />
-                      <br />Where art transcends. - ZeroArtium®
-                    </p>
+                    <vision-text></vision-text>
                   </div>
                   <app-footer></app-footer>
                 </div>
@@ -325,15 +317,7 @@
                 <h4 id="subtitle">What drives us.</h4>
               </div>
               <div class="content-mobile">
-                <p>
-                  At ZeroArtium® we bring together a wide range of artists who
-                  create extravagant and unpredictable art. Each of our artists
-                  is a mastermind in his own right, who convinces through his
-                  individual character and extravagant style. By combining these
-                  diverse art forms and styles, we are able to deliver such a
-                  unique experience to our clients.<br />
-                  <br />Where art transcends. - ZeroArtium®
-                </p>
+                    <vision-text></vision-text>
               </div>
               <app-footer></app-footer>
             </div>

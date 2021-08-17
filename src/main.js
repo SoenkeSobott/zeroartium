@@ -11,8 +11,11 @@ import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css' // Cookie 
 // Reusbale Components
 import Footer from '../src/components/layout/Footer.vue'
 import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
+import VisionText from '../src/components/text/VisionText.vue'
+
 Vue.component('app-footer', Footer)
 Vue.component('art-collection-text', ArtCollectionText)
+Vue.component('vision-text', VisionText)
 Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
 // Device detector
