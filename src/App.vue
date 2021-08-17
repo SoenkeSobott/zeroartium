@@ -170,12 +170,7 @@
                     <h4 id="subtitle">The Masterminds behind the Creations.</h4>
                   </div>
                   <div class="content">
-                    <p>
-                      View our artists and learn more about their personalities
-                      and work. Please be aware that not all of our artists
-                      perform in public, but we are happy to organise
-                      appointments on request.
-                    </p>
+                    <artists-text></artists-text>
                     <div id="sales-button" @click="goToPage(4)">
                       <h5>&#x25E6; Contact</h5>
                     </div>
@@ -333,12 +328,7 @@
                 <h4 id="subtitle">The Masterminds behind the Creations.</h4>
               </div>
               <div class="content-mobile">
-                <p>
-                  To the right, our artists introduce themselves and briefly
-                  describe their work. Please be aware that not all of our
-                  artists perform in public, but we are happy to organise
-                  appointments on request.
-                </p>
+                <artists-text></artists-text>
                 <div id="navigation-button">
                   <a href="/artists-mobile">
                     <h5>&#x25E6; View Artists</h5>
