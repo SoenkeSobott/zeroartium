@@ -15,15 +15,9 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-one"></div>
-              <div class="art-description">The Taverns Mirror • D.L. Béni</div>
+              <div class="art-description">French Wall • M.B.</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -38,15 +32,9 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-two"></div>
-              <div class="art-description">Raven • D.L. Béni</div>
+              <div class="art-description">Spirit Lake • M.B.</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -61,15 +49,9 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-three"></div>
-              <div class="art-description">Untitled • M.B. (Sold)</div>
+              <div class="art-description">Raven • D.L. Béni</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -84,15 +66,9 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-four"></div>
-              <div class="art-description">French Wall • M.B. (Sold)</div>
+              <div class="art-description">The Taverns Mirror • D.L. Béni</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -129,13 +105,7 @@
                 <h5>zeroArtium</h5>
               </div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>

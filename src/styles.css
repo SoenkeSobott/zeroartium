@@ -244,7 +244,7 @@ h5 {
 .art-image-one {
     width: 100%;
     height: 100%;
-    background-image: url("./assets/img/2021Spring/ArtOne.jpeg");
+    background-image: url("./assets/img/2021Fall/FrenchWall.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -254,7 +254,7 @@ h5 {
 .art-image-two {
     width: 100%;
     height: 100%;
-    background-image: url("./assets/img/2021Spring/ArtTwo.jpeg");
+    background-image: url("./assets/img/2021Fall/SpiritLake.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -264,7 +264,7 @@ h5 {
 .art-image-three {
     width: 100%;
     height: 100%;
-    background-image: url("./assets/img/2021Spring/ArtThree.jpeg");
+    background-image: url("./assets/img/2021Spring/ArtTwo.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -274,7 +274,7 @@ h5 {
 .art-image-four {
     width: 100%;
     height: 100%;
-    background-image: url("./assets/img/2021Spring/ArtFour.jpeg");
+    background-image: url("./assets/img/2021Spring/ArtOne.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 

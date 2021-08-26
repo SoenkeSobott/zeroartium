@@ -110,14 +110,14 @@
                         <div class="art-image-one"></div>
                       </div>
                       <div class="art-description">
-                        The Taverns Mirror • D.L. Béni
+                        French Wall • M.B.
                       </div>
                     </div>
                     <div class="art-two">
                       <div class="art-image">
                         <div class="art-image-two"></div>
                       </div>
-                      <div class="art-description">Raven • D.L. Béni</div>
+                      <div class="art-description">Spirit Lake • M.B.</div>
                     </div>
                   </div>
                   <div class="art-box">
@@ -125,14 +125,14 @@
                       <div class="art-image">
                         <div class="art-image-three"></div>
                       </div>
-                      <div class="art-description">Untitled • M.B. (Sold)</div>
+                      <div class="art-description">Raven • D.L. Béni</div>
                     </div>
                     <div class="art-two">
                       <div class="art-image">
                         <div class="art-image-four"></div>
                       </div>
                       <div class="art-description">
-                        French Wall • M.B. (Sold)
+                        The Taverns Mirror • D.L. Béni
                       </div>
                     </div>
                   </div>
