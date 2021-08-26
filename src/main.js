@@ -13,11 +13,13 @@ import Footer from '../src/components/layout/Footer.vue'
 import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
 import VisionText from '../src/components/text/VisionText.vue'
 import ArtistsText from '../src/components/text/ArtistsText.vue'
+import CollectionTitleText from '../src/components/text/CollectionTitleText.vue'
 
 Vue.component('app-footer', Footer)
 Vue.component('art-collection-text', ArtCollectionText)
 Vue.component('vision-text', VisionText)
 Vue.component('artists-text', ArtistsText)
+Vue.component('collection-title-text', CollectionTitleText)
 Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
 // Device detector

@@ -11,7 +11,7 @@
           <div class="box-mobile">
             <div class="header-box">
               <h2 id="title">Art Collection</h2>
-              <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
+              <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
               <div class="art-image-one"></div>
@@ -28,7 +28,7 @@
           <div class="box-mobile">
             <div class="header-box">
               <h2 id="title">Art Collection</h2>
-              <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
+              <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
               <div class="art-image-two"></div>
@@ -45,7 +45,7 @@
           <div class="box-mobile">
             <div class="header-box">
               <h2 id="title">Art Collection</h2>
-              <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
+              <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
               <div class="art-image-three"></div>
@@ -62,7 +62,7 @@
           <div class="box-mobile">
             <div class="header-box">
               <h2 id="title">Art Collection</h2>
-              <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
+              <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
               <div class="art-image-four"></div>
@@ -82,14 +82,7 @@
               <h4 id="subtitle">Want more?</h4>
             </div>
             <div class="content-mobile-text">
-              <p>
-                Stay tuned for the ZeroArtium&#174; Summer Collection, which
-                will be released to the public in early June.
-                <br />
-                <br />
-                You can also find more artwork on our Instagram page or contact
-                our team directly via the given email address.
-              </p>
+              <art-collection-text></art-collection-text>
               <div class="contact-email">
                 <img
                   class="social-desktop"

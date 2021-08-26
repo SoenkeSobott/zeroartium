@@ -93,7 +93,7 @@
                 <div class="left-box">
                   <div class="header-box">
                     <h2 id="title">Art Collection</h2>
-                    <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
+                    <collection-title-text></collection-title-text>
                   </div>
                   <div class="content">
                     <art-collection-text></art-collection-text>
