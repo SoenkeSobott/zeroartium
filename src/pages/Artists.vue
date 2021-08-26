@@ -2,7 +2,7 @@
   <div class="artists-mobile">
     <div class="back-button">
       <a href="/">
-        <h5 class="back-button-title">&#x25C0; Back</h5>
+        <h5 class="back-button-title">&#5130; Back</h5>
       </a>
     </div>
     <div class="background">
