@@ -62,7 +62,9 @@
               <div class="container">
                 <div class="left-box">
                   <div class="header-box">
-                    <h1 id="title">ZeroArtium</h1>
+                    <a href="/">
+                      <h1 id="title">ZeroArtium</h1>
+                    </a>
                     <h4 id="subtitle">Where art transcends.</h4>
                   </div>
                   <div class="content">
