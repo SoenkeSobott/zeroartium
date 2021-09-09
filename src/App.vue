@@ -81,7 +81,7 @@
                   </div>
                   <app-footer></app-footer>
                 </div>
-                <div class="start-image"></div>
+                <div class="start-image" title="Old Romanian Temple"></div>
               </div>
             </div>
           </div>
@@ -103,11 +103,11 @@
                   </div>
                   <app-footer></app-footer>
                 </div>
-                <div class="art-collection-image">
+                <div class="art-collection-image"  title="Art Collection">
                   <div class="art-box">
                     <div class="art-one">
                       <div class="art-image">
-                        <div class="art-image-one"></div>
+                        <div class="art-image-one" title="Art Image One"></div>
                       </div>
                       <div class="art-description">
                         French Wall • M.B.
@@ -115,7 +115,7 @@
                     </div>
                     <div class="art-two">
                       <div class="art-image">
-                        <div class="art-image-two"></div>
+                        <div class="art-image-two" title="Art Image Two"></div>
                       </div>
                       <div class="art-description">Spirit Lake • M.B.</div>
                     </div>
@@ -123,13 +123,13 @@
                   <div class="art-box">
                     <div class="art-one">
                       <div class="art-image">
-                        <div class="art-image-three"></div>
+                        <div class="art-image-three" title="Art Image Three"></div>
                       </div>
                       <div class="art-description">Raven • D.L. Béni</div>
                     </div>
                     <div class="art-two">
                       <div class="art-image">
-                        <div class="art-image-four"></div>
+                        <div class="art-image-four" title="Art Image Four"></div>
                       </div>
                       <div class="art-description">
                         The Taverns Mirror • D.L. Béni
@@ -155,7 +155,7 @@
                   </div>
                   <app-footer></app-footer>
                 </div>
-                <div class="vision-image"></div>
+                <div class="vision-image" title="Vision"></div>
               </div>
             </div>
           </div>
@@ -177,17 +177,17 @@
                   </div>
                   <app-footer></app-footer>
                 </div>
-                <div class="artists-image">
+                <div class="artists-image" title="Artists">
                   <div class="art-box">
                     <div class="art-one">
                       <div class="art-image">
-                        <div class="artist-image-one"></div>
+                        <div class="artist-image-one" title="Artist Image One"></div>
                       </div>
                       <div class="art-description">D. L. Béni &vert; Basel</div>
                     </div>
                     <div class="art-two">
                       <div class="art-image">
-                        <div class="artist-image-two"></div>
+                        <div class="artist-image-two" title="Art Image Two"></div>
                       </div>
                       <div class="art-description">M. B. &vert; Frankfurt</div>
                     </div>
@@ -195,7 +195,7 @@
                   <div class="art-box">
                     <div class="art-one">
                       <div class="art-image">
-                        <div class="artist-image-three"></div>
+                        <div class="artist-image-three" title="Art Image Three"></div>
                       </div>
                       <div class="art-description">
                         Gianni Vasi &vert; Loerrach
@@ -244,7 +244,7 @@
                   </div>
                   <app-footer></app-footer>
                 </div>
-                <div class="contacts-image"></div>
+                <div class="contacts-image" title="Contact"></div>
               </div>
             </div>
           </div>
