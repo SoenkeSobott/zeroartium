@@ -44,8 +44,12 @@ h5 {
     flex-direction: row;
 }
 
+.application-desktop {
+    height: 100vh;
+}
+
 .navigation-indicator {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
