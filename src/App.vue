@@ -102,13 +102,13 @@
                   <div class="art-image">
                     <div class="art-image-one" title="Art Image One"></div>
                   </div>
-                  <div class="art-description">French Wall • M.B.</div>
+                  <div class="art-description">French Wall • Massimo Bene</div>
                 </div>
                 <div class="art-two">
                   <div class="art-image">
                     <div class="art-image-two" title="Art Image Two"></div>
                   </div>
-                  <div class="art-description">Spirit Lake • M.B.</div>
+                  <div class="art-description">Spirit Lake • Massimo Bene</div>
                 </div>
               </div>
               <div class="art-box">
@@ -179,7 +179,7 @@
                   <div class="art-image">
                     <div class="artist-image-two" title="Art Image Two"></div>
                   </div>
-                  <div class="art-description">M. B. &vert; Frankfurt</div>
+                  <div class="art-description">Massimo Bene &vert; Frankfurt</div>
                 </div>
               </div>
               <div class="art-box">

@@ -15,7 +15,7 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-one"></div>
-              <div class="art-description">French Wall • M.B.</div>
+              <div class="art-description">French Wall • Massimo Bene</div>
             </div>
             <app-footer></app-footer>
           </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-two"></div>
-              <div class="art-description">Spirit Lake • M.B.</div>
+              <div class="art-description">Spirit Lake • Massimo Bene</div>
             </div>
             <app-footer></app-footer>
           </div>

@@ -38,7 +38,7 @@
             </div>
             <div class="content-mobile">
               <div class="artist-image-two"></div>
-              <div class="art-description">M. B. &vert; Frankfurt</div>
+              <div class="art-description">Massimo Bene &vert; Frankfurt</div>
             </div>
             <div class="footer">
               <div class="legal">
