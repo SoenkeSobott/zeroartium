@@ -108,7 +108,7 @@
                   <div class="art-image">
                     <div class="art-image-two" title="Art Image Two"></div>
                   </div>
-                  <div class="art-description">Spirit Lake • Massimo Bene</div>
+                  <div class="art-description">Omid (SOLD) • Massimo Bene</div>
                 </div>
               </div>
               <div class="art-box">

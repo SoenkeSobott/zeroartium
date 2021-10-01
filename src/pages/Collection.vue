@@ -32,7 +32,7 @@
             </div>
             <div class="content-mobile">
               <div class="art-image-two"></div>
-              <div class="art-description">Spirit Lake • Massimo Bene</div>
+              <div class="art-description">Omid (SOLD) • Massimo Bene</div>
             </div>
             <app-footer></app-footer>
           </div>
