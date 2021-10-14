@@ -17,13 +17,7 @@
               <div class="artist-image-one"></div>
               <div class="art-description">D. L. Béni &vert; Basel</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -40,13 +34,7 @@
               <div class="artist-image-two"></div>
               <div class="art-description">Massimo Bene &vert; Frankfurt</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -63,13 +51,7 @@
               <div class="artist-image-three"></div>
               <div class="art-description">Gianni Vasi &vert; Loerrach</div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>
@@ -103,13 +85,7 @@
                 <h5>zeroArtium</h5>
               </div>
             </div>
-            <div class="footer">
-              <div class="legal">
-                <a href="privacy">Privacy statement</a>
-                &vert;
-                <a href="terms">Terms and conditions</a>
-              </div>
-            </div>
+            <app-footer></app-footer>
           </div>
         </div>
       </div>

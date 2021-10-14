@@ -2,7 +2,7 @@
   <div class="container-privacy">
     <div v-if="!this.$device.mobile" class="privacy-desktop">
       <a href="/">
-        <h1 class="name-link">ZeroArtium.</h1>
+        <h1 class="name-link">ZeroArtium</h1>
       </a>
       <h2 class="title-privacy">Privacy Statement</h2>
       <h3>General</h3>
@@ -431,7 +431,7 @@
     </div>
     <div v-else class="privacy-mobile">
       <a href="/">
-        <h1 class="name-link">ZeroArtium.</h1>
+        <h1 class="name-link">ZeroArtium</h1>
       </a>
       <h2 class="title-privacy">Privacy Statement</h2>
       <h3>General</h3>

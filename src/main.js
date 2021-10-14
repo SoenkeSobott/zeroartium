@@ -1,7 +1,7 @@
 import Vue from 'vue/dist/vue.js';
 import App from './App.vue'
 import Privacy from '../src/pages/Privacy.vue'
-import Terms from '../src/pages/Terms.vue'
+import LegalNotice from '../src/pages/LegalNotice.vue'
 import NotFound from '../src/pages/NotFound.vue'
 import Collection from '../src/pages/Collection.vue'
 import Artists from '../src/pages/Artists.vue'
@@ -10,16 +10,25 @@ import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css' // Cookie 
 
 // Reusbale Components
 import Footer from '../src/components/layout/Footer.vue'
+import ThirdPartyContent from '../src/components/layout/ThirdPartyContent.vue'
+
 import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
 import VisionText from '../src/components/text/VisionText.vue'
 import ArtistsText from '../src/components/text/ArtistsText.vue'
 import CollectionTitleText from '../src/components/text/CollectionTitleText.vue'
+import LegalNoticeText from '../src/components/text/LegalNoticeText.vue'
+import DSGVOText from '../src/components/text/DSGVOText.vue'
 
 Vue.component('app-footer', Footer)
+Vue.component('third-party-content', ThirdPartyContent)
+
 Vue.component('art-collection-text', ArtCollectionText)
 Vue.component('vision-text', VisionText)
 Vue.component('artists-text', ArtistsText)
 Vue.component('collection-title-text', CollectionTitleText)
+Vue.component('legal-notice-text', LegalNoticeText)
+Vue.component('dsgvo-text', DSGVOText)
+
 Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
 // Device detector
@@ -30,7 +39,7 @@ Vue.use(device)
 const routes = {
   '/': App,
   '/privacy': Privacy,
-  '/terms': Terms,
+  '/legal-notice': LegalNotice,
   '/collection-mobile': Collection,
   '/artists-mobile': Artists
 }
