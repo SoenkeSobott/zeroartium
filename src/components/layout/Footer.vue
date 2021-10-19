@@ -3,7 +3,7 @@
     <div class="legal">
       <b-button class="language-switch"
         @click="changeLanguage()"
-        >{{ $t(currentLang.toUpperCase()) }}</b-button
+        >{{ $t(this.$i18n.locale.toUpperCase()) }}</b-button
       >
       &vert;
       <a href="privacy">{{ $t("message.privacyStatement") }}</a>
