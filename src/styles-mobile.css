@@ -64,6 +64,11 @@
     text-decoration: none;
 }
 
+.application-mobile .legal .language-switch {
+    font-size: 2vh;
+    font-weight:bold;
+}
+
 /*---- Welcome Elements ----*/
 
 .application-mobile #navigation-button:hover {

@@ -14,7 +14,8 @@
     "hooper": "^0.3.4",
     "vue": "^2.6.12",
     "vue-cookie-accept-decline": "^5.4.0",
-    "vue-device-detector": "^1.1.6"
+    "vue-device-detector": "^1.1.6",
+    "vue-i18n": "^8.26.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

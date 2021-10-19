@@ -62,16 +62,16 @@
               </div>
               <div class="content">
                 <div id="navigation-button" @click="goToPage(1)">
-                  <h5>&#x25E6; Art Collection</h5>
+                  <h5>&#x25E6; {{ $t("message.artCollection") }}</h5>
                 </div>
                 <div id="navigation-button" @click="goToPage(2)">
                   <h5>&#x25E6; Vision</h5>
                 </div>
                 <div id="navigation-button" @click="goToPage(3)">
-                  <h5>&#x25E6; Artists</h5>
+                  <h5>&#x25E6; {{ $t("message.artists") }}</h5>
                 </div>
                 <div id="navigation-button" @click="goToPage(4)">
-                  <h5>&#x25E6; Contact</h5>
+                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </div>
               </div>
               <app-footer></app-footer>
@@ -85,13 +85,13 @@
           <div class="container">
             <div class="left-box">
               <div class="header-box">
-                <h2 id="title">Art Collection</h2>
+                <h2 id="title">{{ $t("message.artCollection") }}</h2>
                 <collection-title-text></collection-title-text>
               </div>
               <div class="content">
                 <art-collection-text></art-collection-text>
                 <div id="sales-button" @click="goToPage(4)">
-                  <h5>&#x25E6; Contact</h5>
+                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </div>
               </div>
               <app-footer></app-footer>
@@ -137,7 +137,7 @@
             <div class="left-box-vision">
               <div class="header-box">
                 <h2 id="title">Vision</h2>
-                <h4 id="subtitle">What drives us.</h4>
+                <h4 id="subtitle">{{ $t("message.visionSubtitle") }}</h4>
               </div>
               <div class="content-vision">
                 <vision-text></vision-text>
@@ -153,13 +153,13 @@
           <div class="container">
             <div class="left-box">
               <div class="header-box">
-                <h2 id="title">Artists</h2>
-                <h4 id="subtitle">The Masterminds behind the Creations.</h4>
+                <h2 id="title">{{ $t("message.artists") }}</h2>
+                <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
               </div>
               <div class="content">
                 <artists-text></artists-text>
                 <div id="sales-button" @click="goToPage(4)">
-                  <h5>&#x25E6; Contact</h5>
+                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </div>
               </div>
               <app-footer></app-footer>
@@ -179,7 +179,9 @@
                   <div class="art-image">
                     <div class="artist-image-two" title="Art Image Two"></div>
                   </div>
-                  <div class="art-description">Massimo Bene &vert; Frankfurt</div>
+                  <div class="art-description">
+                    Massimo Bene &vert; Frankfurt
+                  </div>
                 </div>
               </div>
               <div class="art-box">
@@ -208,13 +210,12 @@
           <div class="container">
             <div class="left-box">
               <div class="header-box">
-                <h2 id="title">Contact</h2>
-                <h4 id="subtitle">Keep in touch.</h4>
+                <h2 id="title">{{ $t("message.contact") }}</h2>
+                <h4 id="subtitle">{{ $t("message.contactSubtitle") }}</h4>
               </div>
               <div class="content">
                 <p>
-                  Feel free to contact us via the channels below and our team
-                  will take care of your request in no time.
+                  {{ $t("message.contactDescription") }}
                 </p>
                 <div class="contact-email">
                   <img
@@ -250,16 +251,16 @@
               </div>
               <div class="content-mobile">
                 <a href="#collection">
-                  <h5>&#x25E6; Art Collection</h5>
+                  <h5>&#x25E6; {{ $t("message.artCollection") }}</h5>
                 </a>
                 <a href="#vision">
                   <h5>&#x25E6; Vision</h5>
                 </a>
                 <a href="#artists">
-                  <h5>&#x25E6; Artists</h5>
+                  <h5>&#x25E6; {{ $t("message.artists") }}</h5>
                 </a>
                 <a href="#contact">
-                  <h5>&#x25E6; Contact</h5>
+                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </a>
               </div>
               <app-footer></app-footer>
@@ -272,18 +273,18 @@
           <div class="container">
             <div class="box-mobile">
               <div class="header-box">
-                <h2 id="title">Art Collection</h2>
-                <h4 id="subtitle">ZeroArtium&#174; Spring Collection.</h4>
+                <h2 id="title">{{ $t("message.artCollection") }}</h2>
+                <h4 id="subtitle">{{ $t("message.artCollectionSubtitle") }}</h4>
               </div>
               <div class="content-mobile">
                 <art-collection-text></art-collection-text>
                 <div id="navigation-button">
                   <a href="/collection-mobile">
-                    <h5>&#x25E6; View Collection</h5>
+                    <h5>&#x25E6; {{ $t("message.viewCollection") }}</h5>
                   </a>
                 </div>
                 <a href="#contact">
-                  <h5>&#x25E6; Contact</h5>
+                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </a>
               </div>
               <app-footer></app-footer>
@@ -297,7 +298,7 @@
             <div class="box-mobile">
               <div class="header-box">
                 <h2 id="title">Vision</h2>
-                <h4 id="subtitle">What drives us.</h4>
+                <h4 id="subtitle">{{ $t("message.visionSubtitle") }}</h4>
               </div>
               <div class="content-mobile">
                 <vision-text></vision-text>
@@ -312,18 +313,18 @@
           <div class="container">
             <div class="box-mobile">
               <div class="header-box">
-                <h2 id="title">Artists</h2>
-                <h4 id="subtitle">The Masterminds behind the Creations.</h4>
+                <h2 id="title">{{ $t("message.artists") }}</h2>
+                <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
               </div>
               <div class="content-mobile">
                 <artists-text></artists-text>
                 <div id="navigation-button">
                   <a href="/artists-mobile">
-                    <h5>&#x25E6; View Artists</h5>
+                    <h5>&#x25E6; {{ $t("message.viewArtists") }}</h5>
                   </a>
                 </div>
                 <a href="#contact">
-                  <h5>&#x25E6; Contact</h5>
+                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </a>
               </div>
               <app-footer></app-footer>
@@ -336,13 +337,12 @@
           <div class="container">
             <div class="box-mobile">
               <div class="header-box">
-                <h2 id="title">Contact</h2>
-                <h4 id="subtitle">Keep in touch.</h4>
+                <h2 id="title">{{ $t("message.contact") }}</h2>
+                <h4 id="subtitle">{{ $t("message.contactSubtitle") }}</h4>
               </div>
               <div class="content-mobile">
                 <p>
-                  Feel free to contact us via the channels below and our team
-                  will take care of your request in no time.
+                  {{ $t("message.contactDescription") }}
                 </p>
                 <div class="contact-email">
                   <img

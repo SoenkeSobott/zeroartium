@@ -64,6 +64,11 @@
     font-size: 2vh;
 }
 
+.collection-mobile .legal .language-switch {
+    font-size: 2vh;
+    font-weight:bold;
+}
+
 .collection-mobile a {
     text-decoration: none;
 }

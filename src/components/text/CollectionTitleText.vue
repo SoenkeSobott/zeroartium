@@ -1,3 +1,3 @@
 <template>
-  <h4 id="subtitle">ZeroArtium&#174; Fall Collection.</h4>
+  <h4 id="subtitle">{{ $t("message.artCollectionSubtitle") }}</h4>
 </template>
