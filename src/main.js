@@ -58,6 +58,9 @@ let ArtCollectionDescription = Vue.component('art-collection-description', {
 const messages = {
   en: {
     message: {
+      back: 'Back',
+      end: 'End',
+      wantMore: 'Want more?',
       artCollection: 'Art Collection',
       artCollectionSubtitle: 'ZeroArtium Fall Collection.',
       artCollectionDescriptionOne: 'All pieces are handpicked from our in-house collection and will be presented at our fall collection exhibition at the end of September.',
@@ -80,6 +83,9 @@ const messages = {
   },
   de: {
     message: {
+      back: 'Zurück',
+      end: 'Ende',
+      wantMore: 'Möchten Sie mehr?',
       artCollection: 'Kunst Kollektion',
       artCollectionSubtitle: 'ZeroArtium Herbst Kollektion.',
       artCollectionDescriptionOne: 'Alle Exponate sind handverlesen aus unserer hauseigenen Kollektion und werden auf unserer Herbstausstellung im September präsentiert.',

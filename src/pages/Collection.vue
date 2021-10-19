@@ -2,7 +2,7 @@
   <div class="collection-mobile">
     <div class="back-button">
       <a href="/">
-        <h5 class="back-button-title">&#5130; Back</h5>
+        <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
       </a>
     </div>
     <div class="background">
@@ -10,7 +10,7 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Art Collection</h2>
+              <h2 id="title">{{ $t("message.artCollection") }}</h2>
               <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
@@ -27,7 +27,7 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Art Collection</h2>
+              <h2 id="title">{{ $t("message.artCollection") }}</h2>
               <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
@@ -44,7 +44,7 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Art Collection</h2>
+              <h2 id="title">{{ $t("message.artCollection") }}</h2>
               <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
@@ -61,7 +61,7 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Art Collection</h2>
+              <h2 id="title">{{ $t("message.artCollection") }}</h2>
               <collection-title-text></collection-title-text>
             </div>
             <div class="content-mobile">
@@ -78,8 +78,8 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">End</h2>
-              <h4 id="subtitle">Want more?</h4>
+              <h2 id="title">{{ $t("message.end") }}</h2>
+              <h4 id="subtitle">{{ $t("message.wantMore") }}</h4>
             </div>
             <div class="content-mobile-text">
               <art-collection-text></art-collection-text>

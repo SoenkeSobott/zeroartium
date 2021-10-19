@@ -2,7 +2,7 @@
   <div class="artists-mobile">
     <div class="back-button">
       <a href="/">
-        <h5 class="back-button-title">&#5130; Back</h5>
+        <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
       </a>
     </div>
     <div class="background">
@@ -10,8 +10,8 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Artists</h2>
-              <h4 id="subtitle">The Masterminds behind the Creations.</h4>
+              <h2 id="title">{{ $t("message.artists") }}</h2>
+              <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
             </div>
             <div class="content-mobile">
               <div class="artist-image-one"></div>
@@ -27,8 +27,8 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Artists</h2>
-              <h4 id="subtitle">The Masterminds behind the Creations.</h4>
+              <h2 id="title">{{ $t("message.artists") }}</h2>
+              <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
             </div>
             <div class="content-mobile">
               <div class="artist-image-two"></div>
@@ -44,8 +44,8 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">Artists</h2>
-              <h4 id="subtitle">The Masterminds behind the Creations.</h4>
+              <h2 id="title">{{ $t("message.artists") }}</h2>
+              <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
             </div>
             <div class="content-mobile">
               <div class="artist-image-three"></div>
@@ -61,14 +61,12 @@
         <div class="container">
           <div class="box-mobile">
             <div class="header-box">
-              <h2 id="title">End</h2>
-              <h4 id="subtitle">Want more?</h4>
+              <h2 id="title">{{ $t("message.end") }}</h2>
+              <h4 id="subtitle">{{ $t("message.wantMore") }}</h4>
             </div>
             <div class="content-vision">
               <p>
-                If you would like to find out more about the artists we
-                represent, please contact us through the various channels below
-                and our team will be happy to assist you.
+                {{ $t("message.artistsDescription") }}
               </p>
               <div class="contact-email">
                 <img
