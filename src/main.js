@@ -92,7 +92,7 @@ const messages = {
       artCollectionDescriptionTwo: 'Weitere Kunstwerke finden Sie auf unserer Instagram-Seite oder kontaktieren Sie unser Team direkt über die untenstehende Links.',
       viewCollection: 'Kollektion anzeigen',
       visionSubtitle: 'Was uns antreibt.',
-      visionDescriptionOne: 'ZeroArtium bietet einzigartige und exquisite Kunst an und präsentiert ein Kollektiv von internationalen kreativen Köpfen, die moderne Kunst auf der Höhe der Zeit präsentieren.',
+      visionDescriptionOne: 'ZeroArtium bietet einzigartige und exquisite Kunst an und präsentiert ein Kollektiv von internationalen kreativen Köpfen, die moderne Kunst am Puls der Zeit präsentieren.',
       visionDescriptionTwo: 'Wir sind der Meinung, dass man Kunst nicht nur als Individuum genießen sollte, sondern in der Gemeinschaft. Deshalb veranstalten wir regelmäßig Ausstellungen mit unserem Künstlerkollektiv und neuen Kollektionen.',
       artists: 'Künstler',
       artistsSubtitle: 'Die Schöpfer hinter den Kreationen.',
