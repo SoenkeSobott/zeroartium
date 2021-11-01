@@ -11,12 +11,12 @@ import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css' // Cookie 
 // Reusbale Components
 import Footer from '../src/components/layout/Footer.vue'
 import ThirdPartyContent from '../src/components/layout/ThirdPartyContent.vue'
+import LegalNoticeContent from '../src/components/text/LegalNoticeContent.vue'
 
 import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
 import VisionText from '../src/components/text/VisionText.vue'
 import ArtistsText from '../src/components/text/ArtistsText.vue'
 import CollectionTitleText from '../src/components/text/CollectionTitleText.vue'
-import LegalNoticeText from '../src/components/text/LegalNoticeText.vue'
 import DSGVOText from '../src/components/text/DSGVOText.vue'
 import PrivacyStatementText from '../src/components/text/PrivacyStatementText.vue'
 
@@ -26,12 +26,12 @@ Vue.use(VueI18n)
 
 Vue.component('app-footer', Footer)
 Vue.component('third-party-content', ThirdPartyContent)
+Vue.component('legal-notice-content', LegalNoticeContent)
 
 Vue.component('art-collection-text', ArtCollectionText)
 Vue.component('vision-text', VisionText)
 Vue.component('artists-text', ArtistsText)
 Vue.component('collection-title-text', CollectionTitleText)
-Vue.component('legal-notice-text', LegalNoticeText)
 Vue.component('dsgvo-text', DSGVOText)
 Vue.component('privacy-statement-text', PrivacyStatementText)
 

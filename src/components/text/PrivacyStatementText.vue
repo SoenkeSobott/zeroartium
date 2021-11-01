@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="title-privacy">Datenschutzerklärung</h2>
+    <h2 class="title-privacy">{{ $t("message.privacyStatement") }}</h2>
     <p>Verantwortlich im Sinne des Datenschutzgesetzes:</p>
     <p>
       ZeroArtium UG (haftungsbeschränkt)<br />Tüllinger Straße 86<br />79539

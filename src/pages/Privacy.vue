@@ -5,9 +5,6 @@
         <h1 class="name-link">ZeroArtium</h1>
       </a>
       <privacy-statement-text></privacy-statement-text>
-      
-
-     
     </div>
     <div v-else class="privacy-mobile">
       <a href="/">

@@ -1,52 +1,10 @@
 <template>
   <div class="container-terms">
     <div v-if="!this.$device.mobile" class="terms-desktop">
-      <a href="/">
-        <h1 class="name-link">ZeroArtium</h1>
-      </a>
-      <h2 class="title-terms">Impressum</h2>
-
-      <h4>Angaben gem&auml;&szlig; &sect; 5 TMG</h4>
-      <legal-notice-text></legal-notice-text>
-
-      <h4>Datenschutzbeauftragter im Sinne der DS-GVO</h4>
-      <dsgvo-text></dsgvo-text>
-
-      <h4>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h4>
-      <p>
-        Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-        vor einer Verbraucherschlichtungsstelle teilzunehmen.
-      </p>
-
-      <!-- Used librarys and co -->
-      <h4>Verwendete Erzeugnisse von Drittanbietern</h4>
-      <third-party-content></third-party-content>
-      <br/>
+      <legal-notice-content></legal-notice-content>
     </div>
-
     <div v-else class="terms-mobile">
-      <a href="/">
-        <h1 class="name-link">ZeroArtium</h1>
-      </a>
-      <h2 class="title-terms">Impressum</h2>
-
-      <h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
-      <legal-notice-text></legal-notice-text>
-
-      <h3>Datenschutzbeauftragter im Sinne der DS-GVO</h3>
-      <dsgvo-text></dsgvo-text>
-
-      <h3>
-        Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle
-      </h3>
-      <p>
-        Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-        vor einer Verbraucherschlichtungsstelle teilzunehmen.
-      </p>
-
-      <!-- Used librarys and co -->
-      <h3>Verwendete Erzeugnisse von Drittanbietern</h3>
-      <third-party-content></third-party-content>
+      <legal-notice-content></legal-notice-content>
     </div>
   </div>
 </template>
