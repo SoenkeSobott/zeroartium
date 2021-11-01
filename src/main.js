@@ -18,6 +18,8 @@ import ArtistsText from '../src/components/text/ArtistsText.vue'
 import CollectionTitleText from '../src/components/text/CollectionTitleText.vue'
 import LegalNoticeText from '../src/components/text/LegalNoticeText.vue'
 import DSGVOText from '../src/components/text/DSGVOText.vue'
+import PrivacyStatementText from '../src/components/text/PrivacyStatementText.vue'
+
 
 import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
@@ -31,6 +33,7 @@ Vue.component('artists-text', ArtistsText)
 Vue.component('collection-title-text', CollectionTitleText)
 Vue.component('legal-notice-text', LegalNoticeText)
 Vue.component('dsgvo-text', DSGVOText)
+Vue.component('privacy-statement-text', PrivacyStatementText)
 
 Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
@@ -102,7 +105,7 @@ const messages = {
       contactSubtitle: 'Bleiben Sie in Kontakt.',
       contactDescription: 'Kontaktieren Sie uns einfach über die unten stehenden Kanäle und unser Team wird sich in kürzester Zeit um Ihr Anliegen kümmern.',
       legalNotice: 'Impressum',
-      privacyStatement: 'Datenschutz'
+      privacyStatement: 'Datenschutzerklärung'
     }
   }
 }
