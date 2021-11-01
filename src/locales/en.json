@@ -1,0 +1,24 @@
+{
+    "message": {
+        "back": "Back",
+        "end": "End",
+        "wantMore": "Want more?",
+        "artCollection": "Art Collection",
+        "artCollectionSubtitle": "ZeroArtium Fall Collection.",
+        "artCollectionDescriptionOne": "All pieces are handpicked from our in-house collection and will be presented at our fall collection exhibition at the end of September.",
+        "artCollectionDescriptionTwo": "You can find more artworks on our Instagram page or contact our team directly via the link below.",
+        "viewCollection": "View Collection",
+        "visionSubtitle": "What drives us.",
+        "visionDescriptionOne": "ZeroArtium offers unique and exquisite art and is a collective of international creative minds presenting modern art at the cutting edge.",
+        "visionDescriptionTwo": "We believe that art should not only be enjoyed as an individual, but in community. That is why we regularly organise exhibitions of our collective of artists with new collections.",
+        "artists": "Artists",
+        "artistsSubtitle": "The Masterminds behind the Creations.",
+        "viewArtists": "View Artists",
+        "artistsDescription": "View our artists and learn more about their personalities and work. Please be aware that not all of our artists perform in public, but we are happy to organise appointments on request.",
+        "contact": "Contact",
+        "contactSubtitle": "Keep in touch.",
+        "contactDescription": "Feel free to contact us via the channels below and our team will take care of your request in no time.",
+        "legalNotice": "Legal notice",
+        "privacyStatement": "Privacy statement"
+    }
+}

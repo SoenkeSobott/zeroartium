@@ -1,0 +1,24 @@
+{
+    "message": {
+        "back": "Zurück",
+        "end": "Ende",
+        "wantMore": "Möchten Sie mehr?",
+        "artCollection": "Kunst Kollektion",
+        "artCollectionSubtitle": "ZeroArtium Herbst Kollektion.",
+        "artCollectionDescriptionOne": "Alle Exponate sind handverlesen aus unserer hauseigenen Kollektion und werden auf unserer Herbstausstellung im September präsentiert.",
+        "artCollectionDescriptionTwo": "Weitere Kunstwerke finden Sie auf unserer Instagram-Seite oder kontaktieren Sie unser Team direkt über die untenstehende Links.",
+        "viewCollection": "Kollektion anzeigen",
+        "visionSubtitle": "Was uns antreibt.",
+        "visionDescriptionOne": "ZeroArtium bietet einzigartige und exquisite Kunst an und präsentiert ein Kollektiv von internationalen kreativen Köpfen, die moderne Kunst am Puls der Zeit präsentieren.",
+        "visionDescriptionTwo": "Wir sind der Meinung, dass man Kunst nicht nur als Individuum genießen sollte, sondern in der Gemeinschaft. Deshalb veranstalten wir regelmäßig Ausstellungen mit unserem Künstlerkollektiv und neuen Kollektionen.",
+        "artists": "Künstler",
+        "artistsSubtitle": "Die Schöpfer hinter den Kreationen.",
+        "viewArtists": "Künstler anzeigen",
+        "artistsDescription": "Lernen Sie unsere Künstler kennen und erfahren Sie mehr über ihre Persönlichkeiten und Arbeit. Bitte beachten Sie, dass nicht alle unsere Künstler öffentlich auftreten, aber auf Anfrage können wir gerne Termine organisieren.",
+        "contact": "Kontakt",
+        "contactSubtitle": "Bleiben Sie in Kontakt.",
+        "contactDescription": "Kontaktieren Sie uns einfach über die unten stehenden Kanäle und unser Team wird sich in kürzester Zeit um Ihr Anliegen kümmern.",
+        "legalNotice": "Impressum",
+        "privacyStatement": "Datenschutzerklärung"
+    }
+}
