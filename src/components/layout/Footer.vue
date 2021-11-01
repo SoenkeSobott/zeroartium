@@ -1,10 +1,9 @@
 <template>
   <div class="footer">
     <div class="legal">
-      <b-button class="language-switch"
-        @click="changeLanguage()"
-        >{{ $t(this.$i18n.locale.toUpperCase()) }}</b-button
-      >
+      <b-button class="language-switch" @click="changeLanguage()">{{
+        $t(this.$i18n.locale.toUpperCase())
+      }}</b-button>
       &vert;
       <a href="privacy">{{ $t("message.privacyStatement") }}</a>
       &vert;
@@ -16,19 +15,14 @@
 <script>
 export default {
   name: "locale-changer",
-  data() {
-    return {
-      currentLang: this.$i18n.locale,
-    };
-  },
   methods: {
     changeLanguage() {
-      if (this.currentLang == "de") {
-        this.currentLang = "en";
+      if (window.localStorage.getItem("appLanguage") == "de") {
         this.$i18n.locale = "en";
+        window.localStorage.setItem("appLanguage", "en");
       } else {
-        this.currentLang = "de";
         this.$i18n.locale = "de";
+        window.localStorage.setItem("appLanguage", "de");
       }
     },
   },

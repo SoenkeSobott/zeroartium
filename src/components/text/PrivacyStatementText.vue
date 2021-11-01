@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="title-privacy">Datenschutzerklärung</h2>
-    <p>Verantwortlich im Sinne der Datenschutzgesetzes:</p>
+    <p>Verantwortlich im Sinne des Datenschutzgesetzes:</p>
     <p>
       ZeroArtium UG (haftungsbeschränkt)<br />Tüllinger Straße 86<br />79539
       Lörrach

@@ -58,7 +58,6 @@ let ArtCollectionDescription = Vue.component('art-collection-description', {
 
 // ------- i18n ---------
 function loadLocaleMessages () {
-  console.log("TESTSTSTST")
   const locales = require.context('./locales', true, /[A-Za-z0-9-_,\s]+\.json$/i)
   const messages = {}
   locales.keys().forEach(key => {
@@ -73,11 +72,10 @@ function loadLocaleMessages () {
 
 // Create VueI18n instance with options
 const i18n = new VueI18n({
-  locale: navigator.language.split('-')[0], // set locale
+  locale: window.localStorage.getItem("appLanguage") || 'en', // set locale
   fallbackLocale: 'en',
   messages: loadLocaleMessages(), // set locale messages
 })
-
 
 new Vue({
   i18n,
