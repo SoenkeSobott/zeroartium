@@ -19,6 +19,19 @@
         "contactSubtitle": "Bleiben Sie in Kontakt.",
         "contactDescription": "Kontaktieren Sie uns einfach über die unten stehenden Kanäle und unser Team wird sich in kürzester Zeit um Ihr Anliegen kümmern.",
         "legalNotice": "Impressum",
-        "privacyStatement": "Datenschutzerklärung"
+        "privacyStatement": "Datenschutzerklärung",
+        "paragraph5TMG": "Angaben gemäß § 5 TMG",
+        "commercialRegister": "Handelsregister",
+        "commercialRegisterNumber": "Handelsregister-Nummer",
+        "foundationDate": "Gründungsdatum",
+        "managingDirector": "Geschäftsführer",
+        "phone": "Telefon",
+        "dataProtectionOfficer": "Datenschutzbeauftragter im Sinne der DS-GVO",
+        "consumerDisputeResolution": "Verbraucherstreitbeilegung/Universalschlichtungsstelle",
+        "consumerDisputeResolutionText": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+        "thirdPartyProducts": "Verwendete Erzeugnisse von Drittanbietern",
+        "iconsCreatedWith": "Icons erstellt mit",
+        "images": "Bilder",
+        "libraries": "Bibliotheken"
     }
 }

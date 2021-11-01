@@ -19,6 +19,19 @@
         "contactSubtitle": "Keep in touch.",
         "contactDescription": "Feel free to contact us via the channels below and our team will take care of your request in no time.",
         "legalNotice": "Legal notice",
-        "privacyStatement": "Privacy statement"
+        "privacyStatement": "Privacy statement",
+        "paragraph5TMG": "Information according to § 5 TMG",
+        "commercialRegister": "Commercial register",
+        "commercialRegisterNumber": "Commercial register number",
+        "foundationDate": "Foundation date",
+        "managingDirector": "Managing Director",
+        "phone": "Phone",
+        "dataProtectionOfficer": "Data protection officer within the meaning of the DS-GVO",
+        "consumerDisputeResolution": "Consumer dispute resolution/universal arbitration board",
+        "consumerDisputeResolutionText": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+        "thirdPartyProducts": "Third party products used",
+        "iconsCreatedWith": "Icons created with",
+        "images": "Images",
+        "libraries": "Libraries"
     }
 }

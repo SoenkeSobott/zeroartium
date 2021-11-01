@@ -1,14 +1,14 @@
 <template>
   <div>
     <div>
-      Icons erstellt mit
+      {{ $t("message.iconsCreatedWith") }}
       <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a>
       von
       <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">www.flaticon.com</a>
     </div>
     <br />
     <div>
-      Images von:
+      {{ $t("message.images") }}:
       <br />
       <ul>
         <li> <!-- Epic figure woman -->
@@ -41,7 +41,7 @@
       </ul>
     </div>
     <div>
-      Librarys:
+      {{ $t("message.libraries") }}:
       <br />
       <ul>
         <li>
