@@ -5,12 +5,14 @@
         <h1 class="name-link">ZeroArtium</h1>
       </a>
       <privacy-statement-text></privacy-statement-text>
+      <app-footer></app-footer>
     </div>
     <div v-else class="privacy-mobile">
       <a href="/">
         <h1 class="name-link">ZeroArtium</h1>
       </a>
       <privacy-statement-text></privacy-statement-text>
+      <app-footer></app-footer>
     </div>
   </div>
 </template>

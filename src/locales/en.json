@@ -33,5 +33,30 @@
         "iconsCreatedWith": "Icons created with",
         "images": "Images",
         "libraries": "Libraries"
+    },
+    "privacy": {
+        "responsibleDataProtectioinAct": "Responsible in the sense of the Data Protection Act",
+        "dataProtection": "Data protection",
+        "dataProtectionOne": "As website operators, we take the protection of all personal data very seriously. All personal information is treated confidentially and in accordance with the legal regulations, as explained in this privacy policy.",
+        "dataProtectionTwo": "Our website can of course be used without you providing any personal data. However, if personal data such as name, address or e-mail is requested at any time, this will be done on a voluntary basis. Never will data collected by us be passed on to third parties without your specific permission.",
+        "dataProtectionThree": "Data transmission on the Internet, such as via e-mail, can always have security gaps. Complete protection of data is not possible on the internet.",
+        "dataProtectionGoogleAnalytics": "Privacy policy Google Analytics",
+        "dataProtectionGoogleAnalyticsOne": "Our website uses the analysis service Google Analytics, operated by Google Inc. 1600 Amphitheatre Parkway Mountain View, CA 94043, USA. Google Analytics uses 'cookies', which are small text files placed on your browser, to help the website analyse how visitors use the site. The cookies collect data about your use of our website, which is usually transferred to a Google server in the USA and stored.",
+        "dataProtectionGoogleAnalyticsTwo": "If IP anonymisation has been activated on our website, your IP address will be shortened in advance by Google within the Member States of the European Union or in other contracting states to the Agreement on the European Economic Area. In rare exceptional cases, the complete IP address may be transferred to a Google server in the USA, in which case it will be shortened there. Google uses this data on our behalf for the purpose of evaluating your use of our website, compiling reports on website activity and providing other services relating to website activity and internet usage. The IP addresses collected by Google Analytics are not correlated with any other data held by Google.",
+        "dataProtectionGoogleAnalyticsThree": "The storage of cookies can be refused by a special setting in your browser. In this case, however, the functionality of our website is not guaranteed to the full extent. In addition, a browser plug-in is available to you, with which you can prevent the collection of the data generated on your use of the website and IP addresses by Google. You can find more information here: http://tools.google.com/dlpage/gaoptout?hl=de",
+        "dataProtectionInstagram": "Privacy policy Instagram",
+        "dataProtectionInstagramOne": "Our websites use functions from Instagram, offered by Instagram Inc., 1601 Willow Road, Menlo Park, CA 94025, USA. Content from our pages can be linked to your Instagram profile if you are logged into your Instagram account at the same time. These can be linked by clicking on the Instagram button. Instagram can thereby register your use of our pages. As the website operator, we have no information about which data is transmitted and how it is used.",
+        "dataProtectionInstagramTwo": "You can find more information here: http://instagram.com/about/legal/privacy/",
+        "disclosureDeletionBlocking": "Disclosure, deletion, blocking",
+        "disclosureDeletionBlockingOne": "At any time, you can inform yourself about the personal data, its origin and recipient and the benefit of the data processing and request a correction, blocking or deletion of this data free of charge. Please use the contact channels indicated in the imprint for this purpose. If you have any further questions on this topic, please do not hesitate to contact us at any time.",
+        "serverLogFiles": "Server-Log-Files",
+        "serverLogFilesOne": "The site provider automatically collects and stores data in server log files that are transmitted to us by your browser. This data includes: Browser type/browser version, operating system of the computer, referrer URL, host name of the accessing computer, time of the server request. This data is not personal. This data is not merged with other data sources. If we become aware of concrete indications of illegal use, we reserve the right to check this data retrospectively.",
+        "cookies": "Cookies",
+        "cookiesOne": "Many websites use cookies. Cookies are harmless to your computer and virus-free. They are used to make internet services friendlier, more effective and safer for visitors to a website. Cookies are small text files that are stored on your computer and used by your browser. We usually use so-called 'session cookies'. These are automatically deleted after you leave our site. Other cookies remain stored on your computer until you delete them. These cookies help to recognise your computer on your next visit.",
+        "cookiesTwo": "You can use the browser settings to specify that you are to be informed about new cookies and that you must accept cookies in each case. You can also exclude the acceptance of cookies for certain cases or generally or activate the automatic deletion of cookies when closing the browser. If cookies are deactivated, the functionality of our website may be limited.",
+        "amendmentOfDataProtection": "Amendment of the data protection regulations",
+        "amendmentOfDataProtectionOne": "Our privacy policy may be amended at irregular intervals so that it complies with current legal requirements or in order to implement changes to our services, e.g. when new offers are added. The new privacy policy will then automatically apply to your next visit.",
+        "contactDataProtection": "Contact the data protection officer",
+        "contactDataProtectionOne": "For questions regarding data protection, please send us a message to contact@zeroartium.com with the subject 'Data protection'." 
     }
 }

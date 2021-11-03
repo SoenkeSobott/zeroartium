@@ -2,9 +2,11 @@
   <div class="container-terms">
     <div v-if="!this.$device.mobile" class="terms-desktop">
       <legal-notice-content></legal-notice-content>
+      <app-footer></app-footer>
     </div>
     <div v-else class="terms-mobile">
       <legal-notice-content></legal-notice-content>
+      <app-footer></app-footer>
     </div>
   </div>
 </template>
