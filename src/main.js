@@ -6,12 +6,15 @@ import NotFound from '../src/pages/NotFound.vue'
 import Collection from '../src/pages/Collection.vue'
 import Artists from '../src/pages/Artists.vue'
 import VueCookieAcceptDecline from "vue-cookie-accept-decline";
+import VueI18n from 'vue-i18n'
+import device from "vue-device-detector"
 import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css' // Cookie banner css
 
 // Reusbale Components
 import Footer from '../src/components/layout/Footer.vue'
 import ThirdPartyContent from '../src/components/layout/ThirdPartyContent.vue'
 import LegalNoticeContent from '../src/components/text/LegalNoticeContent.vue'
+import CollectionSlider from '../src/components/layout/CollectionSlider.vue'
 
 import ArtCollectionText from '../src/components/text/ArtCollectionText.vue'
 import VisionText from '../src/components/text/VisionText.vue'
@@ -20,13 +23,10 @@ import CollectionTitleText from '../src/components/text/CollectionTitleText.vue'
 import DSGVOText from '../src/components/text/DSGVOText.vue'
 import PrivacyStatementText from '../src/components/text/PrivacyStatementText.vue'
 
-
-import VueI18n from 'vue-i18n'
-Vue.use(VueI18n)
-
 Vue.component('app-footer', Footer)
 Vue.component('third-party-content', ThirdPartyContent)
 Vue.component('legal-notice-content', LegalNoticeContent)
+Vue.component('collection-slider', CollectionSlider)
 
 Vue.component('art-collection-text', ArtCollectionText)
 Vue.component('vision-text', VisionText)
@@ -37,9 +37,9 @@ Vue.component('privacy-statement-text', PrivacyStatementText)
 
 Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
-// Device detector
-import device from "vue-device-detector"
+// Vue use ...
 Vue.use(device)
+Vue.use(VueI18n)
 
 // Defining routes
 const routes = {

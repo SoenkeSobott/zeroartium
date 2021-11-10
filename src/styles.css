@@ -39,11 +39,6 @@ h5 {
     font-size: 1.3vw;
 }
 
-.application {
-    display: flex;
-    flex-direction: row;
-}
-
 .application-desktop {
     height: 100vh;
 }
@@ -60,14 +55,6 @@ h5 {
     z-index: 100;
 }
 
-/* Hooper*/
-
-.hooper {
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-}
-
 /* Background styling */
 
 .background {
@@ -76,7 +63,6 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
 }
 
 .shadow-box {
@@ -105,7 +91,7 @@ h5 {
 .left-box {
     display: flex;
     flex-flow: column;
-    flex: 0.8;
+    width: 35%;
     height: 90vh;
 }
 
@@ -180,19 +166,12 @@ h5 {
 
 /*---- Art Collection Elements ----*/
 
-.art-collection {
-    display: flex;
-    flex-flow: column;
-    flex: 0.7;
-    height: 90vh;
-}
-
-#sales-button {
+#contact-button {
     margin-top: 10vh;
     transition: all .2s ease-in-out;
 }
 
-#sales-button:hover {
+#contact-button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -203,94 +182,11 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;    
     display: flex;
-    flex-flow: column;
-    flex: 1.3;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
     height: 90vh;
 }
-
-.art-box {
-    flex: 1 1 auto;
-    display: flex;
-}
-
-.art-one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-
-.art-two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-
-.art-image {
-    width: 100%;
-    height: 80%;
-    margin: 6%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.art-description {
-    width: 70%;
-    height: 20%;
-    border-top: solid;
-    border-color: rgb(1, 31, 51);
-    margin: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:rgba(245, 239, 239, 0.3);
-}
-
-/* Art One */
-.art-image-one {
-    width: 100%;
-    height: 100%;
-    background-image: url("./assets/img/2021Fall/FrenchWall.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-}
-
-/* Art Two */
-.art-image-two {
-    width: 100%;
-    height: 100%;
-    background-image: url("./assets/img/2021Fall/OmidHoffnung.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-}
-
-/* Art Three */
-.art-image-three {
-    width: 100%;
-    height: 100%;
-    background-image: url("./assets/img/2021Spring/ArtTwo.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-}
-
-/* Art Four */
-.art-image-four {
-    width: 100%;
-    height: 100%;
-    background-image: url("./assets/img/2021Spring/ArtOne.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-}
-
 
 /*---- Vision Elements ----*/
 .left-box-vision {
@@ -326,8 +222,21 @@ h5 {
     background-size: cover;    
     display: flex;
     flex-flow: column;
-    flex: 1.3;
+    width: 65%;
     height: 90vh;
+}
+
+.artists-row {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 
 .artists-box {
@@ -335,6 +244,28 @@ h5 {
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
+}
+
+.artists-description {
+    width: 70%;
+    height: 20%;
+    border-top: solid;
+    border-color: rgb(1, 31, 51);
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(245, 239, 239, 0.3);
+}
+
+.artist-image {
+    width: 100%;
+    height: 80%;
+    margin: 6%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Artists One */
@@ -357,21 +288,11 @@ h5 {
     background-size: contain; 
 }
 
-/* Art Three */
+/* Artist Three */
 .artist-image-three {
     width: 100%;
     height: 100%;
     background-image: url("./assets/img/GV.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-}
-
-/* Art Four */
-.artist-image-four {
-    width: 100%;
-    height: 100%;
-    /*background-image: url("./assets/img/ArtTwo.jpeg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -397,7 +318,7 @@ h5 {
     background-size: cover;    
     display: flex;
     flex-flow: column;
-    flex: 1.3;
+    width: 65%;
     height: 90vh;
 }
 
