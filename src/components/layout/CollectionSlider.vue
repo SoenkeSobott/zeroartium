@@ -11,11 +11,7 @@
     <slide class="slide">
       <div class="art-container">
         <div class="art-img-container">
-          <img
-            class="art-img"
-            src="../../assets/img/2021Fall/FrenchWall.jpg"
-            alt="French Wall"
-          />
+          <div class="art-img-one"></div>
         </div>
         <div class="art-description">French Wall • Massimo Bene</div>
       </div>
@@ -23,11 +19,7 @@
     <slide class="slide">
       <div class="art-container">
         <div class="art-img-container">
-          <img
-            class="art-img"
-            src="../../assets/img/2021Fall/OmidHoffnung.jpg"
-            alt="Omid"
-          />
+          <div class="art-img-two"></div>
         </div>
         <div class="art-description">Omid (SOLD) • Massimo Bene</div>
       </div>
@@ -35,11 +27,7 @@
     <slide class="slide">
       <div class="art-container">
         <div class="art-img-container">
-          <img
-            class="art-img"
-            src="../../assets/img/2021Spring/ArtTwo.jpeg"
-            alt="Omid"
-          />
+          <div class="art-img-three"></div>
         </div>
         <div class="art-description">Raven • D.L. Béni</div>
       </div>
@@ -47,15 +35,19 @@
     <slide class="slide"
       ><div class="art-container">
         <div class="art-img-container">
-          <img
-            class="art-img"
-            src="../../assets/img/2021Spring/ArtOne.jpeg"
-            alt="Omid"
-          />
+          <div class="art-img-four"></div>
         </div>
         <div class="art-description">The Taverns Mirror • D.L. Béni</div>
-      </div></slide
-    >
+      </div>
+    </slide>
+    <slide class="slide"
+      ><div class="art-container">
+        <div class="art-img-container">
+          <div class="art-img-five"></div>
+        </div>
+        <div class="art-description">Spirit Lake • Massimo Bene</div>
+      </div>
+      </slide>
     <hooper-navigation slot="hooper-addons"></hooper-navigation>
   </hooper>
 </template>
@@ -96,17 +88,57 @@ export default {
 }
 
 .art-img-container {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 90%;
-  background: chartreuse;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.art-img {
+.art-img-one {
   width: 100%;
   height: 100%;
+  background-image: url("../../assets/img/2021Fall/FrenchWall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.art-img-two {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/2021Fall/OmidHoffnung.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.art-img-three {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/2021Spring/TavernsMirror.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.art-img-four {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/2021Spring/Raven.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.art-img-five {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/2021Fall/SpiritLake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .art-description {
