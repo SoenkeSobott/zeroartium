@@ -2,11 +2,14 @@
   <!-- Slider with images below and main is with image left and text right and footer as now below -->
 
   <hooper
-    class="cara"
+    class="carousel"
     :infiniteScroll="true"
     :mouseDrag="false"
     :touchDrag="false"
     :wheelControl="false"
+    :autoPlay="true"
+    :playSpeed="4000"
+    :transition="500"
   >
     <slide class="slide">
       <div class="art-container">
@@ -29,7 +32,7 @@
         <div class="art-img-container">
           <div class="art-img-three"></div>
         </div>
-        <div class="art-description">Raven • D.L. Béni</div>
+        <div class="art-description">The Taverns Mirror • D.L. Béni</div>
       </div>
     </slide>
     <slide class="slide"
@@ -37,7 +40,7 @@
         <div class="art-img-container">
           <div class="art-img-four"></div>
         </div>
-        <div class="art-description">The Taverns Mirror • D.L. Béni</div>
+        <div class="art-description">Raven • D.L. Béni</div>
       </div>
     </slide>
     <slide class="slide"
@@ -47,13 +50,19 @@
         </div>
         <div class="art-description">Spirit Lake • Massimo Bene</div>
       </div>
-      </slide>
+    </slide>
     <hooper-navigation slot="hooper-addons"></hooper-navigation>
+    <hooper-pagination slot="hooper-addons"></hooper-pagination>
   </hooper>
 </template>
 
 <script>
-import { Hooper, Slide, Navigation as HooperNavigation } from "hooper";
+import {
+  Hooper,
+  Slide,
+  Navigation as HooperNavigation,
+  Pagination as HooperPagination,
+} from "hooper";
 import "hooper/dist/hooper.css";
 
 export default {
@@ -62,14 +71,37 @@ export default {
     Hooper,
     Slide,
     HooperNavigation,
+    HooperPagination,
   },
 };
 </script>
 
 <style>
-.cara {
+/*-- See: https://github.com/baianat/hooper/issues/156 --*/
+.hooper:focus {
+  outline: none;
+}
+
+.carousel {
   width: 100%;
   height: 90%;
+}
+
+.hooper-indicator {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border-color: black;
+  background: transparent;
+  border-style: solid;
+  border-width: 0.1px;
+}
+.hooper-indicator.is-active {
+  background-color: rgb(1, 19, 31);
+}
+
+.hooper-indicator:hover {
+  background-color: rgb(1, 19, 31);
 }
 
 .slide {
@@ -89,10 +121,9 @@ export default {
 
 .art-img-container {
   display: flex;
-  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 90%;
 }
 
@@ -100,8 +131,8 @@ export default {
   width: 100%;
   height: 100%;
   background-image: url("../../assets/img/2021Fall/FrenchWall.jpg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
 }
 
@@ -142,7 +173,7 @@ export default {
 }
 
 .art-description {
-  width: 100%;
+  width: 90%;
   height: 10%;
   border-top: solid;
   border-color: rgb(1, 31, 51);
