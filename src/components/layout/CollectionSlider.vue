@@ -16,7 +16,9 @@
         <div class="art-img-container">
           <div class="art-img-one"></div>
         </div>
-        <div class="art-description">French Wall • Massimo Bene</div>
+        <div class="art-description">
+          French Wall • Massimo Bene
+        </div>
       </div>
     </slide>
     <slide class="slide">
@@ -114,17 +116,16 @@ export default {
 .art-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 80%;
 }
 
 .art-img-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
+  transition: 1s;
   height: 90%;
+  width: 90%;
 }
 
 .art-img-one {
@@ -174,14 +175,17 @@ export default {
 
 .art-description {
   width: 90%;
-  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-top: solid;
   border-color: rgb(1, 31, 51);
   margin: 5%;
   padding: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   background-color: rgba(245, 239, 239, 0.3);
+  transition: 0.5s;
+  height: fit-content;
 }
 </style>
