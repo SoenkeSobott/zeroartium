@@ -90,43 +90,14 @@
               </div>
               <div class="content">
                 <art-collection-text></art-collection-text>
-                <div id="sales-button" @click="goToPage(4)">
+                <div id="contact-button" @click="goToPage(4)">
                   <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </div>
               </div>
               <app-footer></app-footer>
             </div>
             <div class="art-collection-image" title="Art Collection">
-              <div class="art-box">
-                <div class="art-one">
-                  <div class="art-image">
-                    <div class="art-image-one" title="Art Image One"></div>
-                  </div>
-                  <div class="art-description">French Wall • Massimo Bene</div>
-                </div>
-                <div class="art-two">
-                  <div class="art-image">
-                    <div class="art-image-two" title="Art Image Two"></div>
-                  </div>
-                  <div class="art-description">Omid (SOLD) • Massimo Bene</div>
-                </div>
-              </div>
-              <div class="art-box">
-                <div class="art-one">
-                  <div class="art-image">
-                    <div class="art-image-three" title="Art Image Three"></div>
-                  </div>
-                  <div class="art-description">Raven • D.L. Béni</div>
-                </div>
-                <div class="art-two">
-                  <div class="art-image">
-                    <div class="art-image-four" title="Art Image Four"></div>
-                  </div>
-                  <div class="art-description">
-                    The Taverns Mirror • D.L. Béni
-                  </div>
-                </div>
-              </div>
+              <collection-slider></collection-slider>
             </div>
           </div>
         </div>
@@ -158,43 +129,43 @@
               </div>
               <div class="content">
                 <artists-text></artists-text>
-                <div id="sales-button" @click="goToPage(4)">
+                <div id="contact-button" @click="goToPage(4)">
                   <h5>&#x25E6; {{ $t("message.contact") }}</h5>
                 </div>
               </div>
               <app-footer></app-footer>
             </div>
             <div class="artists-image" title="Artists">
-              <div class="art-box">
-                <div class="art-one">
-                  <div class="art-image">
+              <div class="artists-row">
+                <div class="artist">
+                  <div class="artist-image">
                     <div
                       class="artist-image-one"
                       title="Artist Image One"
                     ></div>
                   </div>
-                  <div class="art-description">D. L. Béni &vert; Basel</div>
+                  <div class="artists-description">D. L. Béni &vert; Basel</div>
                 </div>
-                <div class="art-two">
-                  <div class="art-image">
+                <div class="artist">
+                  <div class="artist-image">
                     <div class="artist-image-two" title="Art Image Two"></div>
                   </div>
-                  <div class="art-description">
+                  <div class="artists-description">
                     Massimo Bene &vert; Frankfurt
                   </div>
                 </div>
               </div>
-              <div class="art-box">
-                <div class="art-one">
-                  <div class="art-image">
+              <div class="artists-row">
+                <div class="artist">
+                  <div class="artist-image">
                     <div
                       class="artist-image-three"
                       title="Art Image Three"
                     ></div>
                   </div>
-                  <div class="art-description">Gianni Vasi &vert; Loerrach</div>
+                  <div class="artists-description">Gianni Vasi &vert; Loerrach</div>
                 </div>
-                <div class="art-two">
+                <div class="artist">
                   <!--<div class="art-image">
                         <div class="artist-image-four"></div>
                       </div>
@@ -240,6 +211,11 @@
       </div>
     </div>
 
+    <!-- ****************************** -->
+    <!-- ****************************** -->
+    <!--          Mobile View           -->
+    <!-- ****************************** -->
+    <!-- ****************************** -->
     <div v-else class="application-mobile">
       <div class="background">
         <div class="shadow-box">
