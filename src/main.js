@@ -77,6 +77,63 @@ const i18n = new VueI18n({
   messages: loadLocaleMessages(), // set locale messages
 })
 
+
+// --------------------------------
+//  Store
+// --------------------------------
+const store = Vue.observable({
+  images: [
+    {
+      path: require("./assets/img/2022Spring/BeautifulMind.jpg"),
+      title: "Beautiful Mind • Massimo Bene",
+      description: "artTexts.beautifulMind",
+    },
+    {
+      path: require("./assets/img/2022Spring/CandleBar.png"),
+      title: "Candle Bar • D.L. Béni",
+      description: "artTexts.candleBar",
+    },
+    {
+      path: require("./assets/img/2022Spring/CityAtNight.png"),
+      title: "City at Night • D.L. Béni",
+      description: "artTexts.cityAtNight",
+    },
+    {
+      path: require("./assets/img/2022Spring/DigitalPurge.jpg"),
+      title: "Digital Purge • Massimo Bene",
+      description: "artTexts.digitalPurge",
+    },
+    {
+      path: require("./assets/img/2022Spring/ForteresseDeGlace.png"),
+      title: "Forteresse de Glace • D.L. Béni",
+      description: "artTexts.fortressDeGlace",
+    },
+    {
+      path: require("./assets/img/2022Spring/PantaRhei.jpg"),
+      title: "Panta Rhei • Massimo Bene",
+      description: "artTexts.pantaRhei",
+    },
+    {
+      path: require("./assets/img/2022Spring/TavernsMirror.jpeg"),
+      title: "The Taverns Mirror • D.L. Béni",
+      description: "artTexts.tavernsMirror",
+    },
+    {
+      path: require("./assets/img/2022Spring/Themisto.png"),
+      title: "Themisto • D.L. Béni",
+      description: "artTexts.themisto",
+    },
+    {
+      path: require("./assets/img/2022Spring/Turbulences.jpg"),
+      title: "Turbulences • Massimo Bene",
+      description: "artTexts.turbulences",
+    },
+  ]
+})
+
+// Make the store globally
+Vue.prototype.$store = store
+
 new Vue({
   i18n,
   el: '#app',
