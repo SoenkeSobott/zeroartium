@@ -5,7 +5,7 @@
     :mouseDrag="false"
     :touchDrag="false"
     :wheelControl="false"
-    :autoPlay="false"
+    :autoPlay="true"
     :playSpeed="4000"
     :transition="500"
   >
