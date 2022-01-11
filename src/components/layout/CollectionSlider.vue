@@ -121,6 +121,5 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  margin-top: 2%;
 }
 </style>

@@ -5,7 +5,6 @@
         <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
       </a>
     </div>
-
     <div class="background" v-for="image in $store.images" :key="image.path">
       <div class="shadow-box">
         <div class="container">
@@ -18,8 +17,13 @@
               <div
                 class="art-img"
                 :style="{ backgroundImage: `url(${image.path})` }"
-              ></div>
-              <div class="art-title-mobile">{{ image.title }}</div>
+              >
+              </div>
+              <div class="art-title-mobile">
+                {{ image.title }}
+                <b-button v-on:click="toggle">&#9432;</b-button>
+                <div v-if="infoVisible" class="art-description-mobile">{{ $t(image.description) }}</div>
+              </div>
             </div>
             <app-footer></app-footer>
           </div>
@@ -62,10 +66,18 @@
 <script>
 export default {
   name: "Artists",
+  data () {
+    return {
+        infoVisible: false
+    }
+},
   methods: {
     openInstagram: function () {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
     },
+    toggle () {
+        this.infoVisible = !this.infoVisible
+    }
   },
 };
 </script>
@@ -195,5 +207,14 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.art-description-mobile {
+  font-weight: normal;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-top: 5px;
 }
 </style>
