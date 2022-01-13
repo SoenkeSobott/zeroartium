@@ -5,7 +5,7 @@
         <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
       </a>
     </div>
-    <div class="background" v-for="image in $store.images" :key="image.path">
+    <div class="background" v-for="(image, index) in $store.images" :key="image.path">
       <div class="shadow-box">
         <div class="header-box">
           <h2 id="title">{{ $t("message.artCollection") }}</h2>
@@ -18,8 +18,8 @@
           ></div>
           <div class="art-title-mobile">
             {{ image.title }}
-            <b-button v-on:click="toggle">&#9432;</b-button>
-            <div v-if="infoVisible" class="art-description-mobile">
+            <b-button v-on:click="showDescription(index)">&#9432;</b-button>
+            <div v-if="selectedItem == index" class="art-description-mobile">
               {{ $t(image.description) }}
             </div>
           </div>
@@ -62,14 +62,15 @@ export default {
   data() {
     return {
       infoVisible: false,
+      selectedItem: null,
     };
   },
   methods: {
     openInstagram: function () {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
     },
-    toggle() {
-      this.infoVisible = !this.infoVisible;
+    showDescription(index) {
+      this.selectedItem = index
     },
   },
 };
