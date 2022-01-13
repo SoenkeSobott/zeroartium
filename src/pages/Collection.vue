@@ -5,7 +5,11 @@
         <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
       </a>
     </div>
-    <div class="background" v-for="(image, index) in $store.images" :key="image.path">
+    <div
+      class="background"
+      v-for="(image, index) in $store.images"
+      :key="image.path"
+    >
       <div class="shadow-box">
         <div class="header-box">
           <h2 id="title">{{ $t("message.artCollection") }}</h2>
@@ -18,7 +22,10 @@
           ></div>
           <div class="art-title-mobile">
             {{ image.title }}
-            <b-button v-on:click="showDescription(index)">&#9432;</b-button>
+            <b-button class="description-button" v-on:click="showDescription(index)">
+              <span v-if="selectedItem == index">&#x2715;</span>
+              <span v-else>&#9432;</span>
+            </b-button>
             <div v-if="selectedItem == index" class="art-description-mobile">
               {{ $t(image.description) }}
             </div>
@@ -61,7 +68,6 @@ export default {
   name: "Artists",
   data() {
     return {
-      infoVisible: false,
       selectedItem: null,
     };
   },
@@ -70,7 +76,11 @@ export default {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
     },
     showDescription(index) {
-      this.selectedItem = index
+      if (this.selectedItem !== index) {
+        this.selectedItem = index;
+      } else {
+        this.selectedItem = null;
+      }
     },
   },
 };
@@ -212,12 +222,16 @@ export default {
   background-size: contain;
 }
 
+.description-button {
+  margin-left: 5px;
+}
+
 .art-description-mobile {
   font-weight: normal;
   font-size: small;
   justify-content: center;
   align-items: center;
   text-align: justify;
-  margin-top: 5px;
+  margin-top: 5%;
 }
 </style>
