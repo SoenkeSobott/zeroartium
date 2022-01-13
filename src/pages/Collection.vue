@@ -7,56 +7,49 @@
     </div>
     <div class="background" v-for="image in $store.images" :key="image.path">
       <div class="shadow-box">
-        <div class="container">
-          <div class="box-mobile">
-            <div class="header-box">
-              <h2 id="title">{{ $t("message.artCollection") }}</h2>
-              <collection-title-text></collection-title-text>
+        <div class="header-box">
+          <h2 id="title">{{ $t("message.artCollection") }}</h2>
+          <collection-title-text></collection-title-text>
+        </div>
+        <div class="content-mobile">
+          <div
+            class="art-img"
+            :style="{ backgroundImage: `url(${image.path})` }"
+          ></div>
+          <div class="art-title-mobile">
+            {{ image.title }}
+            <b-button v-on:click="toggle">&#9432;</b-button>
+            <div v-if="infoVisible" class="art-description-mobile">
+              {{ $t(image.description) }}
             </div>
-            <div class="content-mobile">
-              <div
-                class="art-img"
-                :style="{ backgroundImage: `url(${image.path})` }"
-              >
-              </div>
-              <div class="art-title-mobile">
-                {{ image.title }}
-                <b-button v-on:click="toggle">&#9432;</b-button>
-                <div v-if="infoVisible" class="art-description-mobile">{{ $t(image.description) }}</div>
-              </div>
-            </div>
-            <app-footer></app-footer>
           </div>
+          <app-footer></app-footer>
         </div>
       </div>
     </div>
     <div class="background">
       <div class="shadow-box">
-        <div class="container">
-          <div class="box-mobile">
-            <div class="header-box">
-              <h2 id="title">{{ $t("message.end") }}</h2>
-              <h4 id="subtitle">{{ $t("message.wantMore") }}</h4>
-            </div>
-            <div class="content-mobile-text">
-              <art-collection-text></art-collection-text>
-              <div class="contact-email">
-                <img
-                  class="social-desktop"
-                  src="../assets/img/SocialIcons/mail.png"
-                />
-                <h5>contact@zeroArtium.com</h5>
-              </div>
-              <div class="contact-link" @click="openInstagram()">
-                <img
-                  class="social-desktop"
-                  src="../assets/img/SocialIcons/instagram-logo.png"
-                />
-                <h5>zeroArtium</h5>
-              </div>
-            </div>
-            <app-footer></app-footer>
+        <div class="header-box">
+          <h2 id="title">{{ $t("message.end") }}</h2>
+          <h4 id="subtitle">{{ $t("message.wantMore") }}</h4>
+        </div>
+        <div class="content-mobile-text">
+          <art-collection-text></art-collection-text>
+          <div class="contact-email">
+            <img
+              class="social-desktop"
+              src="../assets/img/SocialIcons/mail.png"
+            />
+            <h5>contact@zeroArtium.com</h5>
           </div>
+          <div class="contact-link" @click="openInstagram()">
+            <img
+              class="social-desktop"
+              src="../assets/img/SocialIcons/instagram-logo.png"
+            />
+            <h5>zeroArtium</h5>
+          </div>
+          <app-footer></app-footer>
         </div>
       </div>
     </div>
@@ -66,18 +59,18 @@
 <script>
 export default {
   name: "Artists",
-  data () {
+  data() {
     return {
-        infoVisible: false
-    }
-},
+      infoVisible: false,
+    };
+  },
   methods: {
     openInstagram: function () {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
     },
-    toggle () {
-        this.infoVisible = !this.infoVisible
-    }
+    toggle() {
+      this.infoVisible = !this.infoVisible;
+    },
   },
 };
 </script>
@@ -138,11 +131,20 @@ export default {
 
 /*---- General Elements ----*/
 
-.collection-mobile .box-mobile {
+.collection-mobile .background {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-mobile .shadow-box {
+  height: auto;
+  margin: 10% 5% 5% 5%;
   display: flex;
   flex-flow: column;
   flex: 1;
-  height: 90vh;
 }
 
 .collection-mobile .legal a {
@@ -176,9 +178,8 @@ export default {
 
 .collection-mobile .content-mobile-text {
   margin: 0 10vw 0 10vw;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
 }
-
 .collection-mobile .contact-link {
   height: 7vh;
   display: flex;
@@ -201,7 +202,7 @@ export default {
 
 /* Art One */
 .collection-mobile .art-img {
-  flex: 1 1 auto;
+  flex: 1 1 50vh;
   width: 90%;
   margin: 0 5% 0 5%;
   background-position: center;
