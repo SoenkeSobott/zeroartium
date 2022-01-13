@@ -209,7 +209,7 @@ export default {
   border-color: rgb(1, 31, 51);
   text-align: center;
   font-weight: 400;
-  font-size: smaller;
+  font-size: larger;
 }
 
 /* Art One */
@@ -227,8 +227,8 @@ export default {
 }
 
 .art-description-mobile {
-  font-weight: normal;
-  font-size: small;
+  font-weight: lighter;
+  font-size: normal;
   justify-content: center;
   align-items: center;
   text-align: justify;
