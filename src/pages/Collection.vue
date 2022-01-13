@@ -179,6 +179,7 @@ export default {
 .collection-mobile .content-mobile-text {
   margin: 0 10vw 0 10vw;
   flex: 1 1 auto;
+  overflow-anchor: auto;
 }
 .collection-mobile .contact-link {
   height: 7vh;
