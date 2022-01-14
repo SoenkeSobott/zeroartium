@@ -1,6 +1,4 @@
 <template>
-  <!-- Slider with images below and main is with image left and text right and footer as now below -->
-
   <hooper
     class="carousel"
     :infiniteScroll="true"
@@ -11,46 +9,16 @@
     :playSpeed="4000"
     :transition="500"
   >
-    <slide class="slide">
+    <slide class="slide" v-for="image in $store.images" :key="image.path">
       <div class="art-container">
-        <div class="art-img-container">
-          <div class="art-img-one"></div>
+        <div
+          class="art-img"
+          :style="{ backgroundImage: `url(${image.path})` }"
+        ></div>
+        <div class="art-title">
+          {{ image.title }}
+          <div class="art-description">{{ $t(image.description) }}</div>
         </div>
-        <div class="art-description">
-          French Wall • Massimo Bene
-        </div>
-      </div>
-    </slide>
-    <slide class="slide">
-      <div class="art-container">
-        <div class="art-img-container">
-          <div class="art-img-two"></div>
-        </div>
-        <div class="art-description">Omid (SOLD) • Massimo Bene</div>
-      </div>
-    </slide>
-    <slide class="slide">
-      <div class="art-container">
-        <div class="art-img-container">
-          <div class="art-img-three"></div>
-        </div>
-        <div class="art-description">The Taverns Mirror • D.L. Béni</div>
-      </div>
-    </slide>
-    <slide class="slide"
-      ><div class="art-container">
-        <div class="art-img-container">
-          <div class="art-img-four"></div>
-        </div>
-        <div class="art-description">Raven • D.L. Béni</div>
-      </div>
-    </slide>
-    <slide class="slide"
-      ><div class="art-container">
-        <div class="art-img-container">
-          <div class="art-img-five"></div>
-        </div>
-        <div class="art-description">Spirit Lake • Massimo Bene</div>
       </div>
     </slide>
     <hooper-navigation slot="hooper-addons"></hooper-navigation>
@@ -74,7 +42,7 @@ export default {
     Slide,
     HooperNavigation,
     HooperPagination,
-  },
+  }
 };
 </script>
 
@@ -121,71 +89,37 @@ export default {
   width: 80%;
 }
 
-.art-img-container {
-  display: flex;
-  transition: 1s;
-  height: 90%;
+.art-img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.art-title {
   width: 90%;
-}
-
-.art-img-one {
-  width: 100%;
-  height: 100%;
-  background-image: url("../../assets/img/2021Fall/FrenchWall.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.art-img-two {
-  width: 100%;
-  height: 100%;
-  background-image: url("../../assets/img/2021Fall/OmidHoffnung.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.art-img-three {
-  width: 100%;
-  height: 100%;
-  background-image: url("../../assets/img/2021Spring/TavernsMirror.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.art-img-four {
-  width: 100%;
-  height: 100%;
-  background-image: url("../../assets/img/2021Spring/Raven.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.art-img-five {
-  width: 100%;
-  height: 100%;
-  background-image: url("../../assets/img/2021Fall/SpiritLake.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.art-description {
-  width: 90%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: solid;
-  border-color: rgb(1, 31, 51);
   margin: 5%;
   padding: 5%;
-  overflow: hidden;
   background-color: rgba(245, 239, 239, 0.3);
-  transition: 0.5s;
-  height: fit-content;
+
+  font-weight: 600;
+  font-size: larger;
+
+  border-top: solid;
+  border-color: rgb(1, 31, 51);
+}
+
+.art-description {
+  font-weight: normal;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 }
 </style>
