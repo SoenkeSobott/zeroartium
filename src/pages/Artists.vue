@@ -1,91 +1,56 @@
 <template>
-  <div class="artists-mobile">
+  <div class="mobile">
     <div class="back-button">
       <a href="/">
         <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
       </a>
     </div>
-    <div class="background">
+    <div
+      class="background"
+      v-for="artist in $store.artists"
+      :key="artist.title"
+    >
       <div class="shadow-box">
-        <div class="container">
-          <div class="box-mobile">
-            <div class="header-box">
-              <h2 id="title">{{ $t("message.artists") }}</h2>
-              <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
-            </div>
-            <div class="content-mobile">
-              <div class="artist-image-one"></div>
-              <div class="art-description">D. L. Béni &vert; Basel</div>
-            </div>
-            <app-footer></app-footer>
-          </div>
+        <div class="header-box">
+          <h2 id="title">{{ $t("message.artists") }}</h2>
+          <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
         </div>
+        <div class="content-mobile">
+          <div
+            class="content-img-mobile"
+            :style="{ backgroundImage: `url(${artist.path})` }"
+          ></div>
+          <div class="title-mobile">{{ artist.title }}</div>
+        </div>
+        <app-footer></app-footer>
       </div>
     </div>
     <div class="background">
       <div class="shadow-box">
-        <div class="container">
-          <div class="box-mobile">
-            <div class="header-box">
-              <h2 id="title">{{ $t("message.artists") }}</h2>
-              <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
-            </div>
-            <div class="content-mobile">
-              <div class="artist-image-two"></div>
-              <div class="art-description">Massimo Bene &vert; Frankfurt</div>
-            </div>
-            <app-footer></app-footer>
+        <div class="header-box">
+          <h2 id="title">{{ $t("message.end") }}</h2>
+          <h4 id="subtitle">{{ $t("message.wantMore") }}</h4>
+        </div>
+        <div class="content-vision">
+          <p>
+            {{ $t("message.artistsDescription") }}
+          </p>
+          <div class="contact-email">
+            <img
+              class="social-desktop"
+              src="../assets/img/SocialIcons/mail.png"
+            />
+            <h5>contact@zeroArtium.com</h5>
+          </div>
+          <div class="contact-link" @click="openInstagram()">
+            <img
+              class="social-desktop"
+              src="../assets/img/SocialIcons/instagram-logo.png"
+            />
+            <h5>zeroArtium</h5>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="background">
-      <div class="shadow-box">
-        <div class="container">
-          <div class="box-mobile">
-            <div class="header-box">
-              <h2 id="title">{{ $t("message.artists") }}</h2>
-              <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
-            </div>
-            <div class="content-mobile">
-              <div class="artist-image-three"></div>
-              <div class="art-description">Gianni Vasi &vert; Loerrach</div>
-            </div>
-            <app-footer></app-footer>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="background">
-      <div class="shadow-box">
-        <div class="container">
-          <div class="box-mobile">
-            <div class="header-box">
-              <h2 id="title">{{ $t("message.end") }}</h2>
-              <h4 id="subtitle">{{ $t("message.wantMore") }}</h4>
-            </div>
-            <div class="content-vision">
-              <p>
-                {{ $t("message.artistsDescription") }}
-              </p>
-              <div class="contact-email">
-                <img
-                  class="social-desktop"
-                  src="../assets/img/SocialIcons/mail.png"
-                />
-                <h5>contact@zeroArtium.com</h5>
-              </div>
-              <div class="contact-link" @click="openInstagram()">
-                <img
-                  class="social-desktop"
-                  src="../assets/img/SocialIcons/instagram-logo.png"
-                />
-                <h5>zeroArtium</h5>
-              </div>
-            </div>
-            <app-footer></app-footer>
-          </div>
-        </div>
+        <app-footer></app-footer>
       </div>
     </div>
   </div>
@@ -104,6 +69,5 @@ export default {
 
 
 <style>
-@import url("../styles.css");
-@import url("../styles-artists-mobile.css");
+@import url("../styles-mobile.css");
 </style>

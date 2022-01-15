@@ -128,6 +128,20 @@ const store = Vue.observable({
       title: "Turbulences • Massimo Bene",
       description: "artTexts.turbulences",
     },
+  ],
+  artists: [
+    {
+      path: require("./assets/img/MB.jpeg"),
+      title: "Massimo Bene • Frankfurt",
+    },
+    {
+      path: require("./assets/img/DL_Beni.jpeg"),
+      title: "D. L. Béni • Basel",
+    },
+    {
+      path: require("./assets/img/GV.jpg"),
+      title: "Gianni Vasi • Loerrach",
+    }
   ]
 })
 
