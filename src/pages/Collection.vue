@@ -2,7 +2,7 @@
   <div class="mobile">
     <div class="back-button">
       <a href="/">
-        <h5 class="back-button-title">&#5130; {{ $t("message.back") }}</h5>
+        <h4 class="back-button-title">&#5130; {{ $t("message.back") }}</h4>
       </a>
     </div>
     <div
