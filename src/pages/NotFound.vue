@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!this.$device.mobile" class="footer">
+  <div v-if="!this.$device.mobile">
     <div class="container-fluid b-black py-3">
       <div class="row">
         <p>Not Found</p>
@@ -16,15 +16,3 @@ export default {
   },
 };
 </script>
-
-<style>
-#social-desktop {
-  width: 2%;
-}
-
-#social-mobile {
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 10%;
-}
-</style>

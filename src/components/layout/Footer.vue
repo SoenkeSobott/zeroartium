@@ -28,3 +28,38 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.footer {
+    height: 10vh;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legal {
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal a {
+    text-decoration: none;
+}
+
+.legal .language-switch {
+    font-weight:bold;
+}
+
+.mobile .legal a {
+    font-size: 2vh;
+  }
+  
+.mobile .legal .language-switch {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+
+</style>

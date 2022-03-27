@@ -68,15 +68,6 @@
     flex: 1;
   }
   
-  .mobile .legal a {
-    font-size: 2vh;
-  }
-  
-  .mobile .legal .language-switch {
-    font-size: 2vh;
-    font-weight: bold;
-  }
-  
   .mobile a {
     text-decoration: none;
   }

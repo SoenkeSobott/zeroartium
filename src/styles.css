@@ -105,29 +105,6 @@ h5 {
     flex: 1 1 auto;
 }
 
-.footer {
-    height: 10vh;
-    margin: 1vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.legal {
-    font-weight: lighter;
-    align-items: center;
-    justify-content: center;
-}
-
-.legal a {
-    text-decoration: none;
-}
-
-.legal .language-switch {
-    font-weight:bold;
-}
-
-
 /*---- Welcome Elements ----*/
 
 .start-image {
