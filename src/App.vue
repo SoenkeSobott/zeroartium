@@ -30,7 +30,6 @@
     </vue-cookie-accept-decline>
     <div v-if="!this.$device.mobile" class="application-desktop">
       <div
-        v-if="!this.$device.mobile"
         class="navigation-indicator"
         v-bind:style="{ transform: computedVisibility }"
       >
@@ -50,166 +49,20 @@
           <h5 v-html="navPointFive"></h5>
         </div>
       </div>
-      <div id="0" class="background">
-        <div class="shadow-box">
-          <div class="container">
-            <div class="left-box">
-              <div class="header-box">
-                <a href="/">
-                  <h1 id="title">ZeroArtium</h1>
-                </a>
-                <h4 id="subtitle">Where art transcends.</h4>
-              </div>
-              <div class="content">
-                <div id="navigation-button" @click="goToPage(1)">
-                  <h5>&#x25E6; {{ $t("message.artCollection") }}</h5>
-                </div>
-                <div id="navigation-button" @click="goToPage(2)">
-                  <h5>&#x25E6; Vision</h5>
-                </div>
-                <div id="navigation-button" @click="goToPage(3)">
-                  <h5>&#x25E6; {{ $t("message.artists") }}</h5>
-                </div>
-                <div id="navigation-button" @click="goToPage(4)">
-                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
-                </div>
-              </div>
-              <app-footer></app-footer>
-            </div>
-            <div class="start-image" title="Old Romanian Temple"></div>
-          </div>
-        </div>
+      <div id="0" class="base">
+        <welcome @clicked="goToPage" />
       </div>
-      <div id="1" class="background">
-        <div class="shadow-box">
-          <div class="container">
-            <div class="left-box">
-              <div class="header-box">
-                <h2 id="title">{{ $t("message.artCollection") }}</h2>
-                <collection-title-text></collection-title-text>
-              </div>
-              <div class="content">
-                <art-collection-text></art-collection-text>
-                <div id="contact-button" @click="goToPage(4)">
-                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
-                </div>
-              </div>
-              <app-footer></app-footer>
-            </div>
-            <div class="art-collection-image" title="Art Collection">
-              <collection-slider></collection-slider>
-            </div>
-          </div>
-        </div>
+      <div id="1" class="base">
+        <collection @clicked="goToPage" />
       </div>
       <div id="2" class="background">
-        <div class="shadow-box">
-          <div class="container">
-            <div class="left-box-vision">
-              <div class="header-box">
-                <h2 id="title">Vision</h2>
-                <h4 id="subtitle">{{ $t("message.visionSubtitle") }}</h4>
-              </div>
-              <div class="content-vision">
-                <vision-text></vision-text>
-              </div>
-              <app-footer></app-footer>
-            </div>
-            <div class="vision-image" title="Vision"></div>
-          </div>
-        </div>
+        <vision @clicked="goToPage" />
       </div>
       <div id="3" class="background">
-        <div class="shadow-box">
-          <div class="container">
-            <div class="left-box">
-              <div class="header-box">
-                <h2 id="title">{{ $t("message.artists") }}</h2>
-                <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
-              </div>
-              <div class="content">
-                <artists-text></artists-text>
-                <div id="contact-button" @click="goToPage(4)">
-                  <h5>&#x25E6; {{ $t("message.contact") }}</h5>
-                </div>
-              </div>
-              <app-footer></app-footer>
-            </div>
-            <div class="artists-image" title="Artists">
-              <div class="artists-row">
-                <div class="artist">
-                  <div class="artist-image">
-                    <div
-                      class="artist-image-one"
-                      title="Artist Image One"
-                    ></div>
-                  </div>
-                  <div class="artists-description">D. L. Béni • Basel</div>
-                </div>
-                <div class="artist">
-                  <div class="artist-image">
-                    <div class="artist-image-two" title="Art Image Two"></div>
-                  </div>
-                  <div class="artists-description">
-                    Massimo Bene • Frankfurt
-                  </div>
-                </div>
-              </div>
-              <div class="artists-row">
-                <div class="artist">
-                  <div class="artist-image">
-                    <div
-                      class="artist-image-three"
-                      title="Art Image Three"
-                    ></div>
-                  </div>
-                  <div class="artists-description">
-                    Gianni Vasi • Loerrach
-                  </div>
-                </div>
-                <div class="artist">
-                  <!--<div class="art-image">
-                        <div class="artist-image-four"></div>
-                      </div>
-                      <div class="art-description"></div>-->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <artists @clicked="goToPage" />
       </div>
       <div id="4" class="background">
-        <div class="shadow-box">
-          <div class="container">
-            <div class="left-box">
-              <div class="header-box">
-                <h2 id="title">{{ $t("message.contact") }}</h2>
-                <h4 id="subtitle">{{ $t("message.contactSubtitle") }}</h4>
-              </div>
-              <div class="content">
-                <p>
-                  {{ $t("message.contactDescription") }}
-                </p>
-                <div class="contact-email">
-                  <img
-                    class="social-desktop"
-                    src="./assets/img/SocialIcons/mail.png"
-                  />
-                  <h5>contact@zeroArtium.com</h5>
-                </div>
-                <div class="contact-link" @click="openInstagram()">
-                  <img
-                    class="social-desktop"
-                    src="./assets/img/SocialIcons/instagram-logo.png"
-                  />
-                  <h5>zeroArtium</h5>
-                </div>
-              </div>
-              <app-footer></app-footer>
-            </div>
-            <div class="contacts-image" title="Contact"></div>
-          </div>
-        </div>
+        <contact @clicked="goToPage" />
       </div>
     </div>
 
@@ -250,11 +103,9 @@
           </div>
           <div class="content-mobile-left">
             <art-collection-text></art-collection-text>
-            <div id="navigation-button">
-              <a href="/collection-mobile">
-                <h5>&#x25E6; {{ $t("message.viewCollection") }}</h5>
-              </a>
-            </div>
+            <a href="/collection-mobile">
+              <h5>&#x25E6; {{ $t("message.viewCollection") }}</h5>
+            </a>
             <a href="#contact">
               <h5>&#x25E6; {{ $t("message.contact") }}</h5>
             </a>
@@ -282,11 +133,9 @@
           </div>
           <div class="content-mobile-left">
             <artists-text></artists-text>
-            <div id="navigation-button">
-              <a href="/artists-mobile">
-                <h5>&#x25E6; {{ $t("message.viewArtists") }}</h5>
-              </a>
-            </div>
+            <a href="/artists-mobile">
+              <h5>&#x25E6; {{ $t("message.viewArtists") }}</h5>
+            </a>
             <a href="#contact">
               <h5>&#x25E6; {{ $t("message.contact") }}</h5>
             </a>
@@ -309,14 +158,14 @@
                 class="social-desktop"
                 src="./assets/img/SocialIcons/mail.png"
               />
-              <h5>contact@zeroArtium.com</h5>
+              <h5>contact@zeroartium.com</h5>
             </div>
             <div class="contact-link" @click="openInstagram()">
               <img
                 class="social-desktop"
                 src="./assets/img/SocialIcons/instagram-logo.png"
               />
-              <h5>zeroArtium</h5>
+              <h5>ZeroArtium</h5>
             </div>
           </div>
           <app-footer></app-footer>
@@ -327,7 +176,23 @@
 </template>
 
 <script>
+import Vue from "vue/dist/vue.js";
+import Welcome from "./components/home/Welcome.vue";
+import Collection from "./components/home/Collection.vue";
+import Vision from "./components/home/Vision.vue";
+import Artists from "./components/home/Artists.vue";
+import Contact from "./components/home/Contact.vue";
+Vue.component("welcome", Welcome);
+Vue.component("collection", Collection);
+Vue.component("vision", Vision);
+Vue.component("artists", Artists);
+Vue.component("contact", Contact);
+
 export default {
+  components: {
+    Collection,
+    Contact,
+  },
   name: "App",
   data() {
     return {
@@ -400,9 +265,9 @@ export default {
   },
   methods: {
     goToPage(pageNumber) {
-      document
-        .getElementById(pageNumber)
-        .scrollIntoView({ behavior: "smooth" });
+      document.getElementById(pageNumber).scrollIntoView({
+        behavior: "smooth",
+      });
     },
     handleScroll() {
       let scrollTop = window.scrollY;
@@ -441,5 +306,8 @@ export default {
 <style>
 @import url("./styles.css");
 @import url("./styles-mobile.css");
-</style>
 
+.base {
+  padding: 5vh 5%;
+}
+</style>

@@ -1,0 +1,50 @@
+@media only screen and (max-width: 500px) {
+  .navigation-indicator {
+    display: none;
+    visibility: hidden;
+  }
+
+  .shadow-box {
+    height: auto;
+    margin: 3% 3%;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .left-box {
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+
+  .content {
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 12vw;
+    font-weight: normal;
+  }
+
+  h4 {
+    font-size: 6vw;
+  }
+
+  h5 {
+    font-size: 5vw;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+
+
+  // Collection
+
+  #collection-mobile-button {
+    visibility: visible;
+  }
+}

@@ -40,14 +40,14 @@
               class="social-desktop"
               src="../assets/img/SocialIcons/mail.png"
             />
-            <h5>contact@zeroArtium.com</h5>
+            <h5>contact@zeroartium.com</h5>
           </div>
           <div class="contact-link" @click="openInstagram()">
             <img
               class="social-desktop"
               src="../assets/img/SocialIcons/instagram-logo.png"
             />
-            <h5>zeroArtium</h5>
+            <h5>ZeroArtium</h5>
           </div>
         </div>
         <app-footer></app-footer>
