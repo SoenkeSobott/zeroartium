@@ -72,8 +72,8 @@ function loadLocaleMessages () {
 
 // Create VueI18n instance with options
 const i18n = new VueI18n({
-  locale: window.localStorage.getItem("appLanguage") || 'en', // set locale
-  fallbackLocale: 'en',
+  locale: window.localStorage.getItem("appLanguage") || 'de', // set locale
+  fallbackLocale: 'de',
   messages: loadLocaleMessages(), // set locale messages
 })
 

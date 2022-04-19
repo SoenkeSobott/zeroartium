@@ -18,15 +18,15 @@
 
       <!-- Optional -->
       <div slot="message">
-        We use cookies to ensure you get the best experience on our website.
-        <a href="https://cookiesandyou.com/" target="_blank">Learn More...</a>
+        {{ $t("cookie.text") }}
+        <a href="https://cookiesandyou.com/" target="_blank">{{ $t("cookie.learnMore") }}</a>
       </div>
 
       <!-- Optional -->
-      <div slot="declineContent">OPT OUT</div>
+      <div slot="declineContent">{{ $t("cookie.optOut") }}</div>
 
       <!-- Optional -->
-      <div slot="acceptContent">GOT IT!</div>
+      <div slot="acceptContent">{{ $t("cookie.gotIt") }}</div>
     </vue-cookie-accept-decline>
     <div v-if="!this.$device.mobile" class="application-desktop">
       <div

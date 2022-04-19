@@ -1,14 +1,13 @@
 <template>
   <div class="footer">
-    <div class="legal">
-      <b-button class="language-switch" @click="changeLanguage()">{{
-        $t(this.$i18n.locale.toUpperCase())
-      }}</b-button>
-      &vert;
-      <a href="privacy">{{ $t("message.privacyStatement") }}</a>
-      &vert;
-      <a href="legal-notice">{{ $t("message.legalNotice") }}</a>
-    </div>
+    <img class="footer-item language-icon" src="../../assets/img/SocialIcons/global.png" />
+    <b-button class="footer-item language-switch" @click="changeLanguage()">{{
+      $t(this.$i18n.locale.toUpperCase())
+    }}</b-button>
+    &vert;
+    <a class="footer-item" href="privacy">{{ $t("message.privacyStatement") }}</a>
+    &vert;
+    <a class="footer-item" href="legal-notice">{{ $t("message.legalNotice") }}</a>
   </div>
 </template>
 
@@ -31,35 +30,37 @@ export default {
 
 <style scoped>
 .footer {
-    height: 10vh;
-    margin: 1vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 10vh;
+  margin: 1vh;
+  display: flex;
+  font-weight: lighter;
+  align-items: center;
+  justify-content: center;
 }
 
-.legal {
-    font-weight: lighter;
-    align-items: center;
-    justify-content: center;
+.footer-item {
+  margin: 0 5px;
 }
 
-.legal a {
-    text-decoration: none;
+.footer a {
+  text-decoration: none;
 }
 
-.legal .language-switch {
-    font-weight:bold;
+.footer .language-switch {
+  font-weight: bold;
 }
 
-.mobile .legal a {
-    font-size: 2vh;
-  }
-  
-.mobile .legal .language-switch {
+.mobile .footer a {
+  font-size: 2vh;
+}
+
+.mobile .footer .language-switch {
   font-size: 2vh;
   font-weight: bold;
 }
 
-
+.language-icon {
+  height: 2vh;
+  width: 2vh;
+}
 </style>
