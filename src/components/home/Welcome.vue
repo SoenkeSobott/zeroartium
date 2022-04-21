@@ -69,5 +69,9 @@ export default {
     width: 0%;
     visibility: hidden;
   }
+
+  #navigation-button:hover {
+    transform: none;
+  }
 }
 </style>

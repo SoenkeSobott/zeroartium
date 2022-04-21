@@ -15,13 +15,10 @@
           <img :src="image.path" :alt="image.title" />
           <div class="description-box">
             {{ image.title }}
-            <b-button
-              class="description-button"
-              v-on:click="showDescription(index)"
-            >
+            <span class="description-button" v-on:click="showDescription(index)">
               <span v-if="selectedItem == index">&#x2715;</span>
               <span v-else>&#9432;</span>
-            </b-button>
+            </span>
             <div v-if="selectedItem == index" class="description">
               {{ $t(image.description) }}
             </div>
@@ -86,7 +83,7 @@ export default {
     },
     handleChangeOfScreenSize(e) {
       if (e.currentTarget.innerWidth > 500) {
-        window.location = '/'; 
+        window.location = "/";
       }
     },
   },

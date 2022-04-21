@@ -1,4 +1,8 @@
 @media only screen and (max-width: 500px) {
+  .application {
+    overflow-x: hidden;
+  }
+
   .shadow-box {
     height: auto;
     margin: 3% 3%;
@@ -58,22 +62,22 @@
     margin-top: 1vh;
   }
 
+  #contact-button:hover {
+    transform: none;
+  }
 
   .back-button {
-    position: absolute;
-    margin: 0 0 0 1vw;
-    height: 5vh;
+    position: relative;
+    margin-left: 3px;
+    height: 10px;
     width: 100vw;
-    z-index: 100;
   }
-  
+
   .back-button-title {
-    margin: 1vh;
-    height: 5vh;
+    margin: 0;
     width: 100vw;
-    z-index: -10;
   }
-  
+
   .description-box {
     padding: 5%;
     margin-top: 5%;

@@ -9,7 +9,6 @@
       :disableDecline="false"
       :transitionName="'slideFromBottom'"
       :showPostponeButton="false"
-      @status="cookieStatus"
       @clicked-accept="cookieClickedAccept"
       @clicked-decline="cookieClickedDecline"
     >
@@ -157,6 +156,12 @@ export default {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
+    cookieClickedAccept() {
+      console.log("Cookie Accepted");
+    },
+    cookieClickedDecline() {
+      console.log("Cookie declined");
+    },
     goToPage(pageNumber) {
       document.getElementById(pageNumber).scrollIntoView({
         behavior: "smooth",
@@ -199,4 +204,5 @@ export default {
 <style>
 @import url("./styles.css");
 @import url("./styles-responsive.scss");
+@import url('vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css');
 </style>
