@@ -192,10 +192,7 @@ export default {
     },
     changeVisibility: function (value) {
       this.visibility = value;
-    },
-    openInstagram: function () {
-      window.open("https://www.instagram.com/zeroartium/", "_blank");
-    },
+    }
   },
 };
 </script>
