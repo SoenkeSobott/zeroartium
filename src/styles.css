@@ -109,6 +109,11 @@ h5 {
     transform: scale(1.1);
 }
 
+#navigation-pointer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 /*---- Artists Elements ----*/
 

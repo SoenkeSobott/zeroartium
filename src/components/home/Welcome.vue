@@ -59,11 +59,6 @@ export default {
   transform: scale(1.1);
 }
 
-#navigation-pointer:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
 @media only screen and (max-width: 500px) {
   .welcome-image {
     width: 0%;
