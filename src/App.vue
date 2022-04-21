@@ -28,7 +28,7 @@
       <!-- Optional -->
       <div slot="acceptContent">{{ $t("cookie.gotIt") }}</div>
     </vue-cookie-accept-decline>
-    <div v-if="!this.$device.mobile" class="application-desktop">
+    <div class="application">
       <div
         class="navigation-indicator"
         v-bind:style="{ transform: computedVisibility }"
@@ -55,121 +55,14 @@
       <div id="1" class="base">
         <collection @clicked="goToPage" />
       </div>
-      <div id="2" class="background">
+      <div id="2" class="base">
         <vision @clicked="goToPage" />
       </div>
-      <div id="3" class="background">
+      <div id="3" class="base">
         <artists @clicked="goToPage" />
       </div>
-      <div id="4" class="background">
+      <div id="4" class="base">
         <contact @clicked="goToPage" />
-      </div>
-    </div>
-
-    <!-- ****************************** -->
-    <!-- ****************************** -->
-    <!--          Mobile View           -->
-    <!-- ****************************** -->
-    <!-- ****************************** -->
-    <div v-else class="mobile">
-      <div class="background">
-        <div class="shadow-box">
-          <div class="header-box">
-            <h1 id="title">ZeroArtium</h1>
-            <h4 id="subtitle">Where art transcends.</h4>
-          </div>
-          <div class="content-mobile-left">
-            <a href="#collection">
-              <h5>&#x25E6; {{ $t("message.artCollection") }}</h5>
-            </a>
-            <a href="#vision">
-              <h5>&#x25E6; Vision</h5>
-            </a>
-            <a href="#artists">
-              <h5>&#x25E6; {{ $t("message.artists") }}</h5>
-            </a>
-            <a href="#contact">
-              <h5>&#x25E6; {{ $t("message.contact") }}</h5>
-            </a>
-          </div>
-          <app-footer></app-footer>
-        </div>
-      </div>
-      <div class="background" id="collection">
-        <div class="shadow-box">
-          <div class="header-box">
-            <h2 id="title">{{ $t("message.artCollection") }}</h2>
-            <h4 id="subtitle">{{ $t("message.artCollectionSubtitle") }}</h4>
-          </div>
-          <div class="content-mobile-left">
-            <art-collection-text></art-collection-text>
-            <a href="/collection-mobile">
-              <h5>&#x25E6; {{ $t("message.viewCollection") }}</h5>
-            </a>
-            <a href="#contact">
-              <h5>&#x25E6; {{ $t("message.contact") }}</h5>
-            </a>
-          </div>
-          <app-footer></app-footer>
-        </div>
-      </div>
-      <div class="background" id="vision">
-        <div class="shadow-box">
-          <div class="header-box">
-            <h2 id="title">Vision</h2>
-            <h4 id="subtitle">{{ $t("message.visionSubtitle") }}</h4>
-          </div>
-          <div class="content-mobile-left">
-            <vision-text></vision-text>
-          </div>
-          <app-footer></app-footer>
-        </div>
-      </div>
-      <div class="background" id="artists">
-        <div class="shadow-box">
-          <div class="header-box">
-            <h2 id="title">{{ $t("message.artists") }}</h2>
-            <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
-          </div>
-          <div class="content-mobile-left">
-            <artists-text></artists-text>
-            <a href="/artists-mobile">
-              <h5>&#x25E6; {{ $t("message.viewArtists") }}</h5>
-            </a>
-            <a href="#contact">
-              <h5>&#x25E6; {{ $t("message.contact") }}</h5>
-            </a>
-          </div>
-          <app-footer></app-footer>
-        </div>
-      </div>
-      <div class="background" id="contact">
-        <div class="shadow-box">
-          <div class="header-box">
-            <h2 id="title">{{ $t("message.contact") }}</h2>
-            <h4 id="subtitle">{{ $t("message.contactSubtitle") }}</h4>
-          </div>
-          <div class="content-mobile-left">
-            <p>
-              {{ $t("message.contactDescription") }}
-            </p>
-            <div class="contact-email">
-              <img
-                class="social-desktop"
-                src="./assets/img/SocialIcons/mail.png"
-              />
-              <h5>contact@zeroartium.com</h5>
-            </div>
-            <div class="contact-link" @click="openInstagram()">
-              <img
-                class="social-desktop"
-                src="./assets/img/SocialIcons/instagram-logo.png"
-              />
-              <h5>ZeroArtium</h5>
-            </div>
-          </div>
-          <app-footer></app-footer>
-        </div>
       </div>
     </div>
   </div>
@@ -305,9 +198,5 @@ export default {
 
 <style>
 @import url("./styles.css");
-@import url("./styles-mobile.css");
-
-.base {
-  padding: 5vh 5%;
-}
+@import url("./styles-responsive.scss");
 </style>

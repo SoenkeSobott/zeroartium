@@ -40,15 +40,6 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../../styles-responsive.scss";
-
-@media only screen and (max-width: 500px) {
-  .welcome-image {
-    width: 0%;
-    visibility: hidden;
-  }
-}
-
 .welcome-image {
   background-image: url("../../assets/img/OldRomanianTemple.jpeg");
   background-position: center;
@@ -71,5 +62,12 @@ export default {
 #navigation-pointer:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 500px) {
+  .welcome-image {
+    width: 0%;
+    visibility: hidden;
+  }
 }
 </style>

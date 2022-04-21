@@ -1,9 +1,4 @@
 @media only screen and (max-width: 500px) {
-  .navigation-indicator {
-    display: none;
-    visibility: hidden;
-  }
-
   .shadow-box {
     height: auto;
     margin: 3% 3%;
@@ -26,8 +21,18 @@
     flex-direction: column;
   }
 
+  .navigation-indicator {
+    display: none;
+    visibility: hidden;
+  }
+
   h1 {
     font-size: 12vw;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 10vw;
     font-weight: normal;
   }
 
@@ -41,10 +46,42 @@
     margin-bottom: 7%;
   }
 
+  p {
+    font-size: 4.5vw;
+  }
 
-  // Collection
+  .base {
+    padding: 5% 5%;
+  }
 
-  #collection-mobile-button {
-    visibility: visible;
+  #contact-button {
+    margin-top: 1vh;
+  }
+
+
+  .back-button {
+    position: absolute;
+    margin: 0 0 0 1vw;
+    height: 5vh;
+    width: 100vw;
+    z-index: 100;
+  }
+  
+  .back-button-title {
+    margin: 1vh;
+    height: 5vh;
+    width: 100vw;
+    z-index: -10;
+  }
+  
+  .description-box {
+    padding: 5%;
+    margin-top: 5%;
+    background-color: rgba(245, 239, 239, 0.3);
+    border-top: solid;
+    border-color: rgb(1, 31, 51);
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
   }
 }
