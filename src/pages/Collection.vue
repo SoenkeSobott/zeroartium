@@ -67,6 +67,12 @@ export default {
       selectedItem: null,
     };
   },
+  created() {
+    window.addEventListener("resize", this.handleChangeOfScreenSize);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.handleChangeOfScreenSize);
+  },
   methods: {
     openInstagram: function () {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
@@ -76,6 +82,11 @@ export default {
         this.selectedItem = index;
       } else {
         this.selectedItem = null;
+      }
+    },
+    handleChangeOfScreenSize(e) {
+      if (e.currentTarget.innerWidth > 500) {
+        window.location = '/'; 
       }
     },
   },
