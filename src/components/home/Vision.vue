@@ -10,7 +10,7 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="vision-image" title="Vision"></div>
+    <div class="right-image vision-image" title="Vision"></div>
   </div>
 </template>
 
@@ -36,12 +36,7 @@ export default {
 
 .vision-image {
   background-image: url("../../assets/img/EpicFigureWoman.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
   flex: 0.7;
-  height: 90vh;
 }
 
 @media only screen and (max-width: 500px) {

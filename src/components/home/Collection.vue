@@ -16,7 +16,7 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="art-collection-image" title="Art Collection">
+    <div class="right-image art-collection-image" title="Art Collection">
       <collection-slider></collection-slider>
     </div>
   </div>
@@ -45,14 +45,8 @@ export default {
       rgba(255, 255, 255, 0.5)
     ),
     url("../../assets/img/DirtyHands.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
   align-items: center;
   width: 60%;
-  height: 90vh;
 }
 
 @media only screen and (max-width: 500px) {

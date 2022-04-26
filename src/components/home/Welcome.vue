@@ -23,7 +23,7 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="welcome-image" title="Old Romanian Temple"></div>
+    <div class="right-image welcome-image" title="Old Romanian Temple"></div>
   </div>
 </template>
 
@@ -42,12 +42,7 @@ export default {
 <style lang="scss" scoped>
 .welcome-image {
   background-image: url("../../assets/img/OldRomanianTemple.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
   flex: 1.3;
-  height: 90vh;
 }
 
 #navigation-button {

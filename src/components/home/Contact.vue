@@ -26,7 +26,7 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="contacts-image" title="Contact"></div>
+    <div class="right-image contacts-image" title="Contact"></div>
   </div>
 </template>
 
@@ -47,14 +47,8 @@ export default {
 
 <style lang="scss" scoped>
 .contacts-image {
-    background-image: url("../../assets/img/ArtGallery.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-flow: column;
-    width: 60%;
-    height: 90vh;
+  background-image: url("../../assets/img/ArtGallery.jpg");
+  width: 60%;
 }
 
 @media only screen and (max-width: 500px) {

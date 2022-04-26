@@ -16,7 +16,7 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="artists-image" title="Artists">
+    <div class="right-image artists-image" title="Artists">
       <div class="artists-row">
         <div class="artist">
           <div class="artist-image">
@@ -68,13 +68,8 @@ export default {
 
 .artists-image {
   background-image: url("../../assets/img/ArtistsBackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
   flex-flow: column;
   width: 60%;
-  height: 90vh;
 }
 
 @media only screen and (max-width: 500px) {
