@@ -12,7 +12,7 @@
           <h4 id="subtitle">{{ $t("message.artistsSubtitle") }}</h4>
         </div>
         <div class="content">
-          <img :src="artist.path" :alt="artist.title" />
+          <img class="artis-img-mobile" :src="artist.path" :alt="artist.title" />
           <div class="description-box">{{ artist.title }}</div>
         </div>
         <app-footer></app-footer>
@@ -70,3 +70,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.artis-img-mobile {
+  height: auto;
+  width: 100%;
+}
+</style>

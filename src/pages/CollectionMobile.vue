@@ -12,10 +12,13 @@
           <collection-title-text></collection-title-text>
         </div>
         <div class="content">
-          <img :src="image.path" :alt="image.title" />
+          <img class="art-image" :src="image.path" :alt="image.title" />
           <div class="description-box">
             {{ image.title }}
-            <span class="description-button" v-on:click="showDescription(index)">
+            <span
+              class="description-button"
+              v-on:click="showDescription(index)"
+            >
               <span v-if="selectedItem == index">&#x2715;</span>
               <span v-else>&#9432;</span>
             </span>
@@ -92,6 +95,11 @@ export default {
 
 
 <style lang="scss" scoped>
+.art-image {
+  height: auto;
+  width: 100%;
+}
+
 .description-button {
   margin-left: 5px;
 }
