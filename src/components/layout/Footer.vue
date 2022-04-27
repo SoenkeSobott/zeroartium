@@ -1,13 +1,20 @@
 <template>
   <div class="footer">
-    <img class="footer-item language-icon" src="../../assets/img/SocialIcons/global.png" />
+    <img
+      class="footer-item language-icon"
+      src="../../assets/img/SocialIcons/global.png"
+    />
     <a class="footer-item language-switch" @click="changeLanguage()">{{
-        $t(this.$i18n.locale.toUpperCase())
-      }}</a>
+      $t(this.$i18n.locale.toUpperCase())
+    }}</a>
     &vert;
-    <a class="footer-item" href="privacy">{{ $t("message.privacyStatement") }}</a>
+    <a class="footer-item" href="privacy">{{
+      $t("message.privacyStatement")
+    }}</a>
     &vert;
-    <a class="footer-item" href="legal-notice">{{ $t("message.legalNotice") }}</a>
+    <a class="footer-item" href="legal-notice">{{
+      $t("message.legalNotice")
+    }}</a>
   </div>
 </template>
 
@@ -28,7 +35,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .footer {
   height: 10vh;
   margin: 1vh;
@@ -62,5 +69,12 @@ export default {
 .language-icon {
   height: 2vh;
   width: 2vh;
+}
+
+@media only screen and (max-width: 500px) {
+  .language-icon {
+    visibility: hidden;
+    display: none;
+  }
 }
 </style>
