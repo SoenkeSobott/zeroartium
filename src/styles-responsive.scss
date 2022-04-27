@@ -1,0 +1,91 @@
+@media only screen and (max-width: 500px) {
+  .application {
+    overflow-x: hidden;
+  }
+
+  .shadow-box {
+    height: auto;
+    margin: 3% 3%;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .left-box {
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+
+  .content {
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-indicator {
+    display: none;
+    visibility: hidden;
+  }
+
+  h1 {
+    font-size: 12vw;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 10vw;
+    font-weight: normal;
+  }
+
+  h4 {
+    font-size: 6vw;
+  }
+
+  h5 {
+    font-size: 5vw;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+
+  p {
+    font-size: 4.5vw;
+  }
+
+  .base {
+    padding: 5% 5%;
+  }
+
+  #contact-button {
+    margin-top: 1vh;
+  }
+
+  #contact-button:hover {
+    transform: none;
+  }
+
+  .back-button {
+    position: relative;
+    margin-left: 3px;
+    height: 10px;
+    width: 100vw;
+  }
+
+  .back-button-title {
+    margin: 0;
+    width: 100vw;
+  }
+
+  .description-box {
+    padding: 5%;
+    margin-top: 10%;
+    background-color: rgba(245, 239, 239, 0.3);
+    border-top: solid;
+    border-color: rgb(1, 31, 51);
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+  }
+}

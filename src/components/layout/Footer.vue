@@ -1,9 +1,9 @@
 <template>
   <div class="footer">
     <img class="footer-item language-icon" src="../../assets/img/SocialIcons/global.png" />
-    <b-button class="footer-item language-switch" @click="changeLanguage()">{{
-      $t(this.$i18n.locale.toUpperCase())
-    }}</b-button>
+    <a class="footer-item language-switch" @click="changeLanguage()">{{
+        $t(this.$i18n.locale.toUpperCase())
+      }}</a>
     &vert;
     <a class="footer-item" href="privacy">{{ $t("message.privacyStatement") }}</a>
     &vert;

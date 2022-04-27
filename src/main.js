@@ -3,8 +3,8 @@ import App from './App.vue'
 import Privacy from '../src/pages/Privacy.vue'
 import LegalNotice from '../src/pages/LegalNotice.vue'
 import NotFound from '../src/pages/NotFound.vue'
-import Collection from '../src/pages/Collection.vue'
-import Artists from '../src/pages/Artists.vue'
+import CollectionMobile from '../src/pages/CollectionMobile.vue'
+import ArtistsMobile from '../src/pages/ArtistsMobile.vue'
 import VueCookieAcceptDecline from "vue-cookie-accept-decline";
 import VueI18n from 'vue-i18n'
 import device from "vue-device-detector"
@@ -46,8 +46,8 @@ const routes = {
   '/': App,
   '/privacy': Privacy,
   '/legal-notice': LegalNotice,
-  '/collection-mobile': Collection,
-  '/artists-mobile': Artists
+  '/collection-mobile': CollectionMobile,
+  '/artists-mobile': ArtistsMobile
 }
 
 /* Reusable Components */

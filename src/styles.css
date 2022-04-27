@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: rgb(1, 19, 31);
 }
 
@@ -17,7 +17,7 @@ a {
 }
 
 h1 {
-	font-size: 5vw;
+    font-size: 5vw;
     font-weight: normal;
 }
 
@@ -39,8 +39,15 @@ h5 {
     font-size: 1.3vw;
 }
 
-.application-desktop {
+.base {
+    padding: 5vh 5%;
+    min-height: 600px;
+}
+
+.application {
     height: 100vh;
+    width: 100vw;
+    min-height: 600px;
 }
 
 .navigation-indicator {
@@ -52,40 +59,28 @@ h5 {
     height: 100vh;
     width: 5vw;
     transition: ease-out 0.5s;
-    z-index: 100;
-}
-
-/* Background styling */
-
-.background {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .shadow-box {
     height: 90vh;
     width: 90vw;
-    box-shadow: 0px 10px 12px 2px rgba(0,0,0,0.2);
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    box-shadow: 0px 10px 12px 2px rgba(0, 0, 0, 0.2);
 }
 
 /*----------------------------------------*/
 /*          Start Specific styles         */
 /*----------------------------------------*/
 
-
-/*---- General Elements ----*/
-
-/*Container box*/
-.container  {
-    height: 90vh;
-    width: 90vw;
+.right-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: stretch;
 }
 
 .left-box {
@@ -93,6 +88,7 @@ h5 {
     flex-flow: column;
     width: 40%;
     height: 90vh;
+    min-height: 600px;
 }
 
 .header-box {
@@ -105,32 +101,6 @@ h5 {
     flex: 1 1 auto;
 }
 
-/*---- Welcome Elements ----*/
-
-.start-image {
-    background-image: url("./assets/img/OldRomanianTemple.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    display: inline-block;
-    flex: 1.3;
-    height: 90vh;
-}
-
-#navigation-button {
-    transition: all .2s ease-in-out;
-}
-
-#navigation-button:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-#navigation-pointer:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
 #title {
     margin: 0;
 }
@@ -139,10 +109,6 @@ h5 {
     margin: 0;
     font-weight: lighter;
 }
-
-
-
-/*---- Art Collection Elements ----*/
 
 #contact-button {
     margin-top: 10vh;
@@ -154,55 +120,13 @@ h5 {
     transform: scale(1.1);
 }
 
-.art-collection-image {
-    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.5)), url("./assets/img/DirtyHands.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 90vh;
-}
-
-/*---- Vision Elements ----*/
-.left-box-vision {
-    display: flex;
-    flex-flow: column;
-    flex: 1.3;
-    height: 90vh;
-}
-
-.vision-image {
-    background-image: url("./assets/img/EpicFigureWoman.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    display: inline-block;
-    flex: 0.7;
-    height: 90vh;
-}
-
-.content-vision {
-    margin-left: 10%;
-    margin-right: 10%;
-    flex: 1 1 auto;
+#navigation-pointer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 
 /*---- Artists Elements ----*/
-
-.artists-image {
-    background-image: url("./assets/img/ArtistsBackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    display: flex;
-    flex-flow: column;
-    width: 60%;
-    height: 90vh;
-}
 
 .artists-row {
     flex: 1 1 auto;
@@ -217,13 +141,6 @@ h5 {
     width: 50%;
 }
 
-.artists-box {
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-items: center;
-}
-
 .artists-description {
     width: 70%;
     height: 20%;
@@ -233,7 +150,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgba(245, 239, 239, 0.3);
+    background-color: rgba(245, 239, 239, 0.3);
 }
 
 .artist-image {
@@ -252,7 +169,7 @@ h5 {
     background-image: url("./assets/img/DL_Beni.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
 }
 
 /* Artist Two */
@@ -262,7 +179,7 @@ h5 {
     background-image: url("./assets/img/MB.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
 }
 
 /* Artist Three */
@@ -272,7 +189,7 @@ h5 {
     background-image: url("./assets/img/GV.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
 }
 
 .contact-link {
@@ -288,17 +205,6 @@ h5 {
 
 /* Contact Elements */
 
-.contacts-image {
-    background-image: url("./assets/img/ArtGallery.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    display: flex;
-    flex-flow: column;
-    width: 60%;
-    height: 90vh;
-}
-
 .social-desktop {
     height: 3vh;
     width: 3vh;
@@ -310,4 +216,3 @@ h5 {
     flex-direction: row;
     align-items: center;
 }
-

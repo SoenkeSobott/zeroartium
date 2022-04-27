@@ -14,7 +14,7 @@
       {{ $t("message.phone") }}: 01727456094<br />
       E-Mail: <a href="mailto:contact@zeroartium.com">contact@zeroartium.com</a
       ><br />
-      <a href="/">www.zeroArtium.com</a><br />
+      <a href="/">www.zeroartium.com</a><br />
       <br />
       {{ $t("message.commercialRegister") }}: Amtsgericht Freiburg<br />
       {{ $t("message.commercialRegisterNumber") }}: HRB 725069<br />
