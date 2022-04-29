@@ -15,13 +15,16 @@
           <img class="art-image" :src="image.path" :alt="image.title" />
           <div class="description-box">
             {{ image.title }}
-            <span
-              class="description-button"
-              v-on:click="showDescription(index)"
-            >
-              <span v-if="selectedItem == index">&#x2715;</span>
-              <span v-else>&#9432;</span>
-            </span>
+            <div class="art-details">
+              {{ image.details }}
+              <span
+                class="description-button"
+                v-on:click="showDescription(index)"
+              >
+                <span v-if="selectedItem == index">&#x2715;</span>
+                <span v-else>&#9432;</span>
+              </span>
+            </div>
             <div v-if="selectedItem == index" class="description">
               {{ $t(image.description) }}
             </div>
@@ -111,5 +114,11 @@ export default {
   align-items: center;
   text-align: justify;
   margin-top: 5%;
+}
+
+.art-details {
+  font-weight: 400;
+  font-size: medium;
+  margin-top: 2%;
 }
 </style>

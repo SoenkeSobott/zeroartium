@@ -17,6 +17,7 @@
         ></div>
         <div class="art-title">
           {{ image.title }}
+          <div class="art-details">{{ image.details }}</div>
           <div class="art-description">{{ $t(image.description) }}</div>
         </div>
       </div>
@@ -42,7 +43,7 @@ export default {
     Slide,
     HooperNavigation,
     HooperPagination,
-  }
+  },
 };
 </script>
 
@@ -122,5 +123,11 @@ export default {
   align-items: center;
   text-align: justify;
   margin-top: 5%;
+}
+
+.art-details {
+  font-weight: 400;
+  font-size: medium;
+  margin-top: 2%;
 }
 </style>
