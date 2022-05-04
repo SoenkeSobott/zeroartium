@@ -34,6 +34,10 @@
         "images": "Images",
         "libraries": "Libraries"
     },
+    "collection": {
+        "noResults": "No Results - Please use at least one filter",
+        "resetFilters": "Reset Filters"
+    },
     "privacy": {
         "responsibleDataProtectioinAct": "Responsible in the sense of the Data Protection Act",
         "dataProtection": "Data protection",
@@ -68,7 +72,8 @@
         "fortressDeGlace": "In nature we find the beauty of our planet. First and foremost are the mighty glaciers of our world, which are currently threatened by our careless presence. The future will show what kind of consequences this behaviour will have for humanity.",
         "pantaRhei": "Everything flows, life goes on and you cannot influence it. But sometimes the flow is disturbed and you find yourself in a sphere where it seems that everything around you is out of control. The thoughts are not sorted and you feel an inner restlessness. You have the impression that things are no longer flowing, but appearances are pressing. You find yourself in a flow that crosses the existing one and sometimes you may have to take new paths. These can open up many new possibilities, but also have risks. If one does not let oneself be diverted from the path, one finds one's way back to one's original flow.",
         "themisto": "Our personality is as complex as the universe. In all our everyday challenges, which we believe to be the same, there is always an immense spectrum of individuality - which usually remains unrecognised. Do we perhaps feel safer in the stream of normality than in individuality? Perhaps we only want to be special to a certain degree.",
-        "turbulences": "In the age of digital takeover, every individual is surrounded by continuous turbulence. The painting expresses how these turbulences oscillate in form and colour around each person. The central centre, however, remains free and reflects the personality that has to find its way in this world. The influence of countless media and the daily bombardment with information in countless forms make life vibrate. Mostly in a way that one does not wish for, but to which everyone is addicted. Why are we so addicted to information?"
+        "turbulences": "In the age of digital takeover, every individual is surrounded by continuous turbulence. The painting expresses how these turbulences oscillate in form and colour around each person. The central centre, however, remains free and reflects the personality that has to find its way in this world. The influence of countless media and the daily bombardment with information in countless forms make life vibrate. Mostly in a way that one does not wish for, but to which everyone is addicted. Why are we so addicted to information?",
+        "jigokudani": "Jigokudani"
     },
     "cookie": {
         "text": "We use cookies to ensure you get the best experience on our website.",

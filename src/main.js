@@ -88,60 +88,70 @@ const store = Vue.observable({
       title: "Beautiful Mind • Massimo Bene",
       details: "50 x 60 • 360,00 €",
       description: "artTexts.beautifulMind",
+      artistId: 'MB'
     },
     {
       path: require("./assets/img/2022Spring/CandleBar.png"),
       title: "Candle Bar • D.L. Béni",
       details: "40 x 40 • 800,00 €",
       description: "artTexts.candleBar",
+      artistId: 'DLB'
     },
     {
       path: require("./assets/img/2022Spring/Jigokudani.jpg"),
       title: "Jigokudani • D.L. Béni",
       details: "56 x 42 / 70 x 55 • 800,00 € (SOLD)",
-      description: "Jigokudani",
+      description: "artTexts.jigokudani",
+      artistId: 'DLB'
     }, 
     {
       path: require("./assets/img/2022Spring/CityAtNight.png"),
       title: "City by Night • D.L. Béni",
       details: "100 x 100 • 1300,00 €",
       description: "artTexts.cityAtNight",
+      artistId: 'DLB'
     },
     {
       path: require("./assets/img/2022Spring/DigitalPurge.jpg"),
       title: "Digital Purge • Massimo Bene",
       details: "60 x 80 • 510,00 €",
       description: "artTexts.digitalPurge",
+      artistId: 'MB'
     },
     {
       path: require("./assets/img/2022Spring/ForteresseDeGlace.png"),
       title: "Forteresse de Glace • D.L. Béni",
       details: "160 x 100 • 3000,00 € (SOLD)",
       description: "artTexts.fortressDeGlace",
+      artistId: 'DLB'
     },
     {
       path: require("./assets/img/2022Spring/PantaRhei.jpg"),
       title: "Panta Rhei • Massimo Bene",
       details: "60 x 80 • 490,00 €",
       description: "artTexts.pantaRhei",
+      artistId: 'MB'
     },
     {
       path: require("./assets/img/2022Spring/TavernsMirror.jpeg"),
       title: "The Taverns Mirror • D.L. Béni",
       details: "40 x 50 • 900,00 €",
       description: "artTexts.tavernsMirror",
+      artistId: 'DLB'
     },
     {
       path: require("./assets/img/2022Spring/Themisto.png"),
       title: "Themisto • D.L. Béni",
       details: "60 x 80 • 1250,00 €",
       description: "artTexts.themisto",
+      artistId: 'DLB'
     },
     {
       path: require("./assets/img/2022Spring/Turbulences.jpg"),
       title: "Turbulences • Massimo Bene",
       details: "70 x 100 • 560,00 €",
       description: "artTexts.turbulences",
+      artistId: 'MB'
     },
   ],
   artists: [

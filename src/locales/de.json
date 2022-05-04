@@ -34,6 +34,10 @@
         "images": "Bilder",
         "libraries": "Bibliotheken"
     },
+    "collection": {
+        "noResults": "Keine Ergebnisse - Bitte verwenden Sie mindestens einen Filter",
+        "resetFilters": "Filter zurücksetzen"
+    },
     "privacy": {
         "responsibleDataProtectioinAct": "Verantwortlich im Sinne des Datenschutzgesetzes",
         "dataProtection": "Datenschutz",
@@ -68,7 +72,8 @@
         "fortressDeGlace": "In der Natur finden wir die Schönheit unseres Planeten wieder. Allem voran stehen die mächtigen Gletscher unserer Welt, welche aktuell durch unsere unachtsame Anwesenheit bedroht werden. Die Zukunft wird zeigen, welche Konsequenzen sich der Mensch mit diesem Verhalten erkauft.",
         "pantaRhei": "Alles fließt, das Leben geht weiter und man kann es nicht beeinflussen. Doch manchmal ist der Fluss gestört und man befindet sich in einer Sphäre, in der man den Anschein hat, dass alles um einen herum außer Kontrolle gerät. Die Gedanken sind nicht sortiert und man spürt eine innere Unruhe. Man hat den Eindruck, es fließt nicht mehr, doch der Schein trügt. Man befindet sich in einem Fluss, der den bestehenden kreuzt und muss manchmal eventuell neue Wege gehen. Diese können viele neue Möglichkeiten eröffnen, haben jedoch auch Risiken. Lässt man sich nicht vom Pfad abbringen, so findet man zu seinem ursprünglichen Fluss zurück.",
         "themisto": "Vielschichtig wie das Universum ist auch unsere Persönlichkeit. In all unseren gleich geglaubten alltäglichen Herausforderungen, findet sich immer ein immenses Spektrum an Individualität – welche meist unerkannt bleibt. Fühlen wir uns vielleicht im Strom der Normalität sicherer als in der Individualität? Vielleicht wollen wir auch nur bis zu einem bestimmten Grad besonders sein.",
-        "turbulences": "Im Zeitalter der digitalen Übernahme befindet sich ein jedes Individuum umgeben von kontinuierlichen Turbulenzen. Das Bild bringt zum Ausdruck, wie diese Turbulenzen in Form und Farbe um jede Person schwingen. Die zentrale Mitte jedoch bleibt frei und spiegelt die Persönlichkeit wider, die sich in dieser Welt zurechtfinden muss. Der Einfluss unzähliger Medien und die tägliche Bombardierung mit Informationen in unzähliger Form bringen das Leben zum Schwingen. Meist so, wie man es nicht wünscht, aber dem jeder verfällt. Wieso sind wir so informationssüchtig?"
+        "turbulences": "Im Zeitalter der digitalen Übernahme befindet sich ein jedes Individuum umgeben von kontinuierlichen Turbulenzen. Das Bild bringt zum Ausdruck, wie diese Turbulenzen in Form und Farbe um jede Person schwingen. Die zentrale Mitte jedoch bleibt frei und spiegelt die Persönlichkeit wider, die sich in dieser Welt zurechtfinden muss. Der Einfluss unzähliger Medien und die tägliche Bombardierung mit Informationen in unzähliger Form bringen das Leben zum Schwingen. Meist so, wie man es nicht wünscht, aber dem jeder verfällt. Wieso sind wir so informationssüchtig?",
+        "jigokudani": "Jigokudani"
     },
     "cookie": {
         "text": "Wir verwenden Cookies, um Ihnen das beste Erlebnis auf unserer Website zu bieten.",

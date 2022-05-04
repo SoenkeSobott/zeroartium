@@ -1,30 +1,67 @@
 <template>
-  <hooper
-    class="carousel"
-    :infiniteScroll="true"
-    :mouseDrag="false"
-    :touchDrag="false"
-    :wheelControl="false"
-    :autoPlay="true"
-    :playSpeed="4000"
-    :transition="500"
-  >
-    <slide class="slide" v-for="image in $store.images" :key="image.path">
-      <div class="art-container">
-        <div
-          class="art-img"
-          :style="{ backgroundImage: `url(${image.path})` }"
-        ></div>
-        <div class="art-title">
-          {{ image.title }}
-          <div class="art-details">{{ image.details }}</div>
-          <div class="art-description">{{ $t(image.description) }}</div>
-        </div>
-      </div>
-    </slide>
-    <hooper-navigation slot="hooper-addons"></hooper-navigation>
-    <hooper-pagination slot="hooper-addons"></hooper-pagination>
-  </hooper>
+  <div class="slider-container">
+    <hooper
+      v-if="showHooper"
+      class="carousel"
+      :infiniteScroll="true"
+      :mouseDrag="false"
+      :touchDrag="false"
+      :wheelControl="false"
+      :autoPlay="true"
+      :playSpeed="4000"
+      :transition="500"
+    >
+      <template v-for="image in $store.images">
+        <slide
+          v-if="displayArt(image.artistId)"
+          class="slide"
+          :key="image.path"
+        >
+          <div class="art-container">
+            <div
+              class="art-img"
+              :style="{ backgroundImage: `url(${image.path})` }"
+            ></div>
+            <div class="art-title">
+              {{ image.title }}
+              <div class="art-details">{{ image.details }}</div>
+              <div class="art-description">{{ $t(image.description) }}</div>
+            </div>
+          </div>
+        </slide>
+      </template>
+      <hooper-navigation slot="hooper-addons"></hooper-navigation>
+      <hooper-pagination slot="hooper-addons"></hooper-pagination>
+    </hooper>
+
+    <div v-else class="no-results-container">
+      <label>{{ $t("collection.noResults") }}</label>
+      <label @click="resetFilters" class="pill">
+        <span class="pill-label">{{ $t("collection.resetFilters") }}</span>
+      </label>
+    </div>
+
+    <div class="pills">
+      <label class="pill">
+        <input
+          type="checkbox"
+          name="feature"
+          id="checkboxDLB"
+          v-model="checkedDLB"
+        />
+        <span class="pill-label">D.L. Béni</span>
+      </label>
+      <label class="pill">
+        <input
+          type="checkbox"
+          name="feature"
+          id="checkboxMB"
+          v-model="checkedMB"
+        />
+        <span class="pill-label">Massimo Bene</span>
+      </label>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -44,18 +81,39 @@ export default {
     HooperNavigation,
     HooperPagination,
   },
+  data() {
+    return {
+      checkedDLB: true,
+      checkedMB: true,
+    };
+  },
+  computed: {
+    showHooper() {
+      return this.checkedDLB || this.checkedMB;
+    },
+  },
+  methods: {
+    displayArt(artistId) {
+      if (this.checkedDLB && artistId === "DLB") {
+        return true;
+      } else if (this.checkedMB && artistId === "MB") {
+        return true;
+      }
+      return false;
+    },
+    resetFilters() {
+      this.checkedDLB = true
+      this.checkedMB = true
+    }
+  },
 };
 </script>
 
 <style>
+/* Hooper Stuff must be css not scss */
 /*-- See: https://github.com/baianat/hooper/issues/156 --*/
 .hooper:focus {
   outline: none;
-}
-
-.carousel {
-  width: 100%;
-  height: 90%;
 }
 
 .hooper-indicator {
@@ -73,6 +131,27 @@ export default {
 
 .hooper-indicator:hover {
   background-color: rgb(1, 19, 31);
+}
+</style>
+
+<style lang="scss" scoped>
+.slider-container {
+  width: 100%;
+  height: 90%;
+}
+
+.carousel {
+  width: 100%;
+  height: 95%;
+}
+
+.no-results-container {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide {
@@ -129,5 +208,47 @@ export default {
   font-weight: 400;
   font-size: medium;
   margin-top: 2%;
+}
+
+.pill {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 10px;
+}
+
+.pills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pill input[type="checkbox"] {
+  display: none;
+}
+.pill input[type="checkbox"]:checked + .pill-label {
+  background-color: rgb(1, 19, 31);
+  border: 1px solid rgb(1, 19, 31);
+  color: #fff;
+  padding: 5px 10px;
+}
+.pill-label {
+  border: 1px solid rgb(1, 19, 31);
+  border-radius: 20px;
+  color: rgb(1, 19, 31);
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.results {
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  left: 10px;
+  top: 10px;
+  color: red;
 }
 </style>
