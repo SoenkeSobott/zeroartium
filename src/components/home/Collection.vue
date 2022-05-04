@@ -33,7 +33,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 #collection-mobile-button {
   visibility: hidden;
