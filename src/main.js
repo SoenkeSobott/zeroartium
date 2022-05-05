@@ -9,6 +9,7 @@ import VueCookieAcceptDecline from "vue-cookie-accept-decline";
 import VueI18n from 'vue-i18n'
 import device from "vue-device-detector"
 import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css' // Cookie banner css
+import VideoBackground from 'vue-responsive-video-background-player'
 
 // Reusbale Components
 import Footer from '../src/components/layout/Footer.vue'
@@ -36,6 +37,7 @@ Vue.component('dsgvo-text', DSGVOText)
 Vue.component('privacy-statement-text', PrivacyStatementText)
 
 Vue.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
+Vue.component('video-background', VideoBackground);
 
 // Vue use ...
 Vue.use(device)

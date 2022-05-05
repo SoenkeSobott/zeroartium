@@ -23,7 +23,11 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="right-image welcome-image" title="Old Romanian Temple"></div>
+    <div class="right-image welcome-image" title="Dopo Lavoro">
+      <video-background
+        :src="require('@/assets/dopoLavoroWithoutTitle.mp4')"
+        :playsWhen="canplaythrough"/>
+    </div>
   </div>
 </template>
 
