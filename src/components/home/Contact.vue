@@ -16,7 +16,7 @@
           />
           <h5>contact@zeroartium.com</h5>
         </div>
-        <div class="contact-link" @click="openInstagram()">
+        <div class="contact-link" @click="openInstagram('zeroartium')">
           <img
             class="social-desktop"
             src="../../assets/img/SocialIcons/instagram-logo.png"
@@ -37,8 +37,8 @@ export default {
     goToPage(pageNumber) {
       this.$emit("clicked", pageNumber);
     },
-    openInstagram() {
-      window.open("https://www.instagram.com/zeroartium/", "_blank");
+    openInstagram(instagramUsername) {
+      window.open("https://www.instagram.com/" + instagramUsername, "_blank");
     },
   },
 };

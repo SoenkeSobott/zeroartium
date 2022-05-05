@@ -12,6 +12,14 @@
     </div>
     <br />
     <div>
+      Videos:
+      <div class="contact-link" @click="openInstagram('_samuel.lay_')">
+        <img
+          class="social-desktop"
+          src="../../assets/img/SocialIcons/instagram-logo.png"
+        />
+        <h5>Samuel Lay</h5>
+      </div>
       {{ $t("message.images") }}:
       <br />
       <ul>
@@ -75,3 +83,14 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "ThirdPartyContent",
+  methods: {
+    openInstagram(instagramUsername) {
+      window.open("https://www.instagram.com/" + instagramUsername, "_blank");
+    },
+  },
+};
+</script>
