@@ -77,7 +77,7 @@ export default {
     window.removeEventListener("resize", this.handleChangeOfScreenSize);
   },
   methods: {
-    openInstagram: function () {
+    openInstagram() {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
     },
     showDescription(index) {

@@ -37,7 +37,7 @@ export default {
     goToPage(pageNumber) {
       this.$emit("clicked", pageNumber);
     },
-    openInstagram: function () {
+    openInstagram() {
       window.open("https://www.instagram.com/zeroartium/", "_blank");
     },
   },
