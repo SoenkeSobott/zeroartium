@@ -79,6 +79,11 @@
             Hooper Vue</a
           >
         </li>
+        <li>
+          <a href="https://github.com/avidofood/vue-responsive-video-background-player" target="_blank">
+            Responsive Video Background Player for Vue</a
+          >
+        </li>
       </ul>
     </div>
   </div>
