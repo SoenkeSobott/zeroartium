@@ -168,6 +168,10 @@ const store = Vue.observable({
     {
       path: require("./assets/img/GV.jpg"),
       title: "Gianni Vasi • Loerrach",
+    },
+    {
+      path: require("./assets/img/EH.jpg"),
+      title: "Emily Harry • Hamburg",
     }
   ]
 })

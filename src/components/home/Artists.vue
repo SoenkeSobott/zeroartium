@@ -16,33 +16,17 @@
       </div>
       <app-footer></app-footer>
     </div>
-    <div class="right-image artists-image" title="Artists">
-      <div class="artists-row">
-        <div class="artist">
-          <div class="artist-image">
-            <div class="artist-image-one" title="Artist Image One"></div>
+    <div class="right-image artists-image" title="Artists Background">
+      <div class="artists-box">
+        <div
+          class="artist"
+          v-for="artist in $store.artists"
+          :key="artist.title"
+        >
+          <div class="image-container">
+            <img class="artist-image" :src="artist.path" :alt="artist.title" />
           </div>
-          <div class="artists-description">D. L. Béni • Basel</div>
-        </div>
-        <div class="artist">
-          <div class="artist-image">
-            <div class="artist-image-two" title="Art Image Two"></div>
-          </div>
-          <div class="artists-description">Massimo Bene • Frankfurt</div>
-        </div>
-      </div>
-      <div class="artists-row">
-        <div class="artist">
-          <div class="artist-image">
-            <div class="artist-image-three" title="Art Image Three"></div>
-          </div>
-          <div class="artists-description">Gianni Vasi • Loerrach</div>
-        </div>
-        <div class="artist">
-          <!--<div class="art-image">
-                        <div class="artist-image-four"></div>
-                      </div>
-                      <div class="art-description"></div>-->
+          <div class="artists-description">{{ artist.title }}</div>
         </div>
       </div>
     </div>
@@ -62,14 +46,54 @@ export default {
 
 
 <style lang="scss" scoped>
-#artists-mobile-button {
-  visibility: hidden;
+.artists-box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
 }
 
 .artists-image {
   background-image: url("../../assets/img/ArtistsBackground.jpg");
   flex-flow: column;
   width: 60%;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 80%;
+}
+
+.artist-image {
+  height: auto;
+  width: 80%;
+}
+
+#artists-mobile-button {
+  visibility: hidden;
+}
+
+.artists-description {
+    width: 80%;
+    height: 20%;
+    border-top: solid;
+    border-color: rgb(1, 31, 51);
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 239, 239, 0.3);
 }
 
 @media only screen and (max-width: 500px) {
