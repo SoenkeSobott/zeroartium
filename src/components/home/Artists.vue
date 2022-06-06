@@ -77,7 +77,7 @@ export default {
 
 .artist-image {
   height: auto;
-  width: 80%;
+  width: 60%;
 }
 
 #artists-mobile-button {
