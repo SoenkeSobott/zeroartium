@@ -46,7 +46,6 @@
         <input
           type="checkbox"
           name="feature"
-          id="checkboxDLB"
           v-model="checkedDLB"
         />
         <span class="pill-label">D.L. Béni</span>
@@ -55,10 +54,17 @@
         <input
           type="checkbox"
           name="feature"
-          id="checkboxMB"
           v-model="checkedMB"
         />
         <span class="pill-label">Massimo Bene</span>
+      </label>
+      <label class="pill">
+        <input
+          type="checkbox"
+          name="feature"
+          v-model="checkedEH"
+        />
+        <span class="pill-label">Emily Harry</span>
       </label>
     </div>
   </div>
@@ -85,11 +91,12 @@ export default {
     return {
       checkedDLB: true,
       checkedMB: true,
+      checkedEH: true,
     };
   },
   computed: {
     showHooper() {
-      return this.checkedDLB || this.checkedMB;
+      return this.checkedDLB || this.checkedMB || this.checkedEH;
     },
   },
   methods: {
@@ -98,13 +105,16 @@ export default {
         return true;
       } else if (this.checkedMB && artistId === "MB") {
         return true;
+      } else if (this.checkedEH && artistId === "EH") {
+        return true;
       }
       return false;
     },
     resetFilters() {
-      this.checkedDLB = true
-      this.checkedMB = true
-    }
+      this.checkedDLB = true;
+      this.checkedMB = true;
+      this.checkedEH = true;
+    },
   },
 };
 </script>

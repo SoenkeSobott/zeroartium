@@ -155,6 +155,27 @@ const store = Vue.observable({
       description: "artTexts.turbulences",
       artistId: 'MB'
     },
+    {
+      path: require("./assets/img/2022Summer/blackVelvet.jpg"),
+      title: "black velvet • Emily Harry",
+      details: "70 x 100 • 1700,00 €",
+      description: "artTexts.blackVelvet",
+      artistId: 'EH'
+    },
+    {
+      path: require("./assets/img/2022Summer/endlessSummer.jpg"),
+      title: "endless summer • Emily Harry",
+      details: "120 x 120 • SOLD",
+      description: "artTexts.endlessSummer",
+      artistId: 'EH'
+    },
+    {
+      path: require("./assets/img/2022Summer/selfSalvation.jpg"),
+      title: "self salvation • Emily Harry",
+      details: "60 x 80 • On request/auf Anfrage",
+      description: "artTexts.selfSalvation",
+      artistId: 'EH'
+    },
   ],
   artists: [
     {
