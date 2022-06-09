@@ -172,7 +172,7 @@ const store = Vue.observable({
     {
       path: require("./assets/img/2022Summer/selfSalvation.jpg"),
       title: "self salvation • Emily Harry",
-      details: "60 x 80 • On request/auf Anfrage",
+      details: "60 x 80",
       description: "artTexts.selfSalvation",
       artistId: 'EH'
     },
