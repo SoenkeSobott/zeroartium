@@ -158,7 +158,7 @@ const store = Vue.observable({
     {
       path: require("./assets/img/2022Summer/blackVelvet.jpg"),
       title: "black velvet • Emily Harry",
-      details: "70 x 100 • 1700,00 €",
+      details: "70 x 100 • 2400,00 €",
       description: "artTexts.blackVelvet",
       artistId: 'EH'
     },
@@ -174,6 +174,13 @@ const store = Vue.observable({
       title: "self salvation • Emily Harry",
       details: "60 x 80",
       description: "artTexts.selfSalvation",
+      artistId: 'EH'
+    },
+    {
+      path: require("./assets/img/2022Summer/untouchedByGreed.jpg"),
+      title: "untuched by greed • Emily Harry",
+      details: "50 x 70 • 1300 €",
+      description: "artTexts.untouchedByGreed",
       artistId: 'EH'
     },
   ],
