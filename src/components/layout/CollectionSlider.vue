@@ -43,28 +43,20 @@
 
     <div class="pills">
       <label class="pill">
-        <input
-          type="checkbox"
-          name="feature"
-          v-model="checkedDLB"
-        />
+        <input type="checkbox" name="feature" v-model="checkedDLB" />
         <span class="pill-label">D.L. Béni</span>
       </label>
       <label class="pill">
-        <input
-          type="checkbox"
-          name="feature"
-          v-model="checkedMB"
-        />
+        <input type="checkbox" name="feature" v-model="checkedMB" />
         <span class="pill-label">Massimo Bene</span>
       </label>
       <label class="pill">
-        <input
-          type="checkbox"
-          name="feature"
-          v-model="checkedEH"
-        />
+        <input type="checkbox" name="feature" v-model="checkedEH" />
         <span class="pill-label">Emily Harry</span>
+      </label>
+      <label class="pill">
+        <input type="checkbox" name="feature" v-model="checkedGV" />
+        <span class="pill-label">Gianni Vasi</span>
       </label>
     </div>
   </div>
@@ -92,11 +84,12 @@ export default {
       checkedDLB: true,
       checkedMB: true,
       checkedEH: true,
+      checkedGV: true,
     };
   },
   computed: {
     showHooper() {
-      return this.checkedDLB || this.checkedMB || this.checkedEH;
+      return this.checkedDLB || this.checkedMB || this.checkedEH || this.checkedGV;
     },
   },
   methods: {
@@ -107,13 +100,16 @@ export default {
         return true;
       } else if (this.checkedEH && artistId === "EH") {
         return true;
+      } else if (this.checkedGV && artistId === "GV") {
+        return true;
       }
       return false;
     },
     resetFilters() {
-      this.checkedDLB = true;
-      this.checkedMB = true;
-      this.checkedEH = true;
+      this.checkedDLB = true
+      this.checkedMB = true
+      this.checkedEH = true
+      this.checkedGV = true
     },
   },
 };

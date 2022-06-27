@@ -183,6 +183,27 @@ const store = Vue.observable({
       description: "artTexts.untouchedByGreed",
       artistId: 'EH'
     },
+    {
+      path: require("./assets/img/2022Spring/Humility.jpg"),
+      title: "Humility • Gianni Vasi",
+      details: "20 x 30 • 250 € (SOLD)",
+      description: "artTexts.humility",
+      artistId: 'GV'
+    },
+    {
+      path: require("./assets/img/2022Spring/Fountain.jpg"),
+      title: "Fountain • Gianni Vasi",
+      details: "30 x 20 • 250 € (SOLD)",
+      description: "artTexts.fountain",
+      artistId: 'GV'
+    },
+    {
+      path: require("./assets/img/2022Spring/VerkehrteWelt.png"),
+      title: "Verkehrte Welt • Gianni Vasi",
+      details: "30 x 20 • 350 €",
+      description: "artTexts.verkehrteWelt",
+      artistId: 'GV'
+    },
   ],
   artists: [
     {
