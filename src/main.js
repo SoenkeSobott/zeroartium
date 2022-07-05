@@ -193,7 +193,7 @@ const store = Vue.observable({
     {
       path: require("./assets/img/2022Spring/Fountain.jpg"),
       title: "Fountain • Gianni Vasi",
-      details: "30 x 20 • 250 € (SOLD)",
+      details: "30 x 20 • 500 €",
       description: "artTexts.fountain",
       artistId: 'GV'
     },
