@@ -19,6 +19,7 @@
       {{ $t("message.commercialRegister") }}: Amtsgericht Freiburg<br />
       {{ $t("message.commercialRegisterNumber") }}: HRB 725069<br />
       <!--Umsatzsteuer-Identifikationsnummer: XXX<br/> NOT Present at the moment-->
+      {{ $t("legal.taxId") }}: 75830162977<br />
       {{ $t("message.foundationDate") }}: 23.09.2021<br />
       {{ $t("message.managingDirector") }}: Daniel Heimann, Maxim Bode, Sönke Sobott<br />
     </p>

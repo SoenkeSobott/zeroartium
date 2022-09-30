@@ -38,6 +38,9 @@
         "noResults": "Keine Ergebnisse - Bitte verwenden Sie mindestens einen Filter",
         "resetFilters": "Filter zurücksetzen"
     },
+    "legal": {
+        "taxId": "Steuer-ID"
+    },
     "privacy": {
         "responsibleDataProtectioinAct": "Verantwortlich im Sinne des Datenschutzgesetzes",
         "dataProtection": "Datenschutz",
