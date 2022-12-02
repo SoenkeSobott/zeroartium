@@ -301,7 +301,7 @@ const store = Vue.observable({
       title: "Yamilá",
       artist: "Emily Harry",
       details: "80 x 80",
-      price: "1400,00 €",
+      price: "1440,00 €",
       description: "Einfach mal loslassen, sich von all den Bürden, all den Sorgen, all dem Überdenken mal befreien. Tief durchatmen und sich vorsichtig nach hinten lehnen, denn man wird nicht fallen, auch wenn es immer so erscheint. Die Angst, dass einen nichts auffängt, ist immer da, doch sie ist unbegründet, denn man ist nicht ohne Grund so weit gekommen! All die Arbeit, jede Sekunde die man in seine Leidenschaft reingesteckt hat, türmt sich wie eine große, warme und super weiche Raubkatze hinter einem auf. Niemand muss da sein, um einen aufzufangen, das wird man selbst tun, man selbst und all das, was man schon investiert hat, um seinen Träumen ein Stück näher zu kommen. Also vergiss nicht auch mal innezuhalten, durchzuatmen, und dich umzudrehen, zu sehen was alles hinter dir steht, gibt dir die Kraft wieder nach vorne zu schauen und weiter zu kämpfen!",
       artStyle: "Leinwand / Öl",
       artistId: 'EH'
